@@ -1,0 +1,24 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}margintable\PYG{n+nb}{\PYGZcb{}}[]\PYG{k}{\PYGZbs{}small}
+	\PYG{k}{\PYGZbs{}caption}\PYG{n+nb}{\PYGZob{}}Major, minor and perfect music intervals. ST. stands for \PYG{k}{\PYGZbs{}textit}\PYG{n+nb}{\PYGZob{}}semitones\PYG{n+nb}{\PYGZcb{}}. This table is in the margin. \PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}tab:table\PYGZhy{}margin\PYG{n+nb}{\PYGZcb{}\PYGZcb{}}
+	\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}\PYGZob{}}ll\PYG{n+nb}{\PYGZcb{}}
+		\PYG{k}{\PYGZbs{}toprule}
+		\PYG{k}{\PYGZbs{}textbf}\PYG{n+nb}{\PYGZob{}}ST.\PYG{n+nb}{\PYGZcb{}} \PYG{n+nb}{\PYGZam{}} \PYG{k}{\PYGZbs{}textbf}\PYG{n+nb}{\PYGZob{}}Intervals\PYG{n+nb}{\PYGZcb{}} \PYG{k}{\PYGZbs{}\PYGZbs{}}
+		\PYG{k}{\PYGZbs{}midrule}
+		0 \PYG{n+nb}{\PYGZam{}} unison \PYG{k}{\PYGZbs{}\PYGZbs{}}
+		1 \PYG{n+nb}{\PYGZam{}} minor second \PYG{k}{\PYGZbs{}\PYGZbs{}}
+		2 \PYG{n+nb}{\PYGZam{}} major second \PYG{k}{\PYGZbs{}\PYGZbs{}}
+		3 \PYG{n+nb}{\PYGZam{}} minor third \PYG{k}{\PYGZbs{}\PYGZbs{}}
+		4 \PYG{n+nb}{\PYGZam{}} major third \PYG{k}{\PYGZbs{}\PYGZbs{}}
+		5 \PYG{n+nb}{\PYGZam{}} perfect fourth \PYG{k}{\PYGZbs{}\PYGZbs{}}
+		6 \PYG{n+nb}{\PYGZam{}} aug. 4\PYG{k}{\PYGZbs{}textsuperscript}\PYG{n+nb}{\PYGZob{}}th\PYG{n+nb}{\PYGZcb{}} / dim. 5\PYG{k}{\PYGZbs{}textsuperscript}\PYG{n+nb}{\PYGZob{}}th\PYG{n+nb}{\PYGZcb{}} \PYG{k}{\PYGZbs{}\PYGZbs{}}
+		7 \PYG{n+nb}{\PYGZam{}} perfect fifth \PYG{k}{\PYGZbs{}\PYGZbs{}}
+		8 \PYG{n+nb}{\PYGZam{}} minor sixth \PYG{k}{\PYGZbs{}\PYGZbs{}}
+		9 \PYG{n+nb}{\PYGZam{}} major sixth \PYG{k}{\PYGZbs{}\PYGZbs{}}
+		10 \PYG{n+nb}{\PYGZam{}} minor seventh \PYG{k}{\PYGZbs{}\PYGZbs{}}
+		11 \PYG{n+nb}{\PYGZam{}} major seventh \PYG{k}{\PYGZbs{}\PYGZbs{}}
+		12 \PYG{n+nb}{\PYGZam{}} octave \PYG{k}{\PYGZbs{}\PYGZbs{}}
+		\PYG{k}{\PYGZbs{}bottomrule}
+	\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}margintable\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

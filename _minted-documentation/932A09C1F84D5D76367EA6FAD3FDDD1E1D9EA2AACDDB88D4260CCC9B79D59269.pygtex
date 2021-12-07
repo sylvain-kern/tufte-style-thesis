@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c}{\PYGZpc{} figure in the margin}
+\PYG{k}{\PYGZbs{}marginfig}\PYG{n+na}{[\PYGZlt{}optional width\PYGZgt{}]}\PYG{n+nb}{\PYGZob{}}\PYGZlt{}file path\PYGZgt{}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYGZlt{}caption\PYGZgt{}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYGZlt{}label\PYGZgt{}\PYG{n+nb}{\PYGZcb{}}
+\PYG{c}{\PYGZpc{} wide figure}
+\PYG{k}{\PYGZbs{}widefig}\PYG{n+na}{[\PYGZlt{}optional width\PYGZgt{}]}\PYG{n+nb}{\PYGZob{}}\PYGZlt{}file path\PYGZgt{}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYGZlt{}caption\PYGZgt{}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYGZlt{}label\PYGZgt{}\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

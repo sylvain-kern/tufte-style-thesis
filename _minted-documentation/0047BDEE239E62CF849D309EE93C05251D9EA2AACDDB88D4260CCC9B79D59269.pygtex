@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}marginfigure\PYG{n+nb}{\PYGZcb{}}
+	\PYG{k}{\PYGZbs{}includegraphics}\PYG{n+na}{[]}\PYG{n+nb}{\PYGZob{}}\PYGZlt{}\PYGZgt{}\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{} or tikz or anything}
+	\PYG{k}{\PYGZbs{}caption}\PYG{n+nb}{\PYGZob{}}\PYGZlt{}caption\PYGZgt{}\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}\PYGZlt{}label\PYGZgt{}\PYG{n+nb}{\PYGZcb{}\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}figure\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

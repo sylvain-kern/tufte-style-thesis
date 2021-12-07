@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}codebox\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYGZlt{}your language in lowercase\PYGZgt{}\PYG{n+nb}{\PYGZcb{}}
+\PYGZlt{}
+Your code. It can contain all special characters such as \PYG{n+nb}{\PYGZob{}} \PYG{n+nb}{\PYGZcb{}} ( ) [ ] \PYG{k}{\PYGZbs{} }\PYG{c}{\PYGZpc{} (the percent mark here is grayed just because on this very code box the language is set on latex)}
+It break lines.
+It will end only when reading the \PYG{c}{\PYGZpc{}\PYGZbs{}end\PYGZob{}codebox\PYGZcb{} below.}
+\PYGZgt{}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}codebox\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

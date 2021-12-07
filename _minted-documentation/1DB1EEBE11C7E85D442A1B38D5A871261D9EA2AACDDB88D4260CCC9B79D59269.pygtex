@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}codeboxnum\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYGZlt{}your language in lowercase\PYGZgt{}\PYG{n+nb}{\PYGZcb{}}
+\PYGZlt{}your code\PYGZgt{}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}codeboxnum\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

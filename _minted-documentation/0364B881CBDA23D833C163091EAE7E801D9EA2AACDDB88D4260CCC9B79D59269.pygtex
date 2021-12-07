@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c}{\PYGZpc{} plain figure with textwidth}
+\PYG{k}{\PYGZbs{}plainfig}\PYG{n+na}{[\PYGZlt{}optional width\PYGZgt{}]}\PYG{n+nb}{\PYGZob{}}\PYGZlt{}file path\PYGZgt{}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYGZlt{}caption\PYGZgt{}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYGZlt{}label\PYGZgt{}\PYG{n+nb}{\PYGZcb{}}
+\PYG{c}{\PYGZpc{} plain figure with full width}
+\PYG{k}{\PYGZbs{}plainwidefig}\PYG{n+na}{[\PYGZlt{}optional width\PYGZgt{}]}\PYG{n+nb}{\PYGZob{}}\PYGZlt{}file path\PYGZgt{}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYGZlt{}caption\PYGZgt{}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYGZlt{}label\PYGZgt{}\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

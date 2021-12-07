@@ -1,0 +1,3375 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.3)  6 DEC 2021 22:15
+entering extended mode
+**"c:/Users/sylva/Documents/latex shit/tufte-style-thesis/documentation.tex"
+(c:/Users/sylva/Documents/latex shit/tufte-style-thesis/documentation.tex
+LaTeX2e <2021-11-15>
+L3 programming layer <2021-11-22> (tufte-style-thesis.cls
+Document Class: tufte-style-thesis 
+(C:\Program Files\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Program Files\MiKTeX\tex/latex/base\bk11.clo
+File: bk11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count183
+\c@chapter=\count184
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
+\c@figure=\count190
+\c@table=\count191
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) (C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count192
+\Gm@cntv=\count193
+\c@Gm@tempcnt=\count194
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks17
+ (C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Program Files\MiKTeX\tex/latex/emptypage\emptypage.sty
+Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty pages
+) (C:\Program Files\MiKTeX\tex/latex/fullwidth\fullwidth.sty
+Package: fullwidth 2011/11/18 v0.1: fullwidth
+ (C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+ (C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (C:\Program Files\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count195
+) (C:\Program Files\MiKTeX\tex/latex/zref\zref-abspage.sty
+Package: zref-abspage 2020-07-03 v2.32 Module abspage for zref (HO)
+ (C:\Program Files\MiKTeX\tex/latex/zref\zref-base.sty
+Package: zref-base 2020-07-03 v2.32 Module base for zref (HO)
+ (C:\Program Files\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Program Files\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (C:\Program Files\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+) (C:\Program Files\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 764.
+Package zref Info: New property: default on input line 765.
+Package zref Info: New property: page on input line 766.
+) (C:\Program Files\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\c@abspage=\count196
+Package zref Info: New property: abspage on input line 66.
+)
+\fwd@width@length=\skip49
+\fwd@skipabove@length=\skip50
+\fwd@skipbelow@length=\skip51
+\fwd@leftmargin@length=\skip52
+\fwd@rightmargin@length=\skip53
+\fwd@innertopmargin@length=\skip54
+\fwd@innerbottommargin@length=\skip55
+\fwd@splittopskip@length=\skip56
+\fwd@splitbottomskip@length=\skip57
+\fwd@outermargin@length=\skip58
+\fwd@innermargin@length=\skip59
+\fwd@footenotedistance@length=\skip60
+\c@fwd@zref@counter=\count197
+Package zref Info: New property: fwd@pagevalue on input line 209.
+\fwd@freevspace@length=\skip61
+) (C:\Program Files\MiKTeX\tex/latex/marginnote\marginnote.sty
+Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
+\c@mn@abspage=\count198
+) (C:\Program Files\MiKTeX\tex/latex/sidenotes\sidenotes.sty (C:\Program Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2021-11-22 L3 programming layer (loader) 
+ (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count199
+\l__pdf_internal_box=\box50
+))
+Package: l3keys2e 2021-11-12 LaTeX2e option processing using LaTeX3 keys
+)
+Package: sidenotes 2016/04/21 v1.00 rich text in the margin for LaTeX
+ (C:\Program Files\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+ (C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen147
+\captionmargin@=\dimen148
+\captionwidth=\dimen149
+\caption@tempdima=\dimen150
+\caption@indent=\dimen151
+\caption@parindent=\dimen152
+\caption@hangindent=\dimen153
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count266
+\c@continuedfloat=\count267
+) (C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2021-11-12 L3 Experimental document command parser
+) (C:\Program Files\MiKTeX\tex/latex/changepage\changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count268
+\cp@tempcnt=\count269
+)
+\c@sidenote=\count270
+\@sidenotes@marginfigurebox=\box51
+\@sidenotes@margintablebox=\box52
+) (C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (C:\Program Files\MiKTeX\tex/latex/libertinus\libertinus.sty
+Package: libertinus 2020/05/06 v. 0.02 (Herbert Voss) Supports libertinus fonts for pdflatex/lualatex/xelatex
+ (C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+ (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
+)
+\XKV@depth=\count271
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Program Files\MiKTeX\tex/latex/libertinus-type1\libertinus-type1.sty
+Package: libertinus-type1 2021/02/14 (Bob Tennent) Supports libertinus fonts for latex/pdflatex.
+ (C:\Program Files\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (C:\Program Files\MiKTeX\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (C:\Program Files\MiKTeX\tex/latex/fontaxes\fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+))) (C:\Program Files\MiKTeX\tex/latex/libertinust1math\libertinust1math.sty
+Package: libertinust1math 2021/06/01 v1.2.4---latex support for LibertinusT1Math (msharpe)
+ (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip62
+
+For additional information on amsmath, use the `?' option.
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen154
+)) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen155
+) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count272
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count273
+\leftroot@=\count274
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count275
+\DOTSCASE@=\count276
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+\big@size=\dimen156
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count277
+\c@MaxMatrixCols=\count278
+\dotsspace@=\muskip16
+\c@parentequation=\count279
+\dspbrk@lvl=\count280
+\tag@help=\toks21
+\row@=\count281
+\column@=\count282
+\maxfields@=\count283
+\andhelp@=\toks22
+\eqnshift@=\dimen157
+\alignsep@=\dimen158
+\tagshift@=\dimen159
+\tagwidth@=\dimen160
+\totwidth@=\dimen161
+\lineht@=\dimen162
+\@envbody=\toks23
+\multlinegap=\skip63
+\multlinetaggap=\skip64
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+Now handling font encoding LS1 ...
+... no UTF-8 mapping file for font encoding LS1
+Now handling font encoding LS2 ...
+... no UTF-8 mapping file for font encoding LS2
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 68.
+LaTeX Font Info:    Encoding `OML' has changed to `LS1' for symbol font
+(Font)              `letters' in the math version `normal' on input line 68.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> LS1/libertinust1math/m/it on input line 68.
+LaTeX Font Info:    Encoding `OML' has changed to `LS1' for symbol font
+(Font)              `letters' in the math version `bold' on input line 68.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> LS1/libertinust1math/m/it on input line 68.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 69.
+LaTeX Font Info:    Encoding `OT1' has changed to `LS1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 69.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> LS1/libertinust1math/m/n on input line 69.
+LaTeX Font Info:    Encoding `OT1' has changed to `LS1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 69.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> LS1/libertinust1math/m/n on input line 69.
+\symsymbolsbb=\mathgroup4
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 71.
+LaTeX Font Info:    Encoding `OMS' has changed to `LS2' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 71.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> LS2/libertinust1mathsym/m/n on input line 71.
+LaTeX Font Info:    Encoding `OMS' has changed to `LS2' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 71.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> LS2/libertinust1mathsym/m/n on input line 71.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 72.
+LaTeX Font Info:    Encoding `OMX' has changed to `LS2' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 72.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> LS2/libertinust1mathex/m/n on input line 72.
+LaTeX Font Info:    Encoding `OMX' has changed to `LS2' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 72.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> LS2/libertinust1mathex/m/n on input line 72.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 73.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> LS1/libertinust1mathsf/m/n on input line 73.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> LS1/libertinust1mathsf/m/n on input line 73.
+LaTeX Font Info:    Redeclaring math alphabet \mathsfbf on input line 82.
+LaTeX Font Info:    Overwriting math alphabet `\mathsfbf' in version `normal'
+(Font)                  LS1/libertinust1mathsf/b/n --> LS1/libertinust1mathsf/b/n on input line 82.
+LaTeX Font Info:    Overwriting math alphabet `\mathsfbf' in version `bold'
+(Font)                  LS1/libertinust1mathsf/b/n --> LS1/libertinust1mathsf/b/n on input line 82.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  LS1/libertinust1math/m/it --> LS1/libertinust1math/b/it on input line 84.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  LS1/libertinust1math/m/n --> LS1/libertinust1math/b/n on input line 85.
+\symbold-operators=\mathgroup5
+\symbold-letters=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 88.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 90.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  LS1/libertinust1mathsf/m/n --> LS1/libertinust1mathsf/b/n on input line 118.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 130.
+LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
+(Font)                  U/stixcal/m/n --> U/stixcal/b/n on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 362.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 659.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 660.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 661.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 662.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 663.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 664.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 665.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 666.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 668.
+LaTeX Font Info:    Redeclaring math accent \check on input line 669.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 677.
+LaTeX Info: Redefining \vdots on input line 1086.
+LaTeX Info: Redefining \cdots on input line 1091.
+LaTeX Info: Redefining \not on input line 1333.
+) (C:\Program Files\MiKTeX\tex/latex/gillius\gillius.sty
+Package: gillius 2013/11/03 (Bob Tennent) Supports Gillius fonts for all LaTeX engines.
+ (C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+LibertinusSerif-TOsF on input line 112.
+ (C:\Program Files\MiKTeX\tex/latex/libertinus-type1\t1libertinusserif-tosf.fd
+File: T1LibertinusSerif-TOsF.fd 2020/08/22 (autoinst) Font definitions for T1/LibertinusSerif-TOsF.
+)
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 112.
+)) (C:\Program Files\MiKTeX\tex/latex/droid\droidsansmono.sty
+Package: droidsansmono 2019/06/20 Style file for Droid Sans Mono.
+) (C:\Program Files\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2021/02/05 v3.0 ragged2e Package
+\CenteringLeftskip=\skip65
+\RaggedLeftLeftskip=\skip66
+\RaggedRightLeftskip=\skip67
+\CenteringRightskip=\skip68
+\RaggedLeftRightskip=\skip69
+\RaggedRightRightskip=\skip70
+\CenteringParfillskip=\skip71
+\RaggedLeftParfillskip=\skip72
+\RaggedRightParfillskip=\skip73
+\JustifyingParfillskip=\skip74
+\CenteringParindent=\skip75
+\RaggedLeftParindent=\skip76
+\RaggedRightParindent=\skip77
+\JustifyingParindent=\skip78
+) (C:\Program Files\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box55
+\beforetitleunit=\skip79
+\aftertitleunit=\skip80
+\ttl@plus=\dimen163
+\ttl@minus=\dimen164
+\ttl@toksa=\toks25
+\titlewidth=\dimen165
+\titlewidthlast=\dimen166
+\titlewidthfirst=\dimen167
+) (C:\Program Files\MiKTeX\tex/latex/titlesec\titletoc.sty
+Package: titletoc 2021/07/05 v2.14 TOC entries
+\ttl@leftsep=\dimen168
+) (C:\Program Files\MiKTeX\tex/latex/tocloft\tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip81
+\cftbeforetoctitleskip=\skip82
+\cftaftertoctitleskip=\skip83
+\cftbeforepartskip=\skip84
+\cftpartnumwidth=\skip85
+\cftpartindent=\skip86
+\cftbeforechapskip=\skip87
+\cftchapindent=\skip88
+\cftchapnumwidth=\skip89
+\cftbeforesecskip=\skip90
+\cftsecindent=\skip91
+\cftsecnumwidth=\skip92
+\cftbeforesubsecskip=\skip93
+\cftsubsecindent=\skip94
+\cftsubsecnumwidth=\skip95
+\cftbeforesubsubsecskip=\skip96
+\cftsubsubsecindent=\skip97
+\cftsubsubsecnumwidth=\skip98
+\cftbeforeparaskip=\skip99
+\cftparaindent=\skip100
+\cftparanumwidth=\skip101
+\cftbeforesubparaskip=\skip102
+\cftsubparaindent=\skip103
+\cftsubparanumwidth=\skip104
+\cftbeforeloftitleskip=\skip105
+\cftafterloftitleskip=\skip106
+\cftbeforefigskip=\skip107
+\cftfigindent=\skip108
+\cftfignumwidth=\skip109
+\c@lofdepth=\count284
+\c@lotdepth=\count285
+\cftbeforelottitleskip=\skip110
+\cftafterlottitleskip=\skip111
+\cftbeforetabskip=\skip112
+\cfttabindent=\skip113
+\cfttabnumwidth=\skip114
+) (C:\Program Files\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip115
+\f@nch@O@elh=\skip116
+\f@nch@O@erh=\skip117
+\f@nch@O@olh=\skip118
+\f@nch@O@orh=\skip119
+\f@nch@O@elf=\skip120
+\f@nch@O@erf=\skip121
+\f@nch@O@olf=\skip122
+\f@nch@O@orf=\skip123
+) (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen169
+\Gin@req@width=\dimen170
+) (C:\Program Files\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2021/10/31 v3.0 Micro-typographical refinements (RS)
+\MT@toks=\toks26
+\MT@count=\count286
+\MT@tempbox=\box56
+\MT@leftmarginkern=\dimen171
+\MT@rightmarginkern=\dimen172
+LaTeX Info: Redefining \textls on input line 1114.
+\MT@outer@kern=\dimen173
+LaTeX Info: Redefining \textmicrotypecontext on input line 1700.
+\MT@listname@count=\count287
+ (C:\Program Files\MiKTeX\tex/latex/microtype\microtype-pdftex.def
+File: microtype-pdftex.def 2021/10/31 v3.0 Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
+\MT@outer@space=\skip124
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+ (C:\Program Files\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2021/10/31 v3.0 microtype main configuration file (RS)
+)) (C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup7
+\symAMSb=\mathgroup8
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \square on input line 141.
+LaTeX Font Info:    Redeclaring math symbol \lozenge on input line 142.
+) (C:\Program Files\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2021/04/12 v1.27 mathematical typesetting tools
+ (C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count288
+\calc@Bcount=\count289
+\calc@Adimen=\dimen174
+\calc@Bdimen=\dimen175
+\calc@Askip=\skip125
+\calc@Bskip=\skip126
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count290
+\calc@Cskip=\skip127
+) (C:\Program Files\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count291
+\l_MT_multwidth_dim=\dimen176
+\origjot=\skip128
+\l_MT_shortvdotswithinadjustabove_dim=\dimen177
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen178
+\l_MT_above_intertext_sep=\dimen179
+\l_MT_below_intertext_sep=\dimen180
+\l_MT_above_shortintertext_sep=\dimen181
+\l_MT_below_shortintertext_sep=\dimen182
+\xmathstrut@box=\box57
+\xmathstrut@dim=\dimen183
+) (C:\Program Files\MiKTeX\tex/latex/physics\physics.sty
+Package: physics 
+) (C:\Program Files\MiKTeX\tex/latex/minted\minted.sty
+Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+ (C:\Program Files\MiKTeX\tex/latex/fvextra\fvextra.sty
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+ (C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+) (C:\Program Files\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2021/11/24\nobreakspace {} 4.1a\nobreakspace {}verbatim text (tvz,hv)
+\FV@CodeLineNo=\count292
+\FV@InFile=\read2
+\FV@TabBox=\box58
+\c@FancyVerbLine=\count293
+\FV@StepNumber=\count294
+\FV@OutFile=\write3
+) (C:\Program Files\MiKTeX\tex/latex/upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+) (C:\Program Files\MiKTeX\tex/latex/lineno\lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count295
+\output=\toks27
+\linenoprevgraf=\count296
+\linenumbersep=\dimen184
+\linenumberwidth=\dimen185
+\c@linenumber=\count297
+\c@pagewiselinenumber=\count298
+\c@LN@truepage=\count299
+\c@internallinenumber=\count300
+\c@internallinenumbers=\count301
+\quotelinenumbersep=\dimen186
+\bframerule=\dimen187
+\bframesep=\dimen188
+\bframebox=\box59
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count302
+\c@FV@TrueTabCounter=\count303
+\FV@TabBox@Group=\box60
+\FV@TmpLength=\skip129
+\c@FV@HighlightLinesStart=\count304
+\c@FV@HighlightLinesStop=\count305
+\FV@LoopCount=\count306
+\FV@NCharsBox=\box61
+\FV@BreakIndent=\dimen189
+\FV@BreakIndentNChars=\count307
+\FV@BreakSymbolSepLeft=\dimen190
+\FV@BreakSymbolSepLeftNChars=\count308
+\FV@BreakSymbolSepRight=\dimen191
+\FV@BreakSymbolSepRightNChars=\count309
+\FV@BreakSymbolIndentLeft=\dimen192
+\FV@BreakSymbolIndentLeftNChars=\count310
+\FV@BreakSymbolIndentRight=\dimen193
+\FV@BreakSymbolIndentRightNChars=\count311
+\c@FancyVerbLineBreakLast=\count312
+\FV@LineBox=\box62
+\FV@LineIndentBox=\box63
+\FV@LineWidth=\dimen194
+) (C:\Program Files\MiKTeX\tex/latex/tools\shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+) (C:\Program Files\MiKTeX\tex/latex/ifplatform\ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+ (C:\Program Files\MiKTeX\tex/generic/catchfile\catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+)) (C:\Program Files\MiKTeX\tex/latex/xstring\xstring.sty (C:\Program Files\MiKTeX\tex/generic/xstring\xstring.tex
+\integerpart=\count313
+\decimalpart=\count314
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+) (C:\Program Files\MiKTeX\tex/latex/framed\framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip130
+\fb@frw=\dimen195
+\fb@frh=\dimen196
+\FrameRule=\dimen197
+\FrameSep=\dimen198
+) (C:\Program Files\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count315
+\float@exts=\toks28
+\float@box=\box64
+\@float@everytoks=\toks29
+\@floatcapt=\box65
+)
+\minted@appexistsfile=\read3
+\minted@bgbox=\box66
+\minted@code=\write4
+\c@minted@FancyVerbLineTemp=\count316
+\c@minted@pygmentizecounter=\count317
+\@float@every@listing=\toks30
+\c@listing=\count318
+)
+runsystem(if not exist _minted-documentation mkdir _minted-documentation)...executed.
+
+ (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+ (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+) (C:\Program Files\MiKTeX\tex/latex/mdframed\mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+ (C:\Program Files\MiKTeX\tex/latex/needspace\needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+\mdf@templength=\skip131
+\c@mdf@globalstyle@cnt=\count319
+\mdf@skipabove@length=\skip132
+\mdf@skipbelow@length=\skip133
+\mdf@leftmargin@length=\skip134
+\mdf@rightmargin@length=\skip135
+\mdf@innerleftmargin@length=\skip136
+\mdf@innerrightmargin@length=\skip137
+\mdf@innertopmargin@length=\skip138
+\mdf@innerbottommargin@length=\skip139
+\mdf@splittopskip@length=\skip140
+\mdf@splitbottomskip@length=\skip141
+\mdf@outermargin@length=\skip142
+\mdf@innermargin@length=\skip143
+\mdf@linewidth@length=\skip144
+\mdf@innerlinewidth@length=\skip145
+\mdf@middlelinewidth@length=\skip146
+\mdf@outerlinewidth@length=\skip147
+\mdf@roundcorner@length=\skip148
+\mdf@footenotedistance@length=\skip149
+\mdf@userdefinedwidth@length=\skip150
+\mdf@needspace@length=\skip151
+\mdf@frametitleaboveskip@length=\skip152
+\mdf@frametitlebelowskip@length=\skip153
+\mdf@frametitlerulewidth@length=\skip154
+\mdf@frametitleleftmargin@length=\skip155
+\mdf@frametitlerightmargin@length=\skip156
+\mdf@shadowsize@length=\skip157
+\mdf@extratopheight@length=\skip158
+\mdf@subtitleabovelinewidth@length=\skip159
+\mdf@subtitlebelowlinewidth@length=\skip160
+\mdf@subtitleaboveskip@length=\skip161
+\mdf@subtitlebelowskip@length=\skip162
+\mdf@subtitleinneraboveskip@length=\skip163
+\mdf@subtitleinnerbelowskip@length=\skip164
+\mdf@subsubtitleabovelinewidth@length=\skip165
+\mdf@subsubtitlebelowlinewidth@length=\skip166
+\mdf@subsubtitleaboveskip@length=\skip167
+\mdf@subsubtitlebelowskip@length=\skip168
+\mdf@subsubtitleinneraboveskip@length=\skip169
+\mdf@subsubtitleinnerbelowskip@length=\skip170
+ (C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks31
+\pgfutil@tempdima=\dimen199
+\pgfutil@tempdimb=\dimen256
+ (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box67
+) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks32
+\pgfkeys@temptoks=\toks33
+ (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks34
+))
+\pgf@x=\dimen257
+\pgf@y=\dimen258
+\pgf@xa=\dimen259
+\pgf@ya=\dimen260
+\pgf@xb=\dimen261
+\pgf@yb=\dimen262
+\pgf@xc=\dimen263
+\pgf@yc=\dimen264
+\pgf@xd=\dimen265
+\pgf@yd=\dimen266
+\w@pgf@writea=\write5
+\r@pgf@reada=\read4
+\c@pgf@counta=\count320
+\c@pgf@countb=\count321
+\c@pgf@countc=\count322
+\c@pgf@countd=\count323
+\t@pgf@toka=\toks35
+\t@pgf@tokb=\toks36
+\t@pgf@tokc=\toks37
+\pgf@sys@id@count=\count324
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+))) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count325
+\pgfsyssoftpath@bigbuffer@items=\count326
+) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen267
+\pgfmath@count=\count327
+\pgfmath@box=\box68
+\pgfmath@toks=\toks38
+\pgfmath@stack@operand=\toks39
+\pgfmath@stack@operation=\toks40
+) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex))) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count328
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen268
+\pgf@picmaxx=\dimen269
+\pgf@picminy=\dimen270
+\pgf@picmaxy=\dimen271
+\pgf@pathminx=\dimen272
+\pgf@pathmaxx=\dimen273
+\pgf@pathminy=\dimen274
+\pgf@pathmaxy=\dimen275
+\pgf@xx=\dimen276
+\pgf@xy=\dimen277
+\pgf@yx=\dimen278
+\pgf@yy=\dimen279
+\pgf@zx=\dimen280
+\pgf@zy=\dimen281
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen282
+\pgf@path@lasty=\dimen283
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen284
+\pgf@shorten@start@additional=\dimen285
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box69
+\pgf@hbox=\box70
+\pgf@layerbox@main=\box71
+\pgf@picture@serial@count=\count329
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen286
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen287
+\pgf@pt@y=\dimen288
+\pgf@pt@temp=\dimen289
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen290
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen291
+\pgf@sys@shading@range@num=\count330
+\pgf@shadingcount=\count331
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box72
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box73
+) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen292
+\pgf@nodesepend=\dimen293
+) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)
+\pgffor@iter=\dimen294
+\pgffor@skip=\dimen295
+\pgffor@stack=\toks41
+\pgffor@toks=\toks42
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count332
+\pgfplotmarksize=\dimen296
+)
+\tikz@lastx=\dimen297
+\tikz@lasty=\dimen298
+\tikz@lastxsaved=\dimen299
+\tikz@lastysaved=\dimen300
+\tikz@lastmovetox=\dimen301
+\tikz@lastmovetoy=\dimen302
+\tikzleveldistance=\dimen303
+\tikzsiblingdistance=\dimen304
+\tikz@figbox=\box74
+\tikz@figbox@bg=\box75
+\tikz@tempbox=\box76
+\tikz@tempbox@bg=\box77
+\tikztreelevel=\count333
+\tikznumberofchildren=\count334
+\tikznumberofcurrentchild=\count335
+\tikz@fig@count=\count336
+ (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count337
+\pgfmatrixcurrentcolumn=\count338
+\pgf@matrix@numberofcolumns=\count339
+)
+\tikz@expandcount=\count340
+ (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (C:\Program Files\MiKTeX\tex/latex/mdframed\md-frame-1.mdf
+File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
+)
+\mdf@frametitlebox=\box78
+\mdf@footnotebox=\box79
+\mdf@splitbox@one=\box80
+\mdf@splitbox@two=\box81
+\mdf@splitbox@save=\box82
+\mdfsplitboxwidth=\skip171
+\mdfsplitboxtotalwidth=\skip172
+\mdfsplitboxheight=\skip173
+\mdfsplitboxdepth=\skip174
+\mdfsplitboxtotalheight=\skip175
+\mdfframetitleboxwidth=\skip176
+\mdfframetitleboxtotalwidth=\skip177
+\mdfframetitleboxheight=\skip178
+\mdfframetitleboxdepth=\skip179
+\mdfframetitleboxtotalheight=\skip180
+\mdffootnoteboxwidth=\skip181
+\mdffootnoteboxtotalwidth=\skip182
+\mdffootnoteboxheight=\skip183
+\mdffootnoteboxdepth=\skip184
+\mdffootnoteboxtotalheight=\skip185
+\mdftotallinewidth=\skip186
+\mdfboundingboxwidth=\skip187
+\mdfboundingboxtotalwidth=\skip188
+\mdfboundingboxheight=\skip189
+\mdfboundingboxdepth=\skip190
+\mdfboundingboxtotalheight=\skip191
+\mdf@freevspace@length=\skip192
+\mdf@horizontalwidthofbox@length=\skip193
+\mdf@verticalmarginwhole@length=\skip194
+\mdf@horizontalspaceofbox=\skip195
+\mdfsubtitleheight=\skip196
+\mdfsubsubtitleheight=\skip197
+\c@mdfcountframes=\count341
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count342
+\c@mdf@env@i=\count343
+\c@mdf@env@ii=\count344
+\c@mdf@zref@counter=\count345
+Package zref Info: New property: mdf@pagevalue on input line 895.
+) (C:\Program Files\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+ (C:\Program Files\MiKTeX\tex/latex/tools\array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen305
+\ar@mcellbox=\box83
+\extrarowheight=\dimen306
+\NC@list=\toks43
+\extratabsurround=\skip198
+\backup@length=\skip199
+\ar@cellbox=\box84
+)
+\TX@col@width=\dimen307
+\TX@old@table=\dimen308
+\TX@old@col=\dimen309
+\TX@target=\dimen310
+\TX@delta=\dimen311
+\TX@cols=\count346
+\TX@ftn=\toks44
+) (C:\Program Files\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen312
+\lightrulewidth=\dimen313
+\cmidrulewidth=\dimen314
+\belowrulesep=\dimen315
+\belowbottomsep=\dimen316
+\aboverulesep=\dimen317
+\abovetopsep=\dimen318
+\cmidrulesep=\dimen319
+\cmidrulekern=\dimen320
+\defaultaddspace=\dimen321
+\@cmidla=\count347
+\@cmidlb=\count348
+\@aboverulesep=\dimen322
+\@belowrulesep=\dimen323
+\@thisruleclass=\count349
+\@lastruleclass=\count350
+\@thisrulewidth=\dimen324
+) (C:\Program Files\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip256
+\enit@outerparindent=\dimen325
+\enit@toks=\toks45
+\enit@inbox=\box85
+\enit@count@id=\count351
+\enitdp@description=\count352
+) (C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+ (C:\Program Files\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Program Files\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Program Files\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+\@linkdim=\dimen326
+\Hy@linkcounter=\count353
+\Hy@pagecounter=\count354
+ (C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel languages
+) (C:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count355
+ (C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count356
+ (C:\Program Files\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen327
+ (C:\Program Files\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (C:\Program Files\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count357
+\Field@Width=\dimen328
+\Fld@charsize=\dimen329
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+\Hy@abspage=\count358
+\c@Item=\count359
+\c@Hfootnote=\count360
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
+ (C:\Program Files\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\HyAnn@Count=\count361
+\Fld@listcount=\count362
+\c@bookmark@seq@number=\count363
+ (C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (C:\Program Files\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)
+\Hy@SectionHShift=\skip257
+) (C:\Program Files\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks46
+\verbatim@line=\toks47
+\verbatim@in@stream=\read5
+) (C:\Program Files\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+ (C:\Program Files\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (C:\Program Files\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ (C:\Program Files\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box86
+)
+\tc@llx=\dimen330
+\tc@lly=\dimen331
+\tc@urx=\dimen332
+\tc@ury=\dimen333
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (C:\Program Files\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen334
+\adjbox@Height=\dimen335
+\adjbox@Depth=\dimen336
+\adjbox@Totalheight=\dimen337
+\adjbox@pwidth=\dimen338
+\adjbox@pheight=\dimen339
+\adjbox@pdepth=\dimen340
+\adjbox@ptotalheight=\dimen341
+ (C:\Program Files\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count364
+LaTeX Info: Redefining \checkoddpage on input line 45.
+) (C:\Program Files\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box87
+\sift@deathcycles=\count365
+\@vwid@loff=\dimen342
+\@vwid@roff=\dimen343
+)) (C:\Program Files\MiKTeX\tex/latex/placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: 
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(100.0pt, 414.295pt, 100.0pt)
+* v-part:(T,H,B)=(80.0pt, 634.96999pt, 80.0pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=414.295pt
+* \textheight=634.96999pt
+* \oddsidemargin=27.73001pt
+* \evensidemargin=27.73001pt
+* \topmargin=-24.14378pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=116.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: 
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(70.0pt, 474.295pt, 70.0pt)
+* v-part:(T,H,B)=(80.0pt, 634.96999pt, 80.0pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=474.295pt
+* \textheight=634.96999pt
+* \oddsidemargin=-2.26999pt
+* \evensidemargin=-2.26999pt
+* \topmargin=-24.14378pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=116.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: 
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(70.0pt, 503.7264pt, 40.5686pt)
+* v-part:(T,H,B)=(80.0pt, 635.97841pt, 78.99158pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=503.7264pt
+* \textheight=635.97841pt
+* \oddsidemargin=-2.26999pt
+* \evensidemargin=-31.70139pt
+* \topmargin=-28.14378pt
+* \headheight=16.0pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=100.79956pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: 
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(70.0pt, 356.29222pt, 188.00278pt)
+* v-part:(T,H,B)=(80.0pt, 635.97841pt, 78.99158pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=356.29222pt
+* \textheight=635.97841pt
+* \oddsidemargin=-2.26999pt
+* \evensidemargin=115.73279pt
+* \topmargin=-28.14378pt
+* \headheight=16.0pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=115.20264pt
+* \marginparsep=20.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\figurelabelwidth=\skip258
+\tablelabelwidth=\skip259
+ (C:\Program Files\MiKTeX\tex/latex/minipage-marginpar\minipage-marginpar.sty
+Package: minipage-marginpar 2008/04/07 v0.3 Randnotizen auch in Minipages (PE)
+)) (C:\Program Files\MiKTeX\tex/latex/lipsum\lipsum.sty
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count366
+\l__lipsum_a_int=\count367
+\l__lipsum_b_int=\count368
+ (C:\Program Files\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Program Files\MiKTeX\tex/latex/imakeidx\imakeidx.sty
+Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchronous mode
+ (C:\Program Files\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count369
+\mult@box=\box88
+\multicol@leftmargin=\dimen344
+\c@unbalance=\count370
+\c@collectmore=\count371
+\doublecol@number=\count372
+\multicoltolerance=\count373
+\multicolpretolerance=\count374
+\full@width=\dimen345
+\page@free=\dimen346
+\premulticols=\dimen347
+\postmulticols=\dimen348
+\multicolsep=\skip260
+\multicolbaselineskip=\skip261
+\partial@page=\box89
+\last@line=\box90
+\maxbalancingoverflow=\dimen349
+\mult@rightbox=\box91
+\mult@grightbox=\box92
+\mult@firstbox=\box93
+\mult@gfirstbox=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\@tempa=\box125
+\@tempa=\box126
+\@tempa=\box127
+\@tempa=\box128
+\@tempa=\box129
+\@tempa=\box130
+\c@minrows=\count375
+\c@columnbadness=\count376
+\c@finalcolumnbadness=\count377
+\last@try=\dimen350
+\multicolovershoot=\dimen351
+\multicolundershoot=\dimen352
+\mult@nat@firstbox=\box131
+\colbreak@box=\box132
+\mc@col@check@num=\count378
+))
+\documentation@idxfile=\write6
+\openout6 = `documentation.idx'.
+
+
+Writing index file documentation.idx
+(C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+ (C:\Program Files\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count379
+ (C:\Program Files\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count380
+\c@listtotal=\count381
+\c@listcount=\count382
+\c@liststart=\count383
+\c@liststop=\count384
+\c@citecount=\count385
+\c@citetotal=\count386
+\c@multicitecount=\count387
+\c@multicitetotal=\count388
+\c@instcount=\count389
+\c@maxnames=\count390
+\c@minnames=\count391
+\c@maxitems=\count392
+\c@minitems=\count393
+\c@citecounter=\count394
+\c@maxcitecounter=\count395
+\c@savedcitecounter=\count396
+\c@uniquelist=\count397
+\c@uniquename=\count398
+\c@refsection=\count399
+\c@refsegment=\count400
+\c@maxextratitle=\count401
+\c@maxextratitleyear=\count402
+\c@maxextraname=\count403
+\c@maxextradate=\count404
+\c@maxextraalpha=\count405
+\c@abbrvpenalty=\count406
+\c@highnamepenalty=\count407
+\c@lownamepenalty=\count408
+\c@maxparens=\count409
+\c@parenlevel=\count410
+\blx@tempcnta=\count411
+\blx@tempcntb=\count412
+\blx@tempcntc=\count413
+\blx@maxsection=\count414
+\blx@maxsegment@0=\count415
+\blx@notetype=\count416
+\blx@parenlevel@text=\count417
+\blx@parenlevel@foot=\count418
+\blx@sectionciteorder@0=\count419
+\blx@entrysetcounter=\count420
+\blx@biblioinstance=\count421
+\labelnumberwidth=\skip262
+\labelalphawidth=\skip263
+\biblabelsep=\skip264
+\bibitemsep=\skip265
+\bibnamesep=\skip266
+\bibinitsep=\skip267
+\bibparsep=\skip268
+\bibhang=\skip269
+\blx@bcfin=\read6
+\blx@bcfout=\write7
+\blx@langwohyphens=\language79
+\c@mincomprange=\count422
+\c@maxcomprange=\count423
+\c@mincompwidth=\count424
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (C:\Program Files\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex citestyle data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex bibstyle data model...
+Package biblatex Info: ... file 'ieee.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count425
+\c@savedafterword=\count426
+\c@annotator=\count427
+\c@savedannotator=\count428
+\c@author=\count429
+\c@savedauthor=\count430
+\c@bookauthor=\count431
+\c@savedbookauthor=\count432
+\c@commentator=\count433
+\c@savedcommentator=\count434
+\c@editor=\count435
+\c@savededitor=\count436
+\c@editora=\count437
+\c@savededitora=\count438
+\c@editorb=\count439
+\c@savededitorb=\count440
+\c@editorc=\count441
+\c@savededitorc=\count442
+\c@foreword=\count443
+\c@savedforeword=\count444
+\c@holder=\count445
+\c@savedholder=\count446
+\c@introduction=\count447
+\c@savedintroduction=\count448
+\c@namea=\count449
+\c@savednamea=\count450
+\c@nameb=\count451
+\c@savednameb=\count452
+\c@namec=\count453
+\c@savednamec=\count454
+\c@translator=\count455
+\c@savedtranslator=\count456
+\c@shortauthor=\count457
+\c@savedshortauthor=\count458
+\c@shorteditor=\count459
+\c@savedshorteditor=\count460
+\c@labelname=\count461
+\c@savedlabelname=\count462
+\c@institution=\count463
+\c@savedinstitution=\count464
+\c@lista=\count465
+\c@savedlista=\count466
+\c@listb=\count467
+\c@savedlistb=\count468
+\c@listc=\count469
+\c@savedlistc=\count470
+\c@listd=\count471
+\c@savedlistd=\count472
+\c@liste=\count473
+\c@savedliste=\count474
+\c@listf=\count475
+\c@savedlistf=\count476
+\c@location=\count477
+\c@savedlocation=\count478
+\c@organization=\count479
+\c@savedorganization=\count480
+\c@origlocation=\count481
+\c@savedoriglocation=\count482
+\c@origpublisher=\count483
+\c@savedorigpublisher=\count484
+\c@publisher=\count485
+\c@savedpublisher=\count486
+\c@language=\count487
+\c@savedlanguage=\count488
+\c@origlanguage=\count489
+\c@savedoriglanguage=\count490
+\c@pageref=\count491
+\c@savedpageref=\count492
+\shorthandwidth=\skip270
+\shortjournalwidth=\skip271
+\shortserieswidth=\skip272
+\shorttitlewidth=\skip273
+\shortauthorwidth=\skip274
+\shorteditorwidth=\skip275
+\locallabelnumberwidth=\skip276
+\locallabelalphawidth=\skip277
+\localshorthandwidth=\skip278
+\localshortjournalwidth=\skip279
+\localshortserieswidth=\skip280
+\localshorttitlewidth=\skip281
+\localshortauthorwidth=\skip282
+\localshorteditorwidth=\skip283
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (C:\Program Files\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count493
+\c@textcitetotal=\count494
+\c@textcitemaxnames=\count495
+\c@biburlbigbreakpenalty=\count496
+\c@biburlbreakpenalty=\count497
+\c@biburlnumpenalty=\count498
+\c@biburlucpenalty=\count499
+\c@biburllcpenalty=\count500
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count501
+)
+Package biblatex Info: Trying to load bibliography style 'ieee'...
+Package biblatex Info: ... file 'ieee.bbx' found.
+ (C:\Program Files\MiKTeX\tex/latex/biblatex-ieee\ieee.bbx
+File: ieee.bbx 2021/03/25 v1.3e biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+ (C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\numeric-comp.bbx
+File: numeric-comp.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count502
+\c@bbx:relatedtotal=\count503
+))))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (C:\Program Files\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
+File: numeric.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)) (C:\Program Files\MiKTeX\tex/latex/xpatch\xpatch.sty
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+)
+\c@todos=\count504
+\cftbeforetodosskip=\skip284
+\cfttodosindent=\skip285
+\cfttodosnumwidth=\skip286
+\c@toddepth=\count505
+\cftbeforetodtitleskip=\skip287
+\cftaftertodtitleskip=\skip288
+\c@todo=\count506
+ (C:\Program Files\MiKTeX\tex/latex/textgreek\textgreek.sty
+Package: textgreek 2011/10/09 v0.7 Greek symbols in text
+Package textgreek Info: Loading the definitions for the Greek fontencoding. on input line 39.
+ (C:\Program Files\MiKTeX\tex/latex/greek-fontenc\lgrenc.def
+File: lgrenc.def 2020/10/13 2.0 LGR Greek font encoding definitions
+Now handling font encoding LGR ...
+... processing UTF-8 mapping file for font encoding LGR
+ (C:\Program Files\MiKTeX\tex/latex/greek-inputenc\lgrenc.dfu
+File: lgrenc.dfu 2019/07/11 1.7 UTF-8 support for Greek
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+0259 (decimal 601)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+0374 (decimal 884)
+   defining Unicode char U+0375 (decimal 885)
+   defining Unicode char U+037A (decimal 890)
+   defining Unicode char U+037E (decimal 894)
+   defining Unicode char U+0384 (decimal 900)
+   defining Unicode char U+0385 (decimal 901)
+   defining Unicode char U+0386 (decimal 902)
+   defining Unicode char U+0387 (decimal 903)
+   defining Unicode char U+0388 (decimal 904)
+   defining Unicode char U+0389 (decimal 905)
+   defining Unicode char U+038A (decimal 906)
+   defining Unicode char U+038C (decimal 908)
+   defining Unicode char U+038E (decimal 910)
+   defining Unicode char U+038F (decimal 911)
+   defining Unicode char U+0390 (decimal 912)
+   defining Unicode char U+0391 (decimal 913)
+   defining Unicode char U+0392 (decimal 914)
+   defining Unicode char U+0393 (decimal 915)
+   defining Unicode char U+0394 (decimal 916)
+   defining Unicode char U+0395 (decimal 917)
+   defining Unicode char U+0396 (decimal 918)
+   defining Unicode char U+0397 (decimal 919)
+   defining Unicode char U+0398 (decimal 920)
+   defining Unicode char U+0399 (decimal 921)
+   defining Unicode char U+039A (decimal 922)
+   defining Unicode char U+039B (decimal 923)
+   defining Unicode char U+039C (decimal 924)
+   defining Unicode char U+039D (decimal 925)
+   defining Unicode char U+039E (decimal 926)
+   defining Unicode char U+039F (decimal 927)
+   defining Unicode char U+03A0 (decimal 928)
+   defining Unicode char U+03A1 (decimal 929)
+   defining Unicode char U+03A3 (decimal 931)
+   defining Unicode char U+03A4 (decimal 932)
+   defining Unicode char U+03A5 (decimal 933)
+   defining Unicode char U+03A6 (decimal 934)
+   defining Unicode char U+03A7 (decimal 935)
+   defining Unicode char U+03A8 (decimal 936)
+   defining Unicode char U+03A9 (decimal 937)
+   defining Unicode char U+03AA (decimal 938)
+   defining Unicode char U+03AB (decimal 939)
+   defining Unicode char U+03AC (decimal 940)
+   defining Unicode char U+03AD (decimal 941)
+   defining Unicode char U+03AE (decimal 942)
+   defining Unicode char U+03AF (decimal 943)
+   defining Unicode char U+03B0 (decimal 944)
+   defining Unicode char U+03B1 (decimal 945)
+   defining Unicode char U+03B2 (decimal 946)
+   defining Unicode char U+03B3 (decimal 947)
+   defining Unicode char U+03B4 (decimal 948)
+   defining Unicode char U+03B5 (decimal 949)
+   defining Unicode char U+03B6 (decimal 950)
+   defining Unicode char U+03B7 (decimal 951)
+   defining Unicode char U+03B8 (decimal 952)
+   defining Unicode char U+03B9 (decimal 953)
+   defining Unicode char U+03BA (decimal 954)
+   defining Unicode char U+03BB (decimal 955)
+   defining Unicode char U+03BC (decimal 956)
+   defining Unicode char U+03BD (decimal 957)
+   defining Unicode char U+03BE (decimal 958)
+   defining Unicode char U+03BF (decimal 959)
+   defining Unicode char U+03C0 (decimal 960)
+   defining Unicode char U+03C1 (decimal 961)
+   defining Unicode char U+03C2 (decimal 962)
+   defining Unicode char U+03C3 (decimal 963)
+   defining Unicode char U+03C4 (decimal 964)
+   defining Unicode char U+03C5 (decimal 965)
+   defining Unicode char U+03C6 (decimal 966)
+   defining Unicode char U+03C7 (decimal 967)
+   defining Unicode char U+03C8 (decimal 968)
+   defining Unicode char U+03C9 (decimal 969)
+   defining Unicode char U+03CA (decimal 970)
+   defining Unicode char U+03CB (decimal 971)
+   defining Unicode char U+03CC (decimal 972)
+   defining Unicode char U+03CD (decimal 973)
+   defining Unicode char U+03CE (decimal 974)
+   defining Unicode char U+03D0 (decimal 976)
+   defining Unicode char U+03D1 (decimal 977)
+   defining Unicode char U+03D5 (decimal 981)
+   defining Unicode char U+03D6 (decimal 982)
+   defining Unicode char U+03D8 (decimal 984)
+   defining Unicode char U+03D9 (decimal 985)
+   defining Unicode char U+03DA (decimal 986)
+   defining Unicode char U+03DB (decimal 987)
+   defining Unicode char U+03DC (decimal 988)
+   defining Unicode char U+03DD (decimal 989)
+   defining Unicode char U+03DF (decimal 991)
+   defining Unicode char U+03E0 (decimal 992)
+   defining Unicode char U+03E1 (decimal 993)
+   defining Unicode char U+03F0 (decimal 1008)
+   defining Unicode char U+03F1 (decimal 1009)
+   defining Unicode char U+03F4 (decimal 1012)
+   defining Unicode char U+03F5 (decimal 1013)
+   defining Unicode char U+1F00 (decimal 7936)
+   defining Unicode char U+1F01 (decimal 7937)
+   defining Unicode char U+1F02 (decimal 7938)
+   defining Unicode char U+1F03 (decimal 7939)
+   defining Unicode char U+1F04 (decimal 7940)
+   defining Unicode char U+1F05 (decimal 7941)
+   defining Unicode char U+1F06 (decimal 7942)
+   defining Unicode char U+1F07 (decimal 7943)
+   defining Unicode char U+1F08 (decimal 7944)
+   defining Unicode char U+1F09 (decimal 7945)
+   defining Unicode char U+1F0A (decimal 7946)
+   defining Unicode char U+1F0B (decimal 7947)
+   defining Unicode char U+1F0C (decimal 7948)
+   defining Unicode char U+1F0D (decimal 7949)
+   defining Unicode char U+1F0E (decimal 7950)
+   defining Unicode char U+1F0F (decimal 7951)
+   defining Unicode char U+1F10 (decimal 7952)
+   defining Unicode char U+1F11 (decimal 7953)
+   defining Unicode char U+1F12 (decimal 7954)
+   defining Unicode char U+1F13 (decimal 7955)
+   defining Unicode char U+1F14 (decimal 7956)
+   defining Unicode char U+1F15 (decimal 7957)
+   defining Unicode char U+1F18 (decimal 7960)
+   defining Unicode char U+1F19 (decimal 7961)
+   defining Unicode char U+1F1A (decimal 7962)
+   defining Unicode char U+1F1B (decimal 7963)
+   defining Unicode char U+1F1C (decimal 7964)
+   defining Unicode char U+1F1D (decimal 7965)
+   defining Unicode char U+1F20 (decimal 7968)
+   defining Unicode char U+1F21 (decimal 7969)
+   defining Unicode char U+1F22 (decimal 7970)
+   defining Unicode char U+1F23 (decimal 7971)
+   defining Unicode char U+1F24 (decimal 7972)
+   defining Unicode char U+1F25 (decimal 7973)
+   defining Unicode char U+1F26 (decimal 7974)
+   defining Unicode char U+1F27 (decimal 7975)
+   defining Unicode char U+1F28 (decimal 7976)
+   defining Unicode char U+1F29 (decimal 7977)
+   defining Unicode char U+1F2A (decimal 7978)
+   defining Unicode char U+1F2B (decimal 7979)
+   defining Unicode char U+1F2C (decimal 7980)
+   defining Unicode char U+1F2D (decimal 7981)
+   defining Unicode char U+1F2E (decimal 7982)
+   defining Unicode char U+1F2F (decimal 7983)
+   defining Unicode char U+1F30 (decimal 7984)
+   defining Unicode char U+1F31 (decimal 7985)
+   defining Unicode char U+1F32 (decimal 7986)
+   defining Unicode char U+1F33 (decimal 7987)
+   defining Unicode char U+1F34 (decimal 7988)
+   defining Unicode char U+1F35 (decimal 7989)
+   defining Unicode char U+1F36 (decimal 7990)
+   defining Unicode char U+1F37 (decimal 7991)
+   defining Unicode char U+1F38 (decimal 7992)
+   defining Unicode char U+1F39 (decimal 7993)
+   defining Unicode char U+1F3A (decimal 7994)
+   defining Unicode char U+1F3B (decimal 7995)
+   defining Unicode char U+1F3C (decimal 7996)
+   defining Unicode char U+1F3D (decimal 7997)
+   defining Unicode char U+1F3E (decimal 7998)
+   defining Unicode char U+1F3F (decimal 7999)
+   defining Unicode char U+1F40 (decimal 8000)
+   defining Unicode char U+1F41 (decimal 8001)
+   defining Unicode char U+1F42 (decimal 8002)
+   defining Unicode char U+1F43 (decimal 8003)
+   defining Unicode char U+1F44 (decimal 8004)
+   defining Unicode char U+1F45 (decimal 8005)
+   defining Unicode char U+1F48 (decimal 8008)
+   defining Unicode char U+1F49 (decimal 8009)
+   defining Unicode char U+1F4A (decimal 8010)
+   defining Unicode char U+1F4B (decimal 8011)
+   defining Unicode char U+1F4C (decimal 8012)
+   defining Unicode char U+1F4D (decimal 8013)
+   defining Unicode char U+1F50 (decimal 8016)
+   defining Unicode char U+1F51 (decimal 8017)
+   defining Unicode char U+1F52 (decimal 8018)
+   defining Unicode char U+1F53 (decimal 8019)
+   defining Unicode char U+1F54 (decimal 8020)
+   defining Unicode char U+1F55 (decimal 8021)
+   defining Unicode char U+1F56 (decimal 8022)
+   defining Unicode char U+1F57 (decimal 8023)
+   defining Unicode char U+1F59 (decimal 8025)
+   defining Unicode char U+1F5B (decimal 8027)
+   defining Unicode char U+1F5D (decimal 8029)
+   defining Unicode char U+1F5F (decimal 8031)
+   defining Unicode char U+1F60 (decimal 8032)
+   defining Unicode char U+1F61 (decimal 8033)
+   defining Unicode char U+1F62 (decimal 8034)
+   defining Unicode char U+1F63 (decimal 8035)
+   defining Unicode char U+1F64 (decimal 8036)
+   defining Unicode char U+1F65 (decimal 8037)
+   defining Unicode char U+1F66 (decimal 8038)
+   defining Unicode char U+1F67 (decimal 8039)
+   defining Unicode char U+1F68 (decimal 8040)
+   defining Unicode char U+1F69 (decimal 8041)
+   defining Unicode char U+1F6A (decimal 8042)
+   defining Unicode char U+1F6B (decimal 8043)
+   defining Unicode char U+1F6C (decimal 8044)
+   defining Unicode char U+1F6D (decimal 8045)
+   defining Unicode char U+1F6E (decimal 8046)
+   defining Unicode char U+1F6F (decimal 8047)
+   defining Unicode char U+1F70 (decimal 8048)
+   defining Unicode char U+1F71 (decimal 8049)
+   defining Unicode char U+1F72 (decimal 8050)
+   defining Unicode char U+1F73 (decimal 8051)
+   defining Unicode char U+1F74 (decimal 8052)
+   defining Unicode char U+1F75 (decimal 8053)
+   defining Unicode char U+1F76 (decimal 8054)
+   defining Unicode char U+1F77 (decimal 8055)
+   defining Unicode char U+1F78 (decimal 8056)
+   defining Unicode char U+1F79 (decimal 8057)
+   defining Unicode char U+1F7A (decimal 8058)
+   defining Unicode char U+1F7B (decimal 8059)
+   defining Unicode char U+1F7C (decimal 8060)
+   defining Unicode char U+1F7D (decimal 8061)
+   defining Unicode char U+1F80 (decimal 8064)
+   defining Unicode char U+1F81 (decimal 8065)
+   defining Unicode char U+1F82 (decimal 8066)
+   defining Unicode char U+1F83 (decimal 8067)
+   defining Unicode char U+1F84 (decimal 8068)
+   defining Unicode char U+1F85 (decimal 8069)
+   defining Unicode char U+1F86 (decimal 8070)
+   defining Unicode char U+1F87 (decimal 8071)
+   defining Unicode char U+1F88 (decimal 8072)
+   defining Unicode char U+1F89 (decimal 8073)
+   defining Unicode char U+1F8A (decimal 8074)
+   defining Unicode char U+1F8B (decimal 8075)
+   defining Unicode char U+1F8C (decimal 8076)
+   defining Unicode char U+1F8D (decimal 8077)
+   defining Unicode char U+1F8E (decimal 8078)
+   defining Unicode char U+1F8F (decimal 8079)
+   defining Unicode char U+1F90 (decimal 8080)
+   defining Unicode char U+1F91 (decimal 8081)
+   defining Unicode char U+1F92 (decimal 8082)
+   defining Unicode char U+1F93 (decimal 8083)
+   defining Unicode char U+1F94 (decimal 8084)
+   defining Unicode char U+1F95 (decimal 8085)
+   defining Unicode char U+1F96 (decimal 8086)
+   defining Unicode char U+1F97 (decimal 8087)
+   defining Unicode char U+1F98 (decimal 8088)
+   defining Unicode char U+1F99 (decimal 8089)
+   defining Unicode char U+1F9A (decimal 8090)
+   defining Unicode char U+1F9B (decimal 8091)
+   defining Unicode char U+1F9C (decimal 8092)
+   defining Unicode char U+1F9D (decimal 8093)
+   defining Unicode char U+1F9E (decimal 8094)
+   defining Unicode char U+1F9F (decimal 8095)
+   defining Unicode char U+1FA0 (decimal 8096)
+   defining Unicode char U+1FA1 (decimal 8097)
+   defining Unicode char U+1FA2 (decimal 8098)
+   defining Unicode char U+1FA3 (decimal 8099)
+   defining Unicode char U+1FA4 (decimal 8100)
+   defining Unicode char U+1FA5 (decimal 8101)
+   defining Unicode char U+1FA6 (decimal 8102)
+   defining Unicode char U+1FA7 (decimal 8103)
+   defining Unicode char U+1FA8 (decimal 8104)
+   defining Unicode char U+1FA9 (decimal 8105)
+   defining Unicode char U+1FAA (decimal 8106)
+   defining Unicode char U+1FAB (decimal 8107)
+   defining Unicode char U+1FAC (decimal 8108)
+   defining Unicode char U+1FAD (decimal 8109)
+   defining Unicode char U+1FAE (decimal 8110)
+   defining Unicode char U+1FAF (decimal 8111)
+   defining Unicode char U+1FB0 (decimal 8112)
+   defining Unicode char U+1FB1 (decimal 8113)
+   defining Unicode char U+1FB2 (decimal 8114)
+   defining Unicode char U+1FB3 (decimal 8115)
+   defining Unicode char U+1FB4 (decimal 8116)
+   defining Unicode char U+1FB6 (decimal 8118)
+   defining Unicode char U+1FB7 (decimal 8119)
+   defining Unicode char U+1FB8 (decimal 8120)
+   defining Unicode char U+1FB9 (decimal 8121)
+   defining Unicode char U+1FBA (decimal 8122)
+   defining Unicode char U+1FBB (decimal 8123)
+   defining Unicode char U+1FBC (decimal 8124)
+   defining Unicode char U+1FBD (decimal 8125)
+   defining Unicode char U+1FBE (decimal 8126)
+   defining Unicode char U+1FBF (decimal 8127)
+   defining Unicode char U+1FC0 (decimal 8128)
+   defining Unicode char U+1FC1 (decimal 8129)
+   defining Unicode char U+1FC2 (decimal 8130)
+   defining Unicode char U+1FC3 (decimal 8131)
+   defining Unicode char U+1FC4 (decimal 8132)
+   defining Unicode char U+1FC6 (decimal 8134)
+   defining Unicode char U+1FC7 (decimal 8135)
+   defining Unicode char U+1FC8 (decimal 8136)
+   defining Unicode char U+1FC9 (decimal 8137)
+   defining Unicode char U+1FCA (decimal 8138)
+   defining Unicode char U+1FCB (decimal 8139)
+   defining Unicode char U+1FCC (decimal 8140)
+   defining Unicode char U+1FCD (decimal 8141)
+   defining Unicode char U+1FCE (decimal 8142)
+   defining Unicode char U+1FCF (decimal 8143)
+   defining Unicode char U+1FD0 (decimal 8144)
+   defining Unicode char U+1FD1 (decimal 8145)
+   defining Unicode char U+1FD2 (decimal 8146)
+   defining Unicode char U+1FD3 (decimal 8147)
+   defining Unicode char U+1FD6 (decimal 8150)
+   defining Unicode char U+1FD7 (decimal 8151)
+   defining Unicode char U+1FD8 (decimal 8152)
+   defining Unicode char U+1FD9 (decimal 8153)
+   defining Unicode char U+1FDA (decimal 8154)
+   defining Unicode char U+1FDB (decimal 8155)
+   defining Unicode char U+1FDD (decimal 8157)
+   defining Unicode char U+1FDE (decimal 8158)
+   defining Unicode char U+1FDF (decimal 8159)
+   defining Unicode char U+1FE0 (decimal 8160)
+   defining Unicode char U+1FE1 (decimal 8161)
+   defining Unicode char U+1FE2 (decimal 8162)
+   defining Unicode char U+1FE3 (decimal 8163)
+   defining Unicode char U+1FE4 (decimal 8164)
+   defining Unicode char U+1FE5 (decimal 8165)
+   defining Unicode char U+1FE6 (decimal 8166)
+   defining Unicode char U+1FE7 (decimal 8167)
+   defining Unicode char U+1FE8 (decimal 8168)
+   defining Unicode char U+1FE9 (decimal 8169)
+   defining Unicode char U+1FEA (decimal 8170)
+   defining Unicode char U+1FEB (decimal 8171)
+   defining Unicode char U+1FEC (decimal 8172)
+   defining Unicode char U+1FED (decimal 8173)
+   defining Unicode char U+1FEE (decimal 8174)
+   defining Unicode char U+1FEF (decimal 8175)
+   defining Unicode char U+1FF2 (decimal 8178)
+   defining Unicode char U+1FF3 (decimal 8179)
+   defining Unicode char U+1FF4 (decimal 8180)
+   defining Unicode char U+1FF6 (decimal 8182)
+   defining Unicode char U+1FF7 (decimal 8183)
+   defining Unicode char U+1FF8 (decimal 8184)
+   defining Unicode char U+1FF9 (decimal 8185)
+   defining Unicode char U+1FFA (decimal 8186)
+   defining Unicode char U+1FFB (decimal 8187)
+   defining Unicode char U+1FFC (decimal 8188)
+   defining Unicode char U+1FFD (decimal 8189)
+   defining Unicode char U+1FFE (decimal 8190)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+10144 (decimal 65860)
+   defining Unicode char U+10145 (decimal 65861)
+   defining Unicode char U+10146 (decimal 65862)
+   defining Unicode char U+10147 (decimal 65863)
+) (C:\Program Files\MiKTeX\tex/latex/greek-fontenc\greek-fontenc.def
+File: greek-fontenc.def 2020/10/30 2.0 Common Greek font encoding definitions
+))
+Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/*}. on input line 69.
+)
+runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > documentation.aex <nul: /p x=^%~$PATH:i>> documentation.aex)...executed.
+
+runsystem(del documentation.aex)...executed.
+
+\@quotelevel=\count507
+\@quotereset=\count508
+ (documentation.aux)
+\openout1 = `documentation.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for LS1/libertinust1math/m/n on input line 115.
+LaTeX Font Info:    Trying to load font information for LS1+libertinust1math on input line 115.
+ (C:\Program Files\MiKTeX\tex/latex/libertinust1math\ls1libertinust1math.fd
+File: ls1libertinust1math.fd 2016/03/23 Fontinst v1.933 font definitions for LS1/libertinust1math.
+)
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for LS2/libertinust1mathsym/m/n on input line 115.
+LaTeX Font Info:    Trying to load font information for LS2+libertinust1mathsym on input line 115.
+ (C:\Program Files\MiKTeX\tex/latex/libertinust1math\ls2libertinust1mathsym.fd
+File: ls2libertinust1mathsym.fd 2015/04/17 v1.1.2-latex LibertinusT1Mathsym LS2 font definitions
+)
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 115.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 115.
+ (C:\Program Files\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
+File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
+)
+LaTeX Font Info:    ... okay on input line 115.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(70.0pt, 356.29222pt, 188.00278pt)
+* v-part:(T,H,B)=(80.0pt, 635.97841pt, 78.99158pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=356.29222pt
+* \textheight=635.97841pt
+* \oddsidemargin=-2.26999pt
+* \evensidemargin=115.73279pt
+* \topmargin=-28.14378pt
+* \headheight=16.0pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=115.20264pt
+* \marginparsep=20.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen353
+\caption@adjustwidth@linewidth=\dimen354
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\@sidenotes@extrawidth=\skip289
+\c@mv@tabular=\count509
+\c@mv@boldtabular=\count510
+(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count511
+\scratchdimen=\dimen355
+\scratchbox=\box133
+\nofMPsegments=\count512
+\nofMParguments=\count513
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count514
+\MPscratchDim=\dimen356
+\MPnumerator=\count515
+\makeMPintoPDFobject=\count516
+\everyMPtoPDFconversion=\toks49
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Info: Redefining \microtypecontext on input line 115.
+Package microtype Info: Applying patch `item' on input line 115.
+Package microtype Info: Applying patch `toc' on input line 115.
+Package microtype Info: Applying patch `eqnum' on input line 115.
+Package microtype Info: Applying patch `footnote' on input line 115.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 115.
+Package microtype Info: Tracking enabled.
+Package microtype Info: Using default tracking set `smallcaps'.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `LibertinusSerif-TOsF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package hyperref Info: Link coloring OFF on input line 115.
+ (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+ (C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count517
+)
+LaTeX Info: Redefining \ref on input line 115.
+LaTeX Info: Redefining \pageref on input line 115.
+LaTeX Info: Redefining \nameref on input line 115.
+ (documentation.out) (documentation.out)
+\@outlinefile=\write8
+\openout8 = `documentation.out'.
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2021-11-22 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (C:\Program Files\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout7 = `documentation.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'documentation.bbl' found.
+ (documentation.bbl)
+Package biblatex Info: Reference section=0 on input line 115.
+Package biblatex Info: Reference segment=0 on input line 115.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/m/it' will be
+(Font)              scaled to size 10.95pt on input line 117.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/m/it' will be
+(Font)              scaled to size 17.28pt on input line 117.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/b/it' will be
+(Font)              scaled to size 17.28pt on input line 117.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 17.28pt on input line 117.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 12.0pt on input line 117.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 10.0pt on input line 117.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 17.28pt on input line 117.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 12.0pt on input line 117.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 10.0pt on input line 117.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 17.28pt on input line 117.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 12.0pt on input line 117.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 10.0pt on input line 117.
+LaTeX Font Info:    Trying to load font information for LS2+libertinust1mathex on input line 117.
+ (C:\Program Files\MiKTeX\tex/latex/libertinust1math\ls2libertinust1mathex.fd
+File: ls2libertinust1mathex.fd 2016/03/15 v1.0.0-latex LibertinusMath extensions LS2 font definitions
+)
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 17.28pt on input line 117.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 12.0pt on input line 117.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 10.0pt on input line 117.
+LaTeX Font Info:    Trying to load font information for LS1+libertinust1mathbb on input line 117.
+ (C:\Program Files\MiKTeX\tex/latex/libertinust1math\ls1libertinust1mathbb.fd
+File: ls1libertinust1mathbb.fd 2016/08/22 latex LibertinusT1Mathbb LS1 font definitions
+)
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 17.28pt on input line 117.
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 12.0pt on input line 117.
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 10.0pt on input line 117.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 17.28pt on input line 117.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 12.0pt on input line 117.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 10.0pt on input line 117.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 17.28pt on input line 117.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 12.0pt on input line 117.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 10.0pt on input line 117.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 117.
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (C:\Program Files\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 117.
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (C:\Program Files\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) (documentation.tod
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/b/n' will be
+(Font)              scaled to size 10.95pt on input line 2.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 10.95pt on input line 2.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 8.0pt on input line 2.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 6.0pt on input line 2.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 10.95pt on input line 2.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 8.0pt on input line 2.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 6.0pt on input line 2.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 10.95pt on input line 2.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 8.0pt on input line 2.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 6.0pt on input line 2.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 10.95pt on input line 2.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 8.0pt on input line 2.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 6.0pt on input line 2.
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 10.95pt on input line 2.
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 8.0pt on input line 2.
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 6.0pt on input line 2.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 10.95pt on input line 2.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 8.0pt on input line 2.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 6.0pt on input line 2.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 10.95pt on input line 2.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 8.0pt on input line 2.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 6.0pt on input line 2.
+
+Overfull \hbox (6.29292pt too wide) in paragraph at lines 2--2
+ [][] [][]\T1/LibertinusSerif-TOsF/m/n/10.95 (-20) Maketitle -> ti-tlepage. Ré-gler les prob-lèmes de per-son. Faire que on peut 
+ []
+
+
+Overfull \hbox (2.29556pt too wide) in paragraph at lines 2--2
+ \T1/LibertinusSerif-TOsF/m/n/10.95 (-20) utiliser la com-mande per-son plusieurs fois de suite et ça ajoute à la liste 
+ []
+
+)
+\tf@tod=\write9
+\openout9 = `documentation.tod'.
+
+ [1
+
+
+
+
+
+
+
+
+{C:/Users/sylva/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2
+
+]
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 121.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/m/sc' will be
+(Font)              scaled to size 12.0pt on input line 121.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/m/it' will be
+(Font)              scaled to size 12.0pt on input line 121.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/m/n' will be
+(Font)              scaled to size 20.74pt on input line 121.
+LaTeX Font Info:    Trying to load font information for T1+droidsansmono on input line 121.
+ (C:\Program Files\MiKTeX\tex/latex/droid\t1droidsansmono.fd
+File: T1droidsansmono.fd 2019/06/24 Font definitions for T1/droidsansmono.
+)
+LaTeX Font Info:    Font shape `T1/droidsansmono/m/n' will be
+(Font)              scaled to size 16.59206pt on input line 121.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `droidsansmono' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 20.74pt on input line 121.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 14.4pt on input line 121.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 20.74pt on input line 121.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 14.4pt on input line 121.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 20.74pt on input line 121.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 14.4pt on input line 121.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 20.74pt on input line 121.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 14.4pt on input line 121.
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 20.74pt on input line 121.
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 14.4pt on input line 121.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 20.74pt on input line 121.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 14.4pt on input line 121.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 20.74pt on input line 121.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 14.4pt on input line 121.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 121.
+<example-image-a.pdf, id=131, 321.2pt x 240.9pt>
+File: example-image-a.pdf Graphic file (type pdf)
+<use example-image-a.pdf>
+Package pdftex.def Info: example-image-a.pdf  used on input line 121.
+(pdftex.def)             Requested size: 66.6649pt x 50.0pt.
+<example-image-b.pdf, id=132, 321.2pt x 240.9pt>
+File: example-image-b.pdf Graphic file (type pdf)
+<use example-image-b.pdf>
+Package pdftex.def Info: example-image-b.pdf  used on input line 121.
+(pdftex.def)             Requested size: 66.6649pt x 50.0pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.121 \maketitle
+                 [1
+
+
+ <C:/Program Files/MiKTeX/tex/latex/mwe/example-image-a.pdf> <C:/Program Files/MiKTeX/tex/latex/mwe/example-image-b.pdf>]
+LaTeX Font Info:    Font shape `T1/droidsansmono/m/it' in size <10.95> not available
+(Font)              Font shape `T1/droidsansmono/m/sl' tried instead on input line 121.
+LaTeX Font Info:    Font shape `T1/droidsansmono/m/sl' will be
+(Font)              scaled to size 8.76003pt on input line 121.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/m/it' will be
+(Font)              scaled to size 8.0pt on input line 121.
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.121 \maketitle
+                 [2
+
+] [3
+
+
+
+] [4
+
+]
+LaTeX Font Info:    Font shape `T1/droidsansmono/m/n' will be
+(Font)              scaled to size 8.76003pt on input line 132.
+ [5
+
+
+] [6
+
+] [7] [8
+
+] (documentation.toc
+Overfull \hbox (5.58pt too wide) detected at line 3
+ \T1/LibertinusSerif-TOsF/m/n/12 5
+ []
+
+
+Overfull \hbox (5.58pt too wide) detected at line 5
+ \T1/LibertinusSerif-TOsF/m/n/12 7
+ []
+
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 7.
+
+Overfull \hbox (11.16pt too wide) detected at line 7
+ \T1/LibertinusSerif-TOsF/m/n/12 17
+ []
+
+
+Overfull \hbox (11.16pt too wide) detected at line 9
+ \T1/LibertinusSerif-TOsF/m/n/12 17
+ []
+
+
+Overfull \hbox (11.16pt too wide) detected at line 11
+ \T1/LibertinusSerif-TOsF/m/n/12 18
+ []
+
+
+Overfull \hbox (11.16pt too wide) detected at line 13
+ \T1/LibertinusSerif-TOsF/m/n/12 18
+ []
+
+
+Overfull \hbox (11.16pt too wide) detected at line 15
+ \T1/LibertinusSerif-TOsF/m/n/12 19
+ []
+
+
+Overfull \hbox (11.16pt too wide) detected at line 17
+ \T1/LibertinusSerif-TOsF/m/n/12 19
+ []
+
+
+Overfull \hbox (7.02934pt too wide) in paragraph at lines 9--19
+[]|\T1/LibertinusSerif-TOsF/m/n/12 (-20) 1.1  []\T1/LibertinusSerif-TOsF/m/it/12 (-20) Doc-u-ment lay-out[]|  []| |\T1/LibertinusSerif-TOsF/m/n/12 (-20) 1.2  []\T1/LibertinusSerif-TOsF/m/it/12 (-20) Page lay-out[]|  []| |\T1/LibertinusSerif-TOsF/m/n/12 (-20) 1.3  []\T1/LibertinusSerif-TOsF/m/it/12 (-20) Head- 
+ []
+
+
+Overfull \hbox (18.75319pt too wide) in paragraph at lines 9--19
+\T1/LibertinusSerif-TOsF/m/it/12 (-20) ers, lists, and other content-organizing fea-tures[]|  []| |\T1/LibertinusSerif-TOsF/m/n/12 (-20) 1.4  []\T1/LibertinusSerif-TOsF/m/it/12 (-20) Fonts 
+ []
+
+
+Overfull \hbox (10.86069pt too wide) in paragraph at lines 9--19
+\T1/LibertinusSerif-TOsF/m/it/12 (-20) and "mi-cro" ty-pog-ra-phy[]|  []| |\T1/LibertinusSerif-TOsF/m/n/12 (-20) 1.5  []\T1/LibertinusSerif-TOsF/m/it/12 (-20) The phi-los-o-phy be-hind the 
+ []
+
+
+Overfull \hbox (11.16pt too wide) detected at line 21
+ \T1/LibertinusSerif-TOsF/m/n/12 23
+ []
+
+
+Overfull \hbox (11.16pt too wide) detected at line 23
+ \T1/LibertinusSerif-TOsF/m/n/12 23
+ []
+
+
+Overfull \hbox (11.16pt too wide) detected at line 25
+ \T1/LibertinusSerif-TOsF/m/n/12 23
+ []
+
+
+Overfull \hbox (11.16pt too wide) detected at line 27
+ \T1/LibertinusSerif-TOsF/m/n/12 23
+ []
+
+
+Overfull \hbox (11.16pt too wide) detected at line 29
+ \T1/LibertinusSerif-TOsF/m/n/12 25
+ []
+
+
+Overfull \hbox (11.16pt too wide) detected at line 31
+ \T1/LibertinusSerif-TOsF/m/n/12 25
+ []
+
+
+Overfull \hbox (11.16pt too wide) detected at line 37
+ \T1/LibertinusSerif-TOsF/m/n/12 26
+ []
+
+
+Overfull \hbox (11.16pt too wide) detected at line 39
+ \T1/LibertinusSerif-TOsF/m/n/12 26
+ []
+
+
+Overfull \hbox (11.16pt too wide) detected at line 43
+ \T1/LibertinusSerif-TOsF/m/n/12 27
+ []
+
+
+Overfull \hbox (11.16pt too wide) detected at line 53
+ \T1/LibertinusSerif-TOsF/m/n/12 35
+ []
+
+
+Overfull \hbox (11.16pt too wide) detected at line 55
+ \T1/LibertinusSerif-TOsF/m/n/12 35
+ []
+
+
+Overfull \hbox (11.16pt too wide) detected at line 57
+ \T1/LibertinusSerif-TOsF/m/n/12 35
+ []
+
+
+Overfull \hbox (2.4581pt too wide) in paragraph at lines 31--59
+[]|\T1/LibertinusSerif-TOsF/m/n/12 (-20) 3.1  []\T1/LibertinusSerif-TOsF/m/it/12 (-20) The big mar-gin[]|  []| |\T1/LibertinusSerif-TOsF/m/n/12 (-20) 3.2  []\T1/LibertinusSerif-TOsF/m/it/12 (-20) Full width text[]|  []| |\T1/LibertinusSerif-TOsF/m/n/12 (-20) 3.3  []\T1/LibertinusSerif-TOsF/m/it/12 (-20) The 
+ []
+
+
+Overfull \hbox (24.9909pt too wide) in paragraph at lines 31--59
+\T1/LibertinusSerif-TOsF/m/it/12 (-20) skele-ton[]|  []| |\T1/LibertinusSerif-TOsF/m/n/12 (-20) 3.4  []\T1/LibertinusSerif-TOsF/m/it/12 (-20) Floats[]|  []| |\T1/LibertinusSerif-TOsF/m/n/12 (-20) 3.5  []\T1/LibertinusSerif-TOsF/m/it/12 (-20) The ti-tlepage[]|  []| |\T1/LibertinusSerif-TOsF/m/n/12 (-20) 3.6  []\T1/LibertinusSerif-TOsF/m/it/12 (-20) Com- 
+ []
+
+
+Overfull \hbox (11.16pt too wide) detected at line 61
+ \T1/LibertinusSerif-TOsF/m/n/12 39
+ []
+
+
+Overfull \hbox (11.16pt too wide) detected at line 63
+ \T1/LibertinusSerif-TOsF/m/n/12 41
+ []
+
+
+Overfull \hbox (11.16pt too wide) detected at line 67
+ \T1/LibertinusSerif-TOsF/m/n/12 45
+ []
+
+
+Overfull \hbox (11.16pt too wide) detected at line 69
+ \T1/LibertinusSerif-TOsF/m/n/12 47
+ []
+
+)
+\tf@toc=\write10
+\openout10 = `documentation.toc'.
+
+ [9] [10
+
+] (documentation.lof
+Overfull \hbox (13.8543pt too wide) in paragraph at lines 13--13
+ \T1/LibertinusSerif-TOsF/m/n/10.95 (-20) the main text col-umn, with a cap-tion in the mar-gin aligned with 
+ []
+
+
+Overfull \hbox (5.26396pt too wide) in paragraph at lines 13--13
+ \T1/LibertinusSerif-TOsF/m/n/10.95 (-20) the top of the im-age. For im-ages nar-rower than the text width, 
+ []
+
+
+Overfull \vbox (48.48143pt too high) detected at line 13
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+ [][] [][]\T1/LibertinusSerif-TOsF/m/n/10.95 (-18) 1919 map of the Fin-istère in French Brit-tany. This fig-ure is in 
+ []
+
+
+Overfull \hbox (13.8543pt too wide) in paragraph at lines 13--13
+ \T1/LibertinusSerif-TOsF/m/n/10.95 (-20) the main text col-umn, with a cap-tion in the mar-gin aligned with 
+ []
+
+
+Overfull \hbox (5.26396pt too wide) in paragraph at lines 13--13
+ \T1/LibertinusSerif-TOsF/m/n/10.95 (-20) the top of the im-age. For im-ages nar-rower than the text width, 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+ \T1/LibertinusSerif-TOsF/m/n/10.95 (-11) they will be outer-aligned so that they re-main just next their 
+ []
+
+
+Overfull \hbox (8.35168pt too wide) in paragraph at lines 15--15
+ \T1/LibertinusSerif-TOsF/m/n/10.95 (-20) The most com-mon sea boat knots. This im-age can be dis-played 
+ []
+
+
+Overfull \vbox (21.28142pt too high) detected at line 15
+ []
+
+
+Overfull \hbox (8.68019pt too wide) in paragraph at lines 15--15
+ [][] [][]\T1/LibertinusSerif-TOsF/m/n/10.95 (-20) The most com-mon sea boat knots. This im-age can be dis-played 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+ \T1/LibertinusSerif-TOsF/m/n/10.95 (-16) rather small, so it fits in the mar-gin. The cap-tion is dis-played 
+ []
+
+
+Overfull \hbox (29.89291pt too wide) in paragraph at lines 17--17
+ \T1/LibertinusSerif-TOsF/m/n/10.95 (-20) The US cen-sus map from data col-lected in 2010 -- []$\T1/droidsansmono/m/n/10.95 www . ecpmlangues . 
+ []
+
+
+Overfull \hbox (4.75224pt too wide) in paragraph at lines 17--17
+ \T1/droidsansmono/m/n/10.95 u-[]strasbg . fr$[] \T1/LibertinusSerif-TOsF/m/n/10.95 (-20) This is a wide fig-ure, stretch-ing from the in-ner- 
+ []
+
+
+Overfull \vbox (21.28142pt too high) detected at line 17
+ []
+
+
+Overfull \hbox (30.22142pt too wide) in paragraph at lines 17--17
+ [][] [][]\T1/LibertinusSerif-TOsF/m/n/10.95 (-20) The US cen-sus map from data col-lected in 2010 -- []$\T1/droidsansmono/m/n/10.95 www . ecpmlangues . 
+ []
+
+
+Overfull \hbox (4.75224pt too wide) in paragraph at lines 17--17
+ \T1/droidsansmono/m/n/10.95 u-[]strasbg . fr$[] \T1/LibertinusSerif-TOsF/m/n/10.95 (-20) This is a wide fig-ure, stretch-ing from the in-ner- 
+ []
+
+
+Overfull \hbox (7.91963pt too wide) in paragraph at lines 19--19
+ \T1/LibertinusSerif-TOsF/m/n/10.95 (-20) The Man-del-brot set with dif-fer-ent depths of it-er-a-tion. This cap- 
+ []
+
+
+Overfull \hbox (7.27722pt too wide) in paragraph at lines 19--19
+ \T1/LibertinusSerif-TOsF/m/n/10.95 (-20) tion is not in the mar-gin but in the main text area. It can some- 
+ []
+
+
+Overfull \vbox (21.28142pt too high) detected at line 19
+ []
+
+
+Overfull \hbox (8.24814pt too wide) in paragraph at lines 19--19
+ [][] [][]\T1/LibertinusSerif-TOsF/m/n/10.95 (-20) The Man-del-brot set with dif-fer-ent depths of it-er-a-tion. This cap- 
+ []
+
+
+Overfull \hbox (7.27722pt too wide) in paragraph at lines 19--19
+ \T1/LibertinusSerif-TOsF/m/n/10.95 (-20) tion is not in the mar-gin but in the main text area. It can some- 
+ []
+
+)
+\tf@lof=\write11
+\openout11 = `documentation.lof'.
+
+ [11] [12
+
+] (documentation.lot
+Overfull \hbox (4.3366pt too wide) in paragraph at lines 13--13
+ \T1/LibertinusSerif-TOsF/m/n/10.95 (-20) The el-e-men-tary par-ti-cles in-cluded in the stan-dard model. This 
+ []
+
+
+Overfull \vbox (7.68141pt too high) detected at line 13
+ []
+
+
+Overfull \hbox (4.6651pt too wide) in paragraph at lines 13--13
+ [][] [][]\T1/LibertinusSerif-TOsF/m/n/10.95 (-20) The el-e-men-tary par-ti-cles in-cluded in the stan-dard model. This 
+ []
+
+\openout4 = `documentation.pyg'.
+
+(_minted-documentation/default-pyg-prefix.pygstyle) (_minted-documentation/colorful.pygstyle) (_minted-documentation/A763F5E3431E8CF1FC103E09DCE752B31D9EA2AACDDB88D4260CCC9B79D59269.pygtex
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 1.
+LaTeX Font Info:    Font shape `T1/droidsansmono/m/n' will be
+(Font)              scaled to size 8.00003pt on input line 1.
+)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/9630000460B702CBC8F99AEC18CFA1A01D9EA2AACDDB88D4260CCC9B79D59269.pygtex
+
+LaTeX Font Warning: Font shape `T1/droidsansmono/b/n' undefined
+(Font)              using `T1/droidsansmono/m/n' instead on input line 2.
+
+)
+Overfull \hbox (10.27905pt too wide) in paragraph at lines 15--15
+ \T1/LibertinusSerif-TOsF/m/n/10.95 (-20) Table des marées à Douarnenez du 23 au 26 juil-let 2021, Ser-vice 
+ []
+
+
+Overfull \hbox (12.04903pt too wide) in paragraph at lines 15--15
+ \T1/LibertinusSerif-TOsF/m/n/10.95 (-20) Hy-dro-graphique et Océanographique de la Ma-rine, []$\T1/droidsansmono/m/n/10.95 maree . shom . 
+ []
+
+
+Overfull \vbox (34.88142pt too high) detected at line 15
+ []
+
+\openout4 = `documentation.pyg'.
+
+(_minted-documentation/A763F5E3431E8CF1FC103E09DCE752B31D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/9630000460B702CBC8F99AEC18CFA1A01D9EA2AACDDB88D4260CCC9B79D59269.pygtex
+LaTeX Font Info:    Font shape `T1/droidsansmono/b/n' will be
+(Font)              scaled to size 8.00003pt on input line 2.
+)
+Overfull \hbox (10.27905pt too wide) in paragraph at lines 15--15
+ [][] [][]\T1/LibertinusSerif-TOsF/m/n/10.95 (-20) Table des marées à Douarnenez du 23 au 26 juil-let 2021, Ser-vice 
+ []
+
+
+Overfull \hbox (12.04903pt too wide) in paragraph at lines 15--15
+ \T1/LibertinusSerif-TOsF/m/n/10.95 (-20) Hy-dro-graphique et Océanographique de la Ma-rine, []$\T1/droidsansmono/m/n/10.95 maree . shom . 
+ []
+
+
+Overfull \hbox (0.58444pt too wide) in paragraph at lines 17--17
+ \T1/LibertinusSerif-TOsF/m/n/10.95 (-20) Major, mi-nor and per-fect mu-sic in-ter-vals. ST. stands for \T1/LibertinusSerif-TOsF/m/it/10.95 (-20) semi- 
+ []
+
+
+Overfull \vbox (7.68141pt too high) detected at line 17
+ []
+
+
+Overfull \hbox (0.58444pt too wide) in paragraph at lines 17--17
+ [][] [][]\T1/LibertinusSerif-TOsF/m/n/10.95 (-20) Major, mi-nor and per-fect mu-sic in-ter-vals. ST. stands for \T1/LibertinusSerif-TOsF/m/it/10.95 (-20) semi- 
+ []
+
+)
+\tf@lot=\write12
+\openout12 = `documentation.lot'.
+
+ [13] [14
+
+] (documentation.lol
+Overfull \hbox (10.18347pt too wide) detected at line 2
+ []\T1/LibertinusSerif-TOsF/m/n/10.95 33
+ []
+
+
+Overfull \hbox (3.95325pt too wide) in paragraph at lines 4--4
+ \T1/LibertinusSerif-TOsF/m/n/10.95 (-20) A source code snip-pet of \T1/droidsansmono/m/n/10.95 29jm\T1/LibertinusSerif-TOsF/m/n/10.95 (-20) 's stun-ningly amaz-ing []\T1/droidsansmono/m/n/10.95 SnowflakeOS[]\T1/LibertinusSerif-TOsF/m/n/10.95 (-20) . 
+ []
+
+
+Overfull \vbox (7.68141pt too high) detected at line 4
+ []
+
+
+Overfull \hbox (10.18347pt too wide) detected at line 4
+ []\T1/LibertinusSerif-TOsF/m/n/10.95 34
+ []
+
+
+Overfull \hbox (4.008pt too wide) in paragraph at lines 4--4
+ [][] [][]\T1/LibertinusSerif-TOsF/m/n/10.95 (-20) A source code snip-pet of \T1/droidsansmono/m/n/10.95 29jm\T1/LibertinusSerif-TOsF/m/n/10.95 (-20) 's stun-ningly amaz-ing []\T1/droidsansmono/m/n/10.95 SnowflakeOS[]\T1/LibertinusSerif-TOsF/m/n/10.95 (-20) . 
+ []
+
+)
+\tf@lol=\write13
+\openout13 = `documentation.lol'.
+
+ [15] [16
+
+]
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/m/n' will be
+(Font)              scaled to size 17.28pt on input line 147.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/b/n' will be
+(Font)              scaled to size 17.28pt on input line 147.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/b/n' will be
+(Font)              scaled to size 20.74pt on input line 147.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 149.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 149.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 9.0pt on input line 149.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 5.0pt on input line 149.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 9.0pt on input line 149.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 5.0pt on input line 149.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 9.0pt on input line 149.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 5.0pt on input line 149.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 9.0pt on input line 149.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 5.0pt on input line 149.
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 9.0pt on input line 149.
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 5.0pt on input line 149.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 9.0pt on input line 149.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 5.0pt on input line 149.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 9.0pt on input line 149.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 5.0pt on input line 149.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 149.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/m/it' will be
+(Font)              scaled to size 9.0pt on input line 149.
+
+Overfull \hbox (0.12206pt too wide) in paragraph at lines 149--150
+\T1/LibertinusSerif-TOsF/m/n/10.95 (+15) Bringhurt's typographer's bible.[][][] So it is a bit of a mix of Tufte and Bringhurst, 
+ []
+
+
+LaTeX Warning: Marginpar on page 17 moved.
+
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/m/it' will be
+(Font)              scaled to size 14.4pt on input line 151.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/m/sc' will be
+(Font)              scaled to size 10.95pt on input line 155.
+
+Overfull \hbox (0.12961pt too wide) in paragraph at lines 155--156
+\T1/LibertinusSerif-TOsF/m/n/10.95 (+4) However, I personally find it confusing and a bit useless so the page numbering 
+ []
+
+
+Overfull \hbox (0.12769pt too wide) in paragraph at lines 155--156
+\T1/LibertinusSerif-TOsF/m/n/10.95 (+7) system is simplified for the whole book: arabic numerals starting from the very 
+ []
+
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 7.0pt on input line 163.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 7.0pt on input line 163.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 7.0pt on input line 163.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 7.0pt on input line 163.
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 7.0pt on input line 163.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 7.0pt on input line 163.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 7.0pt on input line 163.
+[17
+
+]
+Overfull \hbox (0.14656pt too wide) in paragraph at lines 173--174
+\T1/LibertinusSerif-TOsF/m/n/10.95 (+9) of other L[]T[]X classes for books and the-ses do it just like me, and al-most al-ways 
+ []
+
+
+Overfull \hbox (0.10529pt too wide) in paragraph at lines 181--182
+\T1/LibertinusSerif-TOsF/m/n/10.95 (+18) So this is more intended for people who like "flavoured" text: people who likes 
+ []
+
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/m/sc' will be
+(Font)              scaled to size 9.0pt on input line 190.
+
+LaTeX Warning: Marginpar on page 18 moved.
+
+LaTeX Font Info:    Trying to load font information for T1+GilliusADF-LF on input line 191.
+(C:\Program Files\MiKTeX\tex/latex/gillius\t1gilliusadf-lf.fd
+File: T1GilliusADF-LF.fd 2013/11/03 (autoinst) Font definitions for T1/GilliusADF-LF.
+)
+LaTeX Font Info:    Font shape `T1/GilliusADF-LF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 191.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `GilliusADF-LF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [18]
+LaTeX Font Info:    Font shape `T1/GilliusADF-LF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 199.
+LaTeX Font Info:    Font shape `T1/GilliusADF-LF/b/n' will be
+(Font)              scaled to size 10.95pt on input line 199.
+LaTeX Font Info:    Font shape `T1/GilliusADF-LF/m/it' will be
+(Font)              scaled to size 10.95pt on input line 199.
+
+
+LaTeX Warning: Marginpar on page 19 moved.
+
+
+LaTeX Warning: Marginpar on page 19 moved.
+
+[19] [20]
+LaTeX Font Info:    Font shape `T1/GilliusADF-LF/m/n' will be
+(Font)              scaled to size 17.28pt on input line 223.
+ [21
+
+] [22]
+Chapter 2.
+
+Package fullwidth inside float 
+ fullwidth uses option nobreak Warning: \def  on input line 225.
+
+
+Package fullwidth Warning: The environment is empty
+(fullwidth)                 on input line 225.
+
+[23
+
+] [24
+
+]
+Chapter 3.
+
+Package fullwidth inside float 
+ fullwidth uses option nobreak Warning: \def  on input line 233.
+
+
+Package fullwidth Warning: The environment is empty
+(fullwidth)                 on input line 233.
+
+pdfTeX warning (ext4): destination with the same identifier (name{sidenote.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.237 ...on new chapters: we're back on number 1!}
+                                                   This chapter will cover t...pdfTeX warning (ext4): destination with the same identifier (name{sidenote.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.237 ... captions, see chapter \ref{chp:floats}.}
+                                                  
+
+LaTeX Warning: Marginpar on page 25 moved.
+
+LaTeX Font Info:    Font shape `T1/droidsansmono/m/n' will be
+(Font)              scaled to size 7.20003pt on input line 239.
+pdfTeX warning (ext4): destination with the same identifier (name{sidenote.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.239 ...e \texttt{geometry}\sidecite{pkgGeometry}
+                                                   package, and all the marg...pdfTeX warning (ext4): destination with the same identifier (name{sidenote.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.239 ...\texttt{sidenotes}\sidecite{pkgSidenotes}
+                                                   package, so check its doc...
+
+LaTeX Warning: Marginpar on page 25 moved.
+
+
+LaTeX Warning: Marginpar on page 25 moved.
+
+Package mdframed Info: mdframed works in twoside mode on input line 247.
+\openout3 = `documentation.pyg'.
+
+(_minted-documentation/D097C3BFBE750EFCB8AEF12D8E6CC02B1D9EA2AACDDB88D4260CCC9B79D59269.pygtex
+LaTeX Font Info:    Font shape `T1/droidsansmono/b/n' will be
+(Font)              scaled to size 7.20003pt on input line 2.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/b/n' will be
+(Font)              scaled to size 9.0pt on input line 2.
+)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/FC12500DF7D33F17F3093D89968692661D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/738D04F2CBFE61DAF19E25328D48BAD11D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/ACDB119674D224BA31A6B736273FC3351D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/1F2721ABB1437641720290D66CCED99A1D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
+[]\T1/LibertinusSerif-TOsF/m/n/10.95 (+20) This is un-for-mat-ted mar-
+ []
+
+
+Overfull \hbox (0.1523pt too wide) in paragraph at lines 257--258
+\T1/LibertinusSerif-TOsF/m/n/10.95 (+13) raw fullsize text in the margin, and does not blend well with the overall design. 
+ []
+
+Package mdframed Info: mdframed works in twoside mode on input line 258.
+\openout3 = `documentation.pyg'.
+
+(_minted-documentation/3AF4206C783ABC8E6C094463E22821601D9EA2AACDDB88D4260CCC9B79D59269.pygtex)pdfTeX warning (ext4): destination with the same identifier (name{sidenote.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.266 ...rences:\sidecite{einstein1915allgemeinen}
+                                                   the reader can read them ...
+Package mdframed Info: mdframed works in twoside mode on input line 269.
+\openout3 = `documentation.pyg'.
+
+ (_minted-documentation/E382A21662515BA1CA31A5C3D4507AFA1D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+Package mdframed Info: Not enough space on this page on input line 271.
+ [25]
+Package mdframed Info: Not enough space on this page on input line 271.
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/6F1EDE36C11EC8B7BF494837A5D23A2B1D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/41B0B491D98251BECC8BD288EDF92BFE1D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/D2B0B0F1619DF57456B9A04D9B812E9D1D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/AE288C4575FE2F79CBACFFC96AA3C42C1D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/B147499B537481868FD466E59D2F2E9F1D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/B147499B537481868FD466E59D2F2E9F1D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+
+Package fullwidth inside float 
+ fullwidth uses option nobreak Warning: \def  on input line 279.
+
+
+Package fullwidth Warning: The environment is empty
+(fullwidth)                 on input line 279.
+
+Package mdframed Info: mdframed works in twoside mode on input line 284.
+\openout3 = `documentation.pyg'.
+
+(_minted-documentation/4331F4A343CC0EA98760A0EED57191541D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+LaTeX Font Info:    Font shape `T1/droidsansmono/m/it' in size <12> not available
+(Font)              Font shape `T1/droidsansmono/m/sl' tried instead on input line 310.
+LaTeX Font Info:    Font shape `T1/droidsansmono/m/sl' will be
+(Font)              scaled to size 9.60004pt on input line 310.
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/AACD52473BF56661BB44A0623236033A1D9EA2AACDDB88D4260CCC9B79D59269.pygtex) [26]
+Package marginnote Info: Margin note 29.1 is on absolute page 29 on input line 325.
+Package marginnote Info: xpos seems to be 70.0pt on input line 325.
+<figures/bretagne.png, id=388, 602.25pt x 420.82219pt>
+File: figures/bretagne.png Graphic file (type png)
+<use figures/bretagne.png>
+Package pdftex.def Info: figures/bretagne.png  used on input line 325.
+(pdftex.def)             Requested size: 356.29222pt x 248.97pt.
+pdfTeX warning (ext4): destination with the same identifier (name{sidenote.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.333 ... \texttt{\textbackslash ref} won't work.}
+                                                  
+Package mdframed Info: mdframed works in twoside mode on input line 335.
+\openout3 = `documentation.pyg'.
+
+ (_minted-documentation/D5A318537995A8C34127C5B4BF9933E01D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+<figures/marine-knots.jpg, id=390, 1027.84pt x 1027.84pt>
+File: figures/marine-knots.jpg Graphic file (type jpg)
+<use figures/marine-knots.jpg>
+Package pdftex.def Info: figures/marine-knots.jpg  used on input line 343.
+(pdftex.def)             Requested size: 115.20264pt x 115.19571pt.
+
+
+LaTeX Warning: Marginpar on page 27 moved.
+
+Package mdframed Info: mdframed works in twoside mode on input line 347.
+\openout3 = `documentation.pyg'.
+
+(_minted-documentation/0047BDEE239E62CF849D309EE93C05251D9EA2AACDDB88D4260CCC9B79D59269.pygtex) [27 <./figures/bretagne.png> <./figures/marine-knots.jpg>]
+Package mdframed Info: Not enough space on this page on input line 352.
+Package mdframed Info: mdframed works in twoside mode on input line 356.
+\openout3 = `documentation.pyg'.
+
+ (_minted-documentation/FDA604A86AEA67DDBC42F132AB2A3AEC1D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+<figures/usa-census.png, id=398, 445.9059pt x 282.5757pt>
+File: figures/usa-census.png Graphic file (type png)
+<use figures/usa-census.png>
+Package pdftex.def Info: figures/usa-census.png  used on input line 364.
+(pdftex.def)             Requested size: 491.49486pt x 311.48529pt.
+Package marginnote Info: Margin note 30.1 is on absolute page 30 on input line 364.
+Package marginnote Info: xpos seems to be 544.295pt on input line 364.
+Package mdframed Info: mdframed works in twoside mode on input line 371.
+\openout3 = `documentation.pyg'.
+
+ (_minted-documentation/34DD20DD7C1A09C69C6478579446F5FF1D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/B7F0FD2D92B5535BFD519BBEF7DFF56BD4DE369533403E06D8B541A3822F6B7B.pygtex) [28 <./figures/usa-census.png>]
+Package mdframed Info: mdframed works in twoside mode on input line 379.
+\openout3 = `documentation.pyg'.
+
+ (_minted-documentation/932A09C1F84D5D76367EA6FAD3FDDD1E1D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/96D8B16BB09C74615551AA5BF23B3AD91D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+Package mdframed Info: mdframed works in twoside mode on input line 390.
+\openout3 = `documentation.pyg'.
+
+ (_minted-documentation/0364B881CBDA23D833C163091EAE7E801D9EA2AACDDB88D4260CCC9B79D59269.pygtex) [29]
+<figures/mandelbrot.png, id=417, 702.625pt x 752.8125pt>
+File: figures/mandelbrot.png Graphic file (type png)
+<use figures/mandelbrot.png>
+Package pdftex.def Info: figures/mandelbrot.png  used on input line 402.
+(pdftex.def)             Requested size: 249.40346pt x 267.22159pt.
+ [30 <./figures/mandelbrot.png>]
+Package marginnote Info: Margin note 33.1 is on absolute page 33 on input line 415.
+Package marginnote Info: xpos seems to be 70.0pt on input line 415.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 416.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/m/sc' will be
+(Font)              scaled to size 10.0pt on input line 421.
+LaTeX Font Info:    Trying to load font information for LGR+LibertinusSerif-TOsF on input line 424.
+ (C:\Program Files\MiKTeX\tex/latex/libertinus-type1\lgrlibertinusserif-tosf.fd
+File: LGRLibertinusSerif-TOsF.fd 2020/08/22 (autoinst) Font definitions for LGR/LibertinusSerif-TOsF.
+)
+LaTeX Font Info:    Font shape `LGR/LibertinusSerif-TOsF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 424.
+LaTeX Font Info:    Trying to load font information for TS1+LibertinusSerif-TOsF on input line 427.
+ (C:\Program Files\MiKTeX\tex/latex/libertinus-type1\ts1libertinusserif-tosf.fd
+File: TS1LibertinusSerif-TOsF.fd 2020/08/22 (autoinst) Font definitions for TS1/LibertinusSerif-TOsF.
+)
+LaTeX Font Info:    Font shape `TS1/LibertinusSerif-TOsF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 427.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `LibertinusSerif-TOsF' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/b/n' will be
+(Font)              scaled to size 7.0pt on input line 428.
+LaTeX Font Info:    Font shape `TS1/LibertinusSerif-TOsF/b/n' will be
+(Font)              scaled to size 7.0pt on input line 428.
+LaTeX Font Info:    Font shape `LGR/LibertinusSerif-TOsF/b/n' will be
+(Font)              scaled to size 7.0pt on input line 428.
+
+Overfull \hbox (6.61362pt too wide) in paragraph at lines 446--446
+[]|\T1/LibertinusSerif-TOsF/m/n/10 (-20) hauteur| 
+ []
+
+
+Overfull \hbox (6.61362pt too wide) in paragraph at lines 446--446
+[]|\T1/LibertinusSerif-TOsF/m/n/10 (-20) hauteur| 
+ []
+
+
+Overfull \hbox (6.61362pt too wide) in paragraph at lines 446--446
+[]|\T1/LibertinusSerif-TOsF/m/n/10 (-20) hauteur| 
+ []
+
+
+Overfull \hbox (6.61362pt too wide) in paragraph at lines 446--446
+[]|\T1/LibertinusSerif-TOsF/m/n/10 (-20) hauteur| 
+ []
+
+Package marginnote Info: Margin note 33.2 is on absolute page 33 on input line 448.
+Package marginnote Info: xpos seems to be 70.0pt on input line 448.
+\openout4 = `documentation.pyg'.
+
+(_minted-documentation/A763F5E3431E8CF1FC103E09DCE752B31D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/9630000460B702CBC8F99AEC18CFA1A01D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/8AFB93DF9265CD8AB1DF1ECAAC0D74E71D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/55D4164D34876C9A5F9C3B19EF29FD1B1D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/A763F5E3431E8CF1FC103E09DCE752B31D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/55D4164D34876C9A5F9C3B19EF29FD1B1D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/BD370E5A70AEC5873147FDCD9E64181A1D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/7729E744AF9374A7D164E4FE27ABA33A1D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+Package marginnote Info: Margin note 33.3 is on absolute page 33 on input line 451.
+Package marginnote Info: xpos seems to be 188.68005pt on input line 451.
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/0821A1ABA2BDC9F8D282257230D5B9F01D9EA2AACDDB88D4260CCC9B79D59269.pygtex)pdfTeX warning (ext4): destination with the same identifier (name{sidenote.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.451 ...loating environments, including figures.}
+                                                  
+Package mdframed Info: mdframed works in twoside mode on input line 453.
+\openout3 = `documentation.pyg'.
+
+ (_minted-documentation/89C21404F8F28BA15F4F9C31201717DA1D9EA2AACDDB88D4260CCC9B79D59269.pygtex
+LaTeX Font Info:    Font shape `T1/droidsansmono/m/n' will be
+(Font)              scaled to size 4.80002pt on input line 3.
+) [31]
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/023D4166ECF18CCD8DC1EF66A1CAE5571D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 506.
+Package marginnote Info: Margin note 34.1 is on absolute page 34 on input line 515.
+Package marginnote Info: xpos seems to be 188.00278pt on input line 515.
+Package mdframed Info: mdframed works in twoside mode on input line 517.
+\openout3 = `documentation.pyg'.
+
+ (_minted-documentation/1A05EFCD772B2AFDBD61A8DFF67103561D9EA2AACDDB88D4260CCC9B79D59269.pygtex) [32]
+Package hyperref Info: bookmark level for unknown listing defaults to 0 on input line 548.
+Package mdframed Info: mdframed works in twoside mode on input line 548.
+\openout3 = `documentation.pyg'.
+
+ (_minted-documentation/2938B693968DF8D3B51981DA42A86C1DE1462D7C9240C86FC5615A0C5C36DEE1.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/2CD6EE2C70B0BDE53FBE6CAC3C8B8BB1D4DE369533403E06D8B541A3822F6B7B.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/B004F492596894E9CECD5AAC2128D719D4DE369533403E06D8B541A3822F6B7B.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/4A69013BE9F08507FACCBECFD71A06E9D4DE369533403E06D8B541A3822F6B7B.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/CECFD1187398CF8D677AAA76552427B0D4DE369533403E06D8B541A3822F6B7B.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/CAEC1D6AF5F8EF397A051FC746031302D4DE369533403E06D8B541A3822F6B7B.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/E1CBB0C3879AF8347246F12C559A86B5D4DE369533403E06D8B541A3822F6B7B.pygtex)
+Package mdframed Info: mdframed works in twoside mode on input line 573.
+\openout3 = `documentation.pyg'.
+
+ (_minted-documentation/F69002C9C49610A5725123AFECFA29871D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+Package mdframed Info: mdframed works in twoside mode on input line 584.
+\openout3 = `documentation.pyg'.
+
+ (_minted-documentation/1DB1EEBE11C7E85D442A1B38D5A871261D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+Package mdframed Info: mdframed works in twoside mode on input line 592.
+\openout3 = `documentation.pyg'.
+
+ (_minted-documentation/82B42DB916842430CF5374B8F70EBB011D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+
+Package mdframed Warning: You got a bad break
+(mdframed)                because the last box will be empty
+(mdframed)                you have to change it manually
+(mdframed)                by changing the text, the space
+(mdframed)                or something else on input line 600.
+
+[33]
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/87EE2482EE763FBFD63E8142401B8733062ED5C38281E2032534649440B9C6F5.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/5FD16645C2F063333455EFD17EE27D621D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+Package mdframed Info: mdframed works in twoside mode on input line 606.
+\openout3 = `documentation.pyg'.
+
+ (_minted-documentation/9CE2E86C5CE76C29F6B87D49E1D8A91D1D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/3C19E84996AAC086B91AED5FE0AE69021D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/3D8884C7C2AB3F8952A80E26306815E91D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+\openout4 = `documentation.pyg'.
+
+ (_minted-documentation/3C19E84996AAC086B91AED5FE0AE69021D9EA2AACDDB88D4260CCC9B79D59269.pygtex)
+Package mdframed Info: mdframed works in twoside mode on input line 618.
+\openout3 = `documentation.pyg'.
+
+ (_minted-documentation/842F413F82382ACA6FBBC41EF40C06F6E1462D7C9240C86FC5615A0C5C36DEE1.pygtex
+LaTeX Font Info:    Font shape `T1/droidsansmono/m/n' will be
+(Font)              scaled to size 6.40002pt on input line 2.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 2.
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 2.
+ (C:\Program Files\MiKTeX\tex/latex/base\ts1cmtt.fd
+File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 3.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 4.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 5.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 6.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 7.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 8.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 9.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 10.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 11.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 12.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 13.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 14.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 15.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 16.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 17.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 18.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 19.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 20.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 21.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 22.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 23.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 24.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 25.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 26.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 27.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 28.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 29.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 30.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 31.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 32.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 33.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 34.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 35.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 36.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 37.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 38.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 39.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 40.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 41.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 42.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 43.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 44.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 45.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 46.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 47.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 48.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 49.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 50.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 51.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 52.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 53.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 54.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 55.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 56.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 57.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 58.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 59.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 60.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 61.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 62.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 63.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 64.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 65.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 66.
+Package textcomp Info: Oldstyle digits unavailable for family droidsansmono.
+(textcomp)             Default oldstyle digits used instead on input line 67.
+) [34] [35] [36
+
+] [37] [38]
+Chapter 4.
+
+Package fullwidth inside float 
+ fullwidth uses option nobreak Warning: \def  on input line 701.
+
+
+Package fullwidth Warning: The environment is empty
+(fullwidth)                 on input line 701.
+
+[39
+
+] [40
+
+]
+Chapter 5.
+
+Package fullwidth inside float 
+ fullwidth uses option nobreak Warning: \def  on input line 703.
+
+
+Package fullwidth Warning: The environment is empty
+(fullwidth)                 on input line 703.
+
+[41] [42
+
+] [43] [44]
+Appendix A.
+
+Package fullwidth inside float 
+ fullwidth uses option nobreak Warning: \def  on input line 709.
+
+
+Package fullwidth Warning: The environment is empty
+(fullwidth)                 on input line 709.
+
+
+Overfull \hbox (0.12234pt too wide) in paragraph at lines 711--711
+\T1/LibertinusSerif-TOsF/m/n/10.95 (+17) pel-len-tes-que ante. Pha-sel-lus adi-pi-scing sem-per elit. Proin fer-men-tum massa ac 
+ []
+
+
+Overfull \hbox (0.15808pt too wide) in paragraph at lines 711--711
+\T1/LibertinusSerif-TOsF/m/n/10.95 (+17) bus sem-per, leo ve-lit ul-tri-cies tel-lus, ac ve-ne-na-tis arcu wisi vel nisl. Ve-sti-bu-lum 
+ []
+
+[45
+
+]
+Overfull \hbox (0.1253pt too wide) in paragraph at lines 711--711
+\T1/LibertinusSerif-TOsF/m/n/10.95 (+4) auc-tor, pede lo-rem ege-stas dui, et con-val-lis elit erat sed nulla. Do-nec luc-tus. Cu- 
+ []
+
+[46]
+Appendix B.
+
+Package fullwidth inside float 
+ fullwidth uses option nobreak Warning: \def  on input line 713.
+
+
+Package fullwidth Warning: The environment is empty
+(fullwidth)                 on input line 713.
+
+[47
+
+] [48
+
+
+]
+
+Package fullwidth inside float 
+ fullwidth uses option nobreak Warning: \def  on input line 720.
+
+
+Package fullwidth Warning: The environment is empty
+(fullwidth)                 on input line 720.
+
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TOsF/m/scit' will be
+(Font)              scaled to size 10.95pt on input line 720.
+[49
+
+] [50
+
+]
+runsystem(makeindex documentation.idx)...executed (allowed).
+
+ (documentation.ind
+
+Package fullwidth inside float 
+ fullwidth uses option nobreak Warning: \def  on input line 1.
+
+
+Package fullwidth Warning: The environment is empty
+(fullwidth)                 on input line 1.
+
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[51
+
+] [52
+
+] (documentation.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `documentation.out' has not changed.
+(rerunfilecheck)             Checksum: 69411FF5BC2E6EEEFB85DC57C2F220C2;3816.
+runsystem(del documentation.pyg)...executed.
+
+Package logreq Info: Writing requests to 'documentation.run.xml'.
+\openout1 = `documentation.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 43900 strings out of 478681
+ 869489 string characters out of 4606392
+ 3631050 words of memory out of 8000000
+ 60396 multiletter control sequences out of 15000+600000
+ 724038 words of font info for 505 fonts, out of 2000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 128i,16n,143p,1215b,1731s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Program Files/MiKTeX/fonts/enc/dvips/libertinus-type1/lbts_mrbizy.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/libertinust1math/libusSYM.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/libertinus-type1/lbts_63ftwl.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/libertinus-type1/lbts_7lwjes.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/gillius/gls_4bsedw.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/libertinust1math/libusMR.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/droid/a_xgvdme.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/libertinus-type1/lbts_q4imkx.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/libertinus-type1/lbts_trxlme.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/libertinus-type1/lbts_kq3xmd.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/libertinus-type1/lbts_tevnlg.enc}<C:/Program Files/MiKTeX/fonts/type1/ascender/droid/droidsansmono/DroidSansMono.pfb><C:/Program Files/MiKTeX/fonts/type1/ascender/droid/droidsansmono/DroidSansMono.pfb><C:/Program Files/MiKTeX/fonts/type1/arkandis/gillius/GilliusADF-Bold.pfb><C:/Program Files/MiKTeX/fonts/type1/arkandis/gillius/GilliusADF-Italic.pfb><C:/Program Files/MiKTeX/fonts/type1/arkandis/gillius/GilliusADF-Regular.pfb><C:/Program Files/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSerif-Bold.pfb><C:/Program Files/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSerif-BoldItalic.pfb><C:/Program Files/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSerif-Italic.pfb><C:/Program Files/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb><C:/Program Files/MiKTeX/fonts/type1/public/libertinust1math/LibertinusT1Math.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss17.pfb>
+Output written on documentation.pdf (54 pages, 2432661 bytes).
+PDF statistics:
+ 645 PDF objects out of 1000 (max. 8388607)
+ 134 named destinations out of 1000 (max. 500000)
+ 180995 words of extra memory for PDF output out of 184870 (max. 10000000)
+
