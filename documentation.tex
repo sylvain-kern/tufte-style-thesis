@@ -18,28 +18,6 @@
 \definecolor{tooRed}{HTML}{cc0000}
 % \definecolor{accent}{}{niceRed}
 
-
-\usepackage[
-  autocite = superscript,
-  backend = biber,
-  bibstyle = ieee,
-  citestyle = numeric,
-]{biblatex}
-
-\usepackage{xparse}
-\usepackage{xpatch}
-
-% \DeclareCiteCommand{\tcite}
-%   {\usebibmacro{prenote}}%
-%   {\usebibmacro{citeindex}%
-%    \usebibmacro{cite}%
-%    \marginpar{\usebibmacro{sidecite}}}
-%   {\multicitedelim}
-%   {\usebibmacro{postnote}}
-% \newcommand{\sidecite}[2][]{
-%   \sidenote[#1]{\tcite{#2}}
-% }
-
 \newbibmacro{sidecite}{%
   \textsuperscript{
     \printtext[labelnumberwidth]{%
@@ -99,17 +77,17 @@
 
 % info
 \author{Sylvain Kern}
-\title{This is \texttt{tufte-style-thesis}, a Tufte-styled \LaTeX{} class for theses}
-\subtitle{Actually more of a mix between Edward Tufte and Robert Bringhurst}
+\title{\texttt{tufte-style-thesis},\\a Tufte-styled \LaTeX{} class for theses}
+\subtitle{Actually more of a mix\\between Edward Tufte and Robert Bringhurst}
 \university{A fancy University}
 \lab{An even fancier Lab}
 \person{Supervisor}{their name}{their job}
-% \person{Cosupervisor}{also their name}{also their job}
-% \person{Jury members}{jury 1}{jobs}
-% \person{}{jury 2}{\dots}
-\logoone{example-image-a}
-\logotwo{example-image-b}
-% \logothree{example-image-c}
+\person{Cosupervisor}{also their name}{also their job}
+\person{Jury members}{jury 1}{jobs}
+\person{}{jury 2}{\dots}
+\logo{example-image-a}
+\logo{example-image-b}
+\logo{example-image-c}
 \shoutouts{For my homies}
 
 \begin{document}
@@ -120,10 +98,6 @@
 
 \maketitle
 
-\todo{%
-Maketitle -> titlepage.
-Régler les problèmes de person. Faire que on peut utiliser la commande person plusieurs fois de suite et ça ajoute à la liste des personnes à mettre dans le tableau. France.
-}
 
 \frontmatter
 
@@ -140,6 +114,13 @@ shoutouts to my man \textcolor{niceRed}{Tufte}.
 \listoffigures
 \listoftables
 \listoflistings
+
+\todo{%
+List of figures: mettre les numéros de page sur une colonne dédiée à droite}
+
+\todo{%
+List of listings: faire que ça ait la même gueule que list of figures}
+
 
 
 \mainmatter
@@ -207,9 +188,9 @@ For true microtypography\index{microtypography}, when the text is fully justifie
 \egroup
 
 
-\section{The philosophy behind the design}
+\section{Ideas behind the design}
 
-As a disclaimer: I do not have neither the experience nor the pretention to make authoritary statements about design philosphy\index{design}, these are just some thoughts I gathered that I find interesting to consider when making designs, closely or remotely.
+\index{design}These are just some thoughts I gathered that I find interesting to consider when making designs, closely or remotely.
 
 As Antoine de Saint-Exupéry\index{de Saint-Exupéry, Antoine} once wrote:\sidecite{StExupery} \textit{"Perfection has been reached not when there is nothing left to add, but when there is nothing left to take away"}. To me, this means that minimalism is a key aspect of document design. The features and the layout must let the true content express itself: a good typography is completely transparent. That is why the design is dependent of the content: a novel and a math textbook will have completely different designs.
 

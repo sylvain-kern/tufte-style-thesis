@@ -1,0 +1,26 @@
+\documentclass[]{article}
+
+\usepackage{etoolbox}
+
+\newcommand\people{}
+\def\zfoo#1\relax{\long\def\people##1{#1}}
+\newcommand\update[1]{%
+   \expandafter\zfoo\people{##1}##1#1\relax
+}
+\newcommand\person[3]{
+    \update{#1 & #2 & #3 \\}
+}
+
+\begin{document}
+
+bite
+
+\update{yo & yes & yes\\}
+\person{yo}{tes}{yes}
+
+\begin{tabular}{rll}
+\people{}
+\end{tabular}
+
+
+\end{document}

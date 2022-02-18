@@ -89,6 +89,14 @@
 \RequirePackage[export]{adjustbox}
 \RequirePackage[strict]{changepage}	% needed by sidenotes
 \RequirePackage{placeins}		% for floatbarrier
+\RequirePackage{xparse}
+\RequirePackage{xpatch}
+\RequirePackage[
+	autocite = superscript,
+	backend = biber,
+	bibstyle = ieee,
+	citestyle = numeric,
+  ]{biblatex}
 
 
 %	C O L O R  D E F I N I T I O N
@@ -265,16 +273,28 @@
 \newcommand\@lab{}
 
 % 	supervisors, jury members, etc.
-\newcommand\person[3]{
-	\let\@oldpeople\@people
-	\def\@people{\@oldpeople #1 & #2 & #3 \\}
+\newcommand\people{}
+\def\zfoo#1\relax{\long\def\people##1{#1}}
+\newcommand\updatepeople[1]{%
+   \expandafter\zfoo\people{##1}##1#1\relax
 }
-\newcommand\@people{}
-
-
+\newcommand\person[3]{
+    \updatepeople{#1 & #2 & #3 \\}
+}
 
 
 %	logos
+\newcommand\logos{}
+\def\xfoo#1\relax{\long\def\logos##1{#1}}
+\newcommand\updatelogos[1]{%
+   \expandafter\xfoo\logos{##1}##1#1\relax
+}
+\newcommand\logo[1]{
+    \updatelogos{
+		\hspace{20pt}\includegraphics[height=50pt]{#1}
+	}
+}
+
 \newcommand\logoone[1]{%
 	\renewcommand\@logoone{%
 		\hspace{20pt}\includegraphics[height=50pt]{#1}
@@ -346,14 +366,12 @@
 		\raggedleft
 
 		\begin{tabular}{rll}
-			\@people
+			\people{}
 		\end{tabular}
 
 		\vskip 40pt
 
-		\@logoone
-		\@logotwo
-		\@logothree
+		\logos{}
 
 	\end{titlepage}
 
