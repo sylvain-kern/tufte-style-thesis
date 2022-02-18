@@ -563,7 +563,7 @@
 	{{\thecontentslabel}~~\itshape}
 	{\itshape}
 	{~~{\contentspage}}
-	[\qquad]
+	[\\]
 % \titlecontents{subsection}[0em]
 % 	{\vspace{4pt}}
 % 	{\normalfont\thecontentslabel\enspace\itshape}
