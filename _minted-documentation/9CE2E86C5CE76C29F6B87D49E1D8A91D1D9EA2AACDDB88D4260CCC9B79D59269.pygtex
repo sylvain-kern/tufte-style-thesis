@@ -1,6 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k}{\PYGZbs{}inlinecode}\PYG{n+nb}{\PYGZob{}}\PYGZlt{}language\PYGZgt{}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYGZlt{}your code\PYGZgt{}\PYG{n+nb}{\PYGZcb{}}
-\PYG{c}{\PYGZpc{} if there are curly braces in your code}
-\PYG{k}{\PYGZbs{}inlinecode}\PYG{n+nb}{\PYGZob{}}\PYGZlt{}language\PYGZgt{}\PYG{n+nb}{\PYGZcb{}\PYGZus{}}\PYGZlt{}your code\PYGZgt{}\PYG{n+nb}{\PYGZus{}} \PYG{c}{\PYGZpc{} or}
-\PYG{k}{\PYGZbs{}inlinecode}\PYG{n+nb}{\PYGZob{}}\PYGZlt{}language\PYGZgt{}\PYG{n+nb}{\PYGZcb{}}|\PYGZlt{}your code\PYGZgt{}|
-\end{Verbatim}

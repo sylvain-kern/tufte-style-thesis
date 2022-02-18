@@ -1,9 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}snippet\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYGZlt{}language\PYGZgt{}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYGZlt{}caption\PYGZgt{}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYGZlt{}label\PYGZgt{}\PYG{n+nb}{\PYGZcb{}}
-This code will be displayed in a captioned code box, without line numbering.
-\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}snippet\PYG{n+nb}{\PYGZcb{}}
-
-\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}snippetnum\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYGZlt{}language\PYGZgt{}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYGZlt{}caption\PYGZgt{}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYGZlt{}label\PYGZgt{}\PYG{n+nb}{\PYGZcb{}}
-This code will be displayed in a captioned code box, with line numbering.
-\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}snippetnum\PYG{n+nb}{\PYGZcb{}}
-\end{Verbatim}
