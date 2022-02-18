@@ -6,7 +6,6 @@
 \usepackage{imakeidx}
 \makeindex[columns=3]
 
-
 %consistent arabic page numbering
 \makeatletter
 \renewcommand{\frontmatter}{\cleardoublepage\@mainmatterfalse}
@@ -74,6 +73,7 @@
 
 % for greek
 \usepackage{textgreek}
+% \usepackage[french]{babel}
 
 % info
 \author{Sylvain Kern}
@@ -121,7 +121,9 @@ List of figures: mettre les numéros de page sur une colonne dédiée à droite}
 \todo{%
 List of listings: faire que ça ait la même gueule que list of figures}
 
-
+\todo{%
+métadonnées PDF
+}
 
 \mainmatter
 
@@ -225,19 +227,19 @@ The general layout is done using the \texttt{geometry}\sidecite{pkgGeometry} pac
 \subsection{Sidenotes}
 
 To put a sidenote in the margin, use
-\begin{codebox}{latex}
+\begin{codebox}{tex}
 \sidenote[<number>][<offset>]{<sidenote text>}
 \end{codebox}
 \begin{itemize}
 \item
-\inlinecode{latex}{<number>} is an optional parameter for the sidenote number. For example, \inlinecode{latex}_\sidenote[29100][]{The sidenote.}_ does this.\sidenote[29100][]{The sidenote.}
+\inlinecode{tex}{<number>} is an optional parameter for the sidenote number. For example, \inlinecode{tex}_\sidenote[29100][]{The sidenote.}_ does this.\sidenote[29100][]{The sidenote.}
 \item
-\inlinecode{latex}{<offset>} is an offset length (in pt, px, en, em\dots) to vertically offset the sidenote. A positive value will have it go down, a negative go up.
+\inlinecode{tex}{<offset>} is an offset length (in pt, px, en, em\dots) to vertically offset the sidenote. A positive value will have it go down, a negative go up.
 \end{itemize}
 
-\LaTeX{} natively allows to put unformatted content in the margin with the command \inlinecode{latex}_\marginpar{<your content>}_,\marginpar{This is unformatted margin text, in fullsize.} but I advise not to use it, as it puts raw fullsize text in the margin, and does not blend well with the overall design. Instead, use\sidetext{This is just some unnumbered piece of text in the margin, but with the formatting done right.}
-\begin{codebox}{latex}
-  \sidetext{<your text>}
+\LaTeX{} natively allows to put unformatted content in the margin with the command \inlinecode{tex}_\marginpar{<your content>}_,\marginpar{This is unformatted margin text, in fullsize.} but I advise not to use it, as it puts raw fullsize text in the margin, and does not blend well with the overall design. Instead, use\sidetext{This is just some unnumbered piece of text in the margin, but with the formatting done right.}
+\begin{codebox}{tex}
+\sidetext{<your text>}
 \end{codebox}
 This will format the margin text to match the sidenotes style.
 
@@ -247,22 +249,22 @@ This will format the margin text to match the sidenotes style.
 The margin is also handy to put bibliographic references:\sidecite{einstein1915allgemeinen} the reader can read them directly instead of going all through the document to find the right entry in the references section. But don't worry, each reference displayed in the margin is labelled with a number and appears in a dedicated bibliography section. All in all, a side reference is displayed in the margin in a shortened form, and then again in the bibliography in the full form.
 
 To cite a paper, use
-\begin{codebox}{latex}
+\begin{codebox}{tex}
 \sidecite{<reference label>}
 \end{codebox}
 
 \section{Full width text}
 
 \begin{wide}
-Sometimes, it can be handy to have the text span the whole page width, like this paragraph. Use the environment \inlinecode{latex}_\begin{wide}...\end{wide}_ to do this. It should manage page breaks properly, but it is not optimal: no not use it for too long (like for ten pages), the behavior tends to go a little wild. The behavior of \inlinecode{latex}{\sidenote}, \inlinecode{latex}{\marginpar} and \inlinecode{latex}{\sidecite} is not supported in the \inlinecode{latex}{wide} environment.
+Sometimes, it can be handy to have the text span the whole page width, like this paragraph. Use the environment \inlinecode{tex}_\begin{wide}...\end{wide}_ to do this. It should manage page breaks properly, but it is not optimal: no not use it for too long (like for ten pages), the behavior tends to go a little wild. The behavior of \inlinecode{tex}{\sidenote}, \inlinecode{tex}{\marginpar} and \inlinecode{tex}{\sidecite} is not supported in the \inlinecode{tex}{wide} environment.
 
-Also, for floating environments, full width figures and tables will be covered in the chapter \ref{chp:floats}, so do not use the \inlinecode{latex}{wide} environments with figures or tables (actually tables are fine, but there are specific environments for them to be in full width).
+Also, for floating environments, full width figures and tables will be covered in the chapter \ref{chp:floats}, so do not use the \inlinecode{tex}{wide} environments with figures or tables (actually tables are fine, but there are specific environments for them to be in full width).
 \end{wide}
 
 \section{The skeleton}
 
 The structure of a \LaTeX{} book is as follows:
-\begin{codebox}{latex}
+\begin{codebox}{tex}
 % preamble
 \begin{document}
 
@@ -290,7 +292,7 @@ The structure of a \LaTeX{} book is as follows:
 
 \subsection{The new \texttt{\textbackslash maketitle}}
 
-The \inlinecode{latex}_\maketitle_ macro has been slightly pimped up. It now displays a custom titlepage ---like the one on this very document, as well as a copyright tag, a dedication word and a colophon.
+The \inlinecode{tex}_\maketitle_ macro has been slightly pimped up. It now displays a custom titlepage ---like the one on this very document, as well as a copyright tag, a dedication word and a colophon.
 
 \section{Floats}
 \label{chp:floats}
@@ -313,7 +315,7 @@ The 1.5-column design fixes this by putting all captions in the margins, as well
 
 To put a graphics in the text like in the figure \ref{fig:figure-text}, use\sidenote{The \texttt{\textbackslash label} \textit{has} to be inside the \texttt{\textbackslash sidecaption} command, otherwise references with \texttt{\textbackslash ref} won't work.}
 
-\begin{codebox}{latex}
+\begin{codebox}{tex}
 \begin{figure}
 	\sidecaption{<caption>\label{<label>}} % put this on top
 	% \label HAS to be inside the \sidecaption
@@ -325,7 +327,7 @@ To put a graphics in the text like in the figure \ref{fig:figure-text}, use\side
 
 To put a figure in the margin like the figure \ref{fig:figure-margin}, use
 
-\begin{codebox}{latex}
+\begin{codebox}{tex}
 \begin{marginfigure}
 	\includegraphics[]{<>} % or tikz or anything
 	\caption{<caption>\label{<label>}}
@@ -334,7 +336,7 @@ To put a figure in the margin like the figure \ref{fig:figure-margin}, use
 
 For wide figures like the figure \ref{fig:figure-fullwidth}, use
 
-\begin{codebox}{latex}
+\begin{codebox}{tex}
 \begin{figure*}
 	\includegraphics[]{<>} % or tikz or anything
 	\sidecaption{<caption>\label{<label>}}
@@ -349,15 +351,15 @@ For wide figures like the figure \ref{fig:figure-fullwidth}, use
 
 I find typing figure environments repetitive for long (even short) documents, so I made the following macro for figures with \texttt{\textbackslash sidecaption}s :
 
-\begin{codebox}{latex}
+\begin{codebox}{tex}
 \textfig[<optional width>]{<file path>}{<caption>}{<label>}
 \end{codebox}
 
-The \inlinecode{text}{<optional width>} is a number between zero and one wich determines the image width relative to the text width. The default value is 1, like on the figure \ref{fig:figure-text}.
+The \inlinecode{}{<optional width>} is a number between zero and one wich determines the image width relative to the text width. The default value is 1, like on the figure \ref{fig:figure-text}.
 
 The same macros are provided for images in the magins and wide images, respectively shown in figures \ref{fig:figure-margin} and \ref{fig:figure-fullwidth}.
 
-\begin{codebox}{latex}
+\begin{codebox}{tex}
 % figure in the margin
 \marginfig[<optional width>]{<file path>}{<caption>}{<label>}
 % wide figure
@@ -366,9 +368,9 @@ The same macros are provided for images in the magins and wide images, respectiv
 
 
 
-If for any reason a figure caption has to be put in the main text block, just use the regular \texttt{figure} environment. The following shortcut macros will also do. The result of \inlinecode{latex}{\plainfig} is shown in figure \ref{fig:figure-plain}.
+If for any reason a figure caption has to be put in the main text block, just use the regular \texttt{figure} environment. The following shortcut macros will also do. The result of \inlinecode{tex}{\plainfig} is shown in figure \ref{fig:figure-plain}.
 
-\begin{codebox}{latex}
+\begin{codebox}{tex}
 % plain figure with textwidth
 \plainfig[<optional width>]{<file path>}{<caption>}{<label>}
 % plain figure with full width
@@ -412,26 +414,26 @@ Table environments work the same as figures, as is is shown in tables \ref{tab:t
 \end{table}
 
 
-\begin{table*}[!htb]\small
-\begin{tabularx}{\linewidth}{rXXXXXXrXXXXXX}
-	\multicolumn{14}{l}{\textbf{Table des marées au port de Douarnenez (Finistère).}} \\
-	\toprule
-	 & \multicolumn{3}{c}{\textbf{Ven. 23 juillet 2021}} & \multicolumn{3}{c}{\textbf{Sam. 24 juillet 2021}} & & \multicolumn{3}{c}{\textbf{Dim. 25 juillet 2021}} & \multicolumn{3}{c}{\textbf{Lun. 26 juillet 2021}} \\
-	 & heure & hauteur & coef. & heure & hauteur & coef. & & heure & hauteur & coef. & heure & hauteur & coef. \\
-	\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){9-11}\cmidrule(lr){12-14}
-	\textsc{bm} & 04:54 & 6.06 & 81 & 05:46 & 6.24 & 88 & \textsc{pm} & 00:21 & 0.92 & -- & 01:08 & 0.88 & -- \\
-	\textsc{pm} & 11:05 & 1.38 & -- & 11:55 & 1.19 & -- & \textsc{bm} & 06:34 & 6.34 & 92 & 07:19 & 6.33 & 92 \\
-	\textsc{bm} & 17:17 & 6.39 & 85 & 18:06 & 6.59 & 91 & \textsc{pm} & 12:41 & 1.10 & -- & 13:26 & 1.12 & -- \\
-	\textsc{pm} & 23:33 & 1.10 & -- & ---:--- & -- & -- & \textsc{bm} & 18:52 & 6.67 & 93 & 19:36 & 6.63 & 91 \\
-	\bottomrule
-\end{tabularx}
-\sidecaption{Table des marées à Douarnenez du 23 au 26 juillet 2021, Service Hydrographique et Océanographique de la Marine, \url{maree.shom.fr}.\\This is a wide table, called with the \inlinecode{latex}{table*} environment. The caption is also a \inlinecode{latex}{\sidecaption{}}.\label{tab:table-wide}}
-\end{table*}\FloatBarrier
+% \begin{table*}[!htb]\small
+% \begin{tabularx}{\linewidth}{rXXXXXXrXXXXXX}
+% 	\multicolumn{14}{l}{\textbf{Table des marées au port de Douarnenez (Finistère).}} \\
+% 	\toprule
+% 	 & \multicolumn{3}{c}{\textbf{Ven. 23 juillet 2021}} & \multicolumn{3}{c}{\textbf{Sam. 24 juillet 2021}} & & \multicolumn{3}{c}{\textbf{Dim. 25 juillet 2021}} & \multicolumn{3}{c}{\textbf{Lun. 26 juillet 2021}} \\
+% 	 & heure & hauteur & coef. & heure & hauteur & coef. & & heure & hauteur & coef. & heure & hauteur & coef. \\
+% 	\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){9-11}\cmidrule(lr){12-14}
+% 	\textsc{bm} & 04:54 & 6.06 & 81 & 05:46 & 6.24 & 88 & \textsc{pm} & 00:21 & 0.92 & -- & 01:08 & 0.88 & -- \\
+% 	\textsc{pm} & 11:05 & 1.38 & -- & 11:55 & 1.19 & -- & \textsc{bm} & 06:34 & 6.34 & 92 & 07:19 & 6.33 & 92 \\
+% 	\textsc{bm} & 17:17 & 6.39 & 85 & 18:06 & 6.59 & 91 & \textsc{pm} & 12:41 & 1.10 & -- & 13:26 & 1.12 & -- \\
+% 	\textsc{pm} & 23:33 & 1.10 & -- & ---:--- & -- & -- & \textsc{bm} & 18:52 & 6.67 & 93 & 19:36 & 6.63 & 91 \\
+% 	\bottomrule
+% \end{tabularx}
+% \sidecaption{Table des marées à Douarnenez du 23 au 26 juillet 2021, Service Hydrographique et Océanographique de la Marine, \url{maree.shom.fr}.\\This is a wide table, called with the \inlinecode{tex}{table*} environment. The caption is also a \inlinecode{tex}{\sidecaption{}}.\label{tab:table-wide}}
+% \end{table*}Improper alphabetic constant.
 
 
-To typeset the table \ref{tab:table-text}, use the following code, which is just a \inlinecode{latex}{table} environment with a \inlinecode{latex}{\sidecaption}. For table \ref{tab:table-wide}, use the \inlinecode{latex}{table*} environment with either \inlinecode{latex}{\sidecaption} or \inlinecode{latex}{\caption}.\inlinecode{latex}{\FloatBarrier} is there to make sure the floats appear in order.\sidenote[][100pt]{\inlinecode{latex}{\FloatBarrier} works for all floating environments, including figures.}
+% To typeset the table \ref{tab:table-text}, use the following code, which is just a \inlinecode{tex}{table} environment with a \inlinecode{tex}{\sidecaption}. For table \ref{tab:table-wide}, use the \inlinecode{tex}{table*} environment with either \inlinecode{tex}{\sidecaption} or \inlinecode{tex}{\caption}.\inlinecode{tex}{\FloatBarrier} is there to make sure the floats appear in order.\sidenote[][100pt]{\inlinecode{tex}{\FloatBarrier} works for all floating environments, including figures.}
 
-\begin{codebox}{latex}
+\begin{codebox}{tex}
 \begin{table}[!htb]\small
 	\sidecaption{The elementary particles included in the standard model. This is a table with a \texttt{\textbackslash sidecaption}.\label{tab:table-text}}
 	\begin{tabular}{lllll}
@@ -452,7 +454,7 @@ To typeset the table \ref{tab:table-text}, use the following code, which is just
 \end{table}
 \end{codebox}
 
-% \begin{codebox}{latex}
+% \begin{codebox}{tex}
 % \begin{table*}[!htb]\small
 % 	\begin{tabularx}{\linewidth}{rXXXXXXrXXXXXX}
 % 		\multicolumn{14}{l}{\textbf{Table des marées au port de Douarnenez (Finistère).}} \\
@@ -466,11 +468,11 @@ To typeset the table \ref{tab:table-text}, use the following code, which is just
 % 		\textsc{pm} & 23:33 & 1.10 & -- & ---:--- & -- & -- & \textsc{bm} & 18:52 & 6.67 & 93 & 19:36 & 6.63 & 91 \\
 % 		\bottomrule
 % 	\end{tabularx}
-% 	\sidecaption{Table des marées à Douarnenez du 23 au 26 juillet 2021, Service Hydrographique et Océanographique de la Marine, \url{maree.shom.fr}.\\This is a wide table, called with the \inlinecode{latex}{table*} environment. The caption is also a \inlinecode{latex}{\sidecaption{}}.\label{tab:table-wide}}
+% 	\sidecaption{Table des marées à Douarnenez du 23 au 26 juillet 2021, Service Hydrographique et Océanographique de la Marine, \url{maree.shom.fr}.\\This is a wide table, called with the \inlinecode{tex}{table*} environment. The caption is also a \inlinecode{tex}{\sidecaption{}}.\label{tab:table-wide}}
 % \end{table*}\FloatBarrier
 % \end{codebox}
 
-To produce tables in the margin like table \ref{tab:table-margin}, use the \inlinecode{latex}{margintable} environment like in the following.
+To produce tables in the margin like table \ref{tab:table-margin}, use the \inlinecode{tex}{margintable} environment like in the following.
 
 \begin{margintable}[0pt]\small
 \caption{Major, minor and perfect music intervals. ST. stands for \textit{semitones}. This table is in the margin. \label{tab:table-margin}}
@@ -495,7 +497,7 @@ To produce tables in the margin like table \ref{tab:table-margin}, use the \inli
 \end{tabular}
 \end{margintable}
 
-\begin{codebox}{latex}
+\begin{codebox}{tex}
 \begin{margintable}[]\small
 	\caption{Major, minor and perfect music intervals. ST. stands for \textit{semitones}. This table is in the margin. \label{tab:table-margin}}
 	\begin{tabular}{ll}
@@ -533,44 +535,44 @@ int main(int argc, char *argv[]) {
 }
 \end{snippet}
 
-The background is a light gray that helps make the code stick out just enough without distracting the eye too much. The code itself is syntax colored according to the used language. There are several environments for code boxes, explained below.
+The box is a light gray hairline that helps make the code stick out just enough without distracting the eye too much. The code itself is syntax colored according to the used language. There are several environments for code boxes, explained below.
 
 For a simple code box with neither line numbering nor caption, the macro environment is the following.
 
 \sidetext{%
 This supports most of the classic languages. Here are some examples for the language option:
 
-\inlinecode{text}{c},
+\inlinecode{}{c},
 
-\indent\inlinecode{text}{c++},
+\indent\inlinecode{}{c++},
 
-\indent\inlinecode{text}{python},
+\indent\inlinecode{}{python},
 
-\indent\inlinecode{text}{java},
+\indent\inlinecode{}{java},
 
-\indent\inlinecode{text}{latex}\dots\\
-If a specific language is not recognized, use the \inlinecode{text}{text} option instead: it will display the code without syntax coloring.
+\indent\inlinecode{}{latex}\dots\\
+If a specific language is not recognized, use the \inlinecode{}{text} option instead: it will display the code without syntax coloring.
 }%
-\begin{altcodebox}{latex}
-\begin{codebox}{<your language in lowercase>}
-<
-Your code. It can contain all special characters such as { } ( ) [ ] \ % (the percent mark here is grayed just because on this very code box the language is set on latex)
-It break lines.
-It will end only when reading the %\end{codebox} below.
->
-\end{codebox}
-\end{altcodebox}
+% \begin{altcodebox}{tex}
+% \begin{codebox}{<your language in lowercase>}
+% <
+% Your code. It can contain all special characters such as { } ( ) [ ] \ % (the percent mark here is grayed just because on this very code box the language is set on latex)
+% It break lines.
+% It will end only when reading the %\end{codebox} below.
+% >
+% \end{codebox}
+% \end{altcodebox}
 
 For a code box \textit{with} line numbering --still without a caption-- use the following environment.
-\begin{altcodebox}{latex}
-\begin{codeboxnum}{<your language in lowercase>}
-<your code>
-\end{codeboxnum}
-\end{altcodebox}
+% \begin{altcodebox}{tex}
+% \begin{codeboxnum}{<your language in lowercase>}
+% <your code>
+% \end{codeboxnum}
+% \end{altcodebox}
 
 For captioned code snippets, the same environments exist, as shown as follows. For example, the listings \ref{snp:hello-world} and \ref{snp:snowflakeos} are respectively unnumbered and numbered code snippets.
 
-\begin{codebox}{latex}
+\begin{codebox}{tex}
 \begin{snippet}{<language>}{<caption>}{<label>}
 This code will be displayed in a captioned code box, without line numbering.
 \end{snippet}
@@ -583,15 +585,15 @@ This code will be displayed in a captioned code box, with line numbering.
 Small pieces of code can be useful to put in flow of the text. This class provides a command to things like this: \inlinecode{c++}_public int size() {}_. Use the following to insert a piece of code in the text.
 
 
-\sidetext{If the piece of code inside the \inlinecode{latex}{\inlinecode} contains curly braces, use another character to delimit your code, the same at beginning and end. Underscore (\texttt{\char`_}) and pipe (\texttt{|}) will do fine.}
-\begin{codebox}{latex}
-\inlinecode{<language>}{<your code>}
-% if there are curly braces in your code
-\inlinecode{<language>}_<your code>_ % or
-\inlinecode{<language>}|<your code>|
-\end{codebox}
+% \sidetext{If the piece of code inside the \inlinecode{tex}{\inlinecode} contains curly braces, use another character to delimit your code, the same at beginning and end. Underscore (\texttt{\char`_}) and pipe (\texttt{|}) will do fine.}
+% \begin{codebox}{tex}
+% \inlinecode{<language>}{<your code>}
+% % if there are curly braces in your code
+% \inlinecode{<language>}_<your code>_ % or
+% \inlinecode{<language>}|<your code>|
+% \end{codebox}
 
-\inlinecode{latex}{\inlinecode} does not break at lines, so be careful, it can sometimes protrude on the right margin. If it is the case, go to a new line by inserting \inlinecode{latex}{\\} just before \inlinecode{latex}{\inlinecode}.
+\inlinecode{tex}{\inlinecode} does not break at lines, so be careful, it can sometimes protrude on the right margin. If it is the case, go to a new line by inserting \inlinecode{tex}{\\} just before \inlinecode{tex}{\inlinecode}.
 
 
 The following chunk is an example snippet to show the look when the code is a bit heftier. See how the box breaks at the end of the page.

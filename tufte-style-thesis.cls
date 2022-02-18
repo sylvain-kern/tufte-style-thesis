@@ -59,7 +59,7 @@
 \fi
 \RequirePackage[
 	defaultmono,
-	scale=.8
+	scale=.82
 ]{droidsansmono}				% mono font
 \RequirePackage{ragged2e}		% for better raggedright
 \RequirePackage{titlesec}		% header customization
@@ -77,13 +77,15 @@
 \RequirePackage{amsmath}		% math stuff
 \RequirePackage{mathtools}		% amsmath extension
 \RequirePackage{physics}		% handy shortcuts for physics
-\RequirePackage[chapter]{minted} 		% for code display
 \RequirePackage{xcolor}			% colorz
 \RequirePackage[framemethod=TikZ]{mdframed} % for custom code boxes
 \RequirePackage{tabularx}		% adaptive columns on tables
 \RequirePackage{booktabs}		% better looking tables
 \RequirePackage{enumitem}		% better looking lists
-\RequirePackage[hidelinks]{hyperref}	% automatic references in pdf
+\RequirePackage[
+	hidelinks,
+	linktocpage=true
+]{hyperref}						% automatic references in pdf
 \RequirePackage{etoolbox}		% really idk what this does
 \RequirePackage{verbatim}   	% for verbatim environments
 \RequirePackage[export]{adjustbox}
@@ -97,6 +99,8 @@
 	bibstyle = ieee,
 	citestyle = numeric,
   ]{biblatex}
+\RequirePackage{listings}
+\RequirePackage{float}
 
 
 %	C O L O R  D E F I N I T I O N
@@ -282,7 +286,6 @@
     \updatepeople{#1 & #2 & #3 \\}
 }
 
-
 %	logos
 \newcommand\logos{}
 \def\xfoo#1\relax{\long\def\logos##1{#1}}
@@ -315,6 +318,10 @@
 	}
 }
 \newcommand\@logothree{}
+
+% 	Doctoral thesis
+\newcommand\type[1]{\renewcommand\@type{#1}}
+\newcommand\@type{Doctoral thesis}
 
 % 	shoutouts
 \newcommand\shoutouts[1]{\renewcommand\@shoutouts{#1}}
@@ -353,7 +360,7 @@
 
 		\vskip 20pt
 
-		{\Large Doctoral thesis}%
+		{\Large \@type}%
 
 		\vskip 40pt
 
@@ -601,24 +608,22 @@
 \addtolength{\tablelabelwidth}{1em}
 %\cftsetindents{table}{0em}{\tablelabelwidth}
 \cftsetindents{table}{0em}{\figurelabelwidth}
-
-
 % listings
-% \newlistof{listings}{lol}{\lstlistlistingname}%
-% \renewcommand{\cftlistingspresnum}{\scshape\MakeTextLowercase}%
-% \renewcommand{\cftlistingsfont}{\normalfont}%
-% \renewcommand{\cftlistingspresnum}{\lstlistingname~}%
-% \renewcommand{\cftlistingspagefont}{\normalfont}%
-
-% \renewcommand{\cftlistingsleader}{\hspace{1.5em}}%
-% \renewcommand{\cftlistingsafterpnum}{\cftparfillskip}%
-% \newlength{\listingslabelwidth}%
-% \settowidth{\listingslabelwidth}{\cftlistingspresnum~999}%
-% \addtolength{\listingslabelwidth}{2.5em}%
-% %\cftsetindents{listings}{0em}{\listingslabelwidth}%
-% \cftsetindents{listings}{0em}{\figurelabelwidth}%
+\renewcommand\lstlistingname{Listing}
+\newlistof{listings}{lol}{\lstlistlistingname}%
+\renewcommand{\cftlistingspresnum}{\scshape\MakeTextLowercase}%
+\renewcommand{\cftlistingsfont}{\normalfont}%
+\renewcommand{\cftlistingspresnum}{\lstlistingname~}%
+\renewcommand{\cftlistingspagefont}{\normalfont}%
+\renewcommand{\cftlistingsleader}{\hspace{1.5em}}%
+\renewcommand{\cftlistingsafterpnum}{\cftparfillskip}%
+\newlength{\listingslabelwidth}%
+\settowidth{\listingslabelwidth}{\cftlistingspresnum~999}%
+\addtolength{\listingslabelwidth}{2.5em}%
+\cftsetindents{listings}{0em}{\figurelabelwidth}%
 % \let\l@lstlisting\l@listings%
-% \let\lstlistoflistings\listoflistings%
+\let\lstlistoflistings\listoflistings%
+
 % TOCLOFT over
 
 
@@ -644,184 +649,114 @@
 
 %	C O D E
 %
-\usemintedstyle{colorful}
-\definecolor{bg}{rgb}{.95,.95,.95} % background color
+%   colors
+\definecolor{bg}{rgb}{.95,.95,.95}
+\definecolor{key}{HTML}{333399}
+\definecolor{comment}{HTML}{6b6b99}
+\definecolor{codegray}{rgb}{0.4,0.4,0.4}
+\definecolor{string}{HTML}{2b4f2b}
+%   boxes
 \mdfdefinestyle{code_box}{%
-	backgroundcolor=bg,
-	linewidth=1pt,
-	linecolor=lightgray,
-	topline=false,
-	bottomline=false,
-	leftline=false,
-	rightline=false,
-	innerleftmargin=32pt,
-	innertopmargin=1em,
-	innerbottommargin=1em,
-	roundcorner=3pt
+    roundcorner= 2pt,
+	backgroundcolor=white,
+    linecolor = lightgray,
+    linewidth = .5pt,
+    topline = true,
+    bottomline = true,
+    leftline = true,
+    rightline = true,
+	innertopmargin=.2em,
+	innerbottommargin=.2em,
 }
-\mdfdefinestyle{code_box_nonos}{%
-	backgroundcolor=bg,
-	linewidth=1pt,
-	linecolor=lightgray,
-	topline=false,
-	bottomline=false,
-	leftline=false,
-	rightline=false,
-	innerleftmargin=12pt,
-	innertopmargin=1em,
-	innerbottommargin=1em,
-	roundcorner=3pt
+%   listing styles
+\lstdefinestyle{unnumbered}{
+    commentstyle=\color{comment},
+    keywordstyle=\color{key},
+    stringstyle=\color{string},
+    basicstyle=\ttfamily\normalsize\lst@ifdisplaystyle\small\fi,
+    breakatwhitespace=false,
+    breaklines=true,
+    keepspaces=true,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=4,
+    framexleftmargin=30pt,
 }
-\renewcommand{\theFancyVerbLine}{
-	\scriptsize
-	\textcolor{black}{
-		\texttt
-		\oldstylenums{}
-		\arabic{FancyVerbLine}
-	}
+\lstdefinestyle{numbered}{
+    commentstyle=\color{comment},
+    keywordstyle=\color{key},
+    stringstyle=\color{string},
+    basicstyle=\ttfamily\normalsize\lst@ifdisplaystyle\small\fi,
+    breakatwhitespace=false,
+    breaklines=true,
+    keepspaces=true,
+    numbers=left,
+    numberstyle = \color{codegray}\footnotesize\ttfamily,
+    numbersep=10pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=4,
+    framexleftmargin=30pt,
+    framextopmargin=100pt,
+    framexbottommargin=30pt,
 }
-
-%	macro environments
-\newenvironment{codeboxnum}[1]{%
-	\VerbatimEnvironment
-	\begin{mdframed}[style = code_box]%
-		\begin{minted}[
-			breaklines,
-			breakanywhere,
-			fontsize=\small,
-			linenos,
-			tabsize=2,
-			autogobble,
-			numbersep=4pt,
-		]{#1}%
-}%
-{%
-		\end{minted}
-	\end{mdframed}
+%   code macros
+\lstnewenvironment{codebox}[1]{%
+	\mdframed[style = code_box, innerleftmargin=10pt]%
+	\lstset{style=unnumbered, language=#1}
 }
-\newenvironment{codebox}[1]{%
-	\VerbatimEnvironment
-	\begin{mdframed}[style = code_box_nonos]%
-		\begin{minted}[
-			breaklines,
-		 	breakanywhere,
-			fontsize=\small,
-			tabsize=2,
-		]{#1}%
-}%
-{%
-		\end{minted}
-	\end{mdframed}
+{
+    \endmdframed
 }
-\newenvironment{altcodebox}[1]{% to cite latex code containing codeboxes
-	\VerbatimEnvironment
-	\begin{mdframed}[style = code_box_nonos]%
-		\begin{minted}[
-			breaklines,
-			breakanywhere,
-			fontsize=\small,
-			tabsize=2,
-		]{#1}%
-}%
-{%
-		\end{minted}
-	\end{mdframed}
+\lstnewenvironment{altcodebox}[1]{%
+	\mdframed[style = code_box, innerleftmargin=10pt]%
+	\lstset{style=unnumbered, language=#1}
 }
-\newenvironment{nextcodebox}[1]{
-	\VerbatimEnvironment
-	\begin{mdframed}[style = code_box]
-		\begin{minted}[
-			breaklines,
-			breakanywhere,
-			fontsize=\small,
-			linenos,
-			firstnumber = last,
-			tabsize=2,
-			autogobble,
-			numbersep=4pt,
-		]{#1}
-}%
-{%
-		\end{minted}
-	\end{mdframed}
+{
+    \endmdframed
 }
-
+\lstnewenvironment{codeboxnum}[1]{%
+	\mdframed[style = code_box, innerleftmargin=25pt]%
+	\lstset{style=numbered, language=#1}
+}
+{
+    \endmdframed
+}
+\newcommand{\inlinecode}[1]{\lstinline[style=unnumbered, language=#1]}
 %	snippet environments
-\newenvironment{snippetnum}[3]{%
-	\VerbatimEnvironment%
-	\marginpar{%
-		\vskip 8pt%
-		\captionof{listing}{#2}%
-		\label{#3}%
-	}\nopagebreak%
-	\begin{mdframed}[style = code_box]%
-		\begin{minted}[
-			breaklines,
-			breakanywhere,
-			fontsize=\small,
-			linenos,
-			tabsize=2,
-			autogobble,
-			numbersep=4pt,
-		]{#1}%
-}%
-{%
-		\end{minted}%
-	\end{mdframed}%
+\lstnewenvironment{snippet}[3]{%
+	\marginpar{~\vskip 10pt\captionof{listings}{#2}}
+	\mdframed[style = code_box, innerleftmargin=10pt]%
+	\lstset{style=unnumbered, language=#1}
 }
-\newenvironment{snippet}[3]{
-	\VerbatimEnvironment
-	\marginpar{
-		\vskip 8pt
-		\captionof{listing}{#2}
-		\label{#3}
-	}\nopagebreak%
-	\begin{mdframed}[style = code_box_nonos]%
-		\begin{minted}[
-			breaklines,
-			breakanywhere,
-			fontsize=\small,
-			tabsize=2,
-			autogobble,
-		]{#1}%
-}%
-{%
-		\end{minted}
-	\end{mdframed}
+{
+    \endmdframed
 }
-\newenvironment{nextsnippet}[3]{
-	\VerbatimEnvironment
-	\marginpar{
-		\vskip 8pt
-		\captionof{listing}{#2}
-		\label{#3}
-	}\nopagebreak%
-	\begin{mdframed}[style = code_box]%
-		\begin{minted}[
-			breaklines,
-			breakanywhere,
-			fontsize=\small,
-			linenos,
-			firstnumber = last,
-			tabsize=2,
-			autogobble,
-			numbersep=4pt,
-		]{#1}
-}%
-{%
-		\end{minted}
-	\end{mdframed}
+\lstnewenvironment{snippetnum}[3]{%
+	\marginpar{~\vskip 10pt\captionof{listings}{#2\label{#3}}}
+	\mdframed[style = code_box, innerleftmargin=25pt]%
+	\lstset{style=numbered, language=#1}
 }
+{
+    \endmdframed
+}
+%	float environments
+\newfloat{listing}{htbp}{lop}
+\floatname{listing}{Listing}
 
-%   Inline code
-\newcommand{\inlinecode}[1]{\mintinline[bgcolor=bg, fontsize=\small]{#1}}
+
+%	I N - T E X T  F I N E T U N I N G
+%
+% widows and orphans
+\clubpenalty = 10000
+\widowpenalty = 10000
+\displaywidowpenalty = 10000
+
 
 %	M I S C E L L A N E O U S
 %
-%	for  t i g h t  lists (pandoc style)
-\providecommand{\tightlist}{%
-	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}
-}
 \providecommand{\toight}{%
 	\tightlist%
 }

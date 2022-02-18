@@ -43,7 +43,7 @@ pip install pygments
     ```
 
 4.  Open MikTeX console, go to `Settings`,
-    `Directories` tab. Click on `add`, and enter yout `texmf` path.
+    `Directories` tab. Click on `add`, and enter your `texmf` path.
     ```
     C:\Users\<you>\localtexmf
     ```
@@ -116,7 +116,7 @@ The options are listed and explained below:
 -   your name,
 -   the title,
 -   an optional subtitle,
--   the mention "Doctoral thesis"
+-   the mention "Doctoral thesis" (can be changed with `\type{}`),
 -   the date,
 -   the supervisors and jury members (and any person you want to see appear here),
 -   logos (as many as you like).
@@ -128,19 +128,29 @@ All native LaTeX commands work with this class. However, some new macros are add
 
 #### Margin notes
 
-`\side{<your note>}` displays a numbered note in the margin.
+`\sidenote{<your note>}` displays a numbered note in the margin.
 
 `\sidetext{<your note>}` displays unnumbered text in the margin.
 
 #### Figure shortcuts
 
-`\textfig[<optional with>]{<image path>}{<caption>}{<label>}` creates a figure with the caption in the margin. Optional width is relative to `\textwidth`: 1 will make the figure as wide as the text.
+- `\textfig[<optional with>]{<image path>}{<caption>}{<label>}` creates a figure with the caption in the margin. Optional width is relative to `\textwidth`: 1 will make the figure as wide as the text.
 
-`\marginfig{<image path>}{<caption>}{<label>}` creates a figure completely in the margin.
+- `\marginfig{<image path>}{<caption>}{<label>}` creates a figure completely in the margin.
 
-`\widefig[<optional with>]{<image path>}{<caption>}{<label>}` creates a figure that completely spreads in the margin.
+- `\widefig[<optional with>]{<image path>}{<caption>}{<label>}` creates a figure that completely spreads in the margin.
 
 
+### Todo list
+
+This has a todo list system. It helped me getting through the development of this class and I kept it as it seems as an useful tool to draft things on the same document.
+
+How to use it :
+
+-   `\todo{<what you have to do>}` to add a numbered todo note, which appears in red ;
+-   `\todolist` to place a list (like list of figures) of all todos.
+
+A time will come when you can render a version ignoring all todo-related stuf with one option in the class declaration.
 
 ## Compilation
 
