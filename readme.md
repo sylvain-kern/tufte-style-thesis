@@ -4,10 +4,14 @@
 
 The overall look and features of this class can be seen in `documentation.pdf`, with more in-depth explanation. This is meant to typeset long documents like theses and books ; so the template is quite heavy.
 
+## Latest changes
+
+- **[18/02/2022] listings**: rejected `minted`, embraced `listings`. This means no more `--shell-escape` and way shorter compilation times! -syntax coloring is a little bit less expressive though.
+- **[19/02/2022] global**: i think it works now properly for the first time.
+
 ## Installation
 
-This class' source file is `tufte-style-thesis.cls`, avaliable on the
-following repository:
+This class' source file is `tufte-style-thesis.cls`, avaliable here:
 
 [www.github.com/sylvain-kern/tufte-style-thesis](www.github.com/sylvain-kern/tufte-style-thesis)
 
@@ -17,13 +21,6 @@ class installation. For Windows or Linux users with an installed LaTeX
 distribution, please see respectively the two following sections, on how
 to install `tufte-style-thesis` on your system.
 
-In order to make the code environments and syntax highlighting work, it
-is needed to have Python installed on your system, along with the
-`pygments` package. With `pip` simply execute
-
-```
-pip install pygments
-```
 
 ###  MikTeX users on Windows
 
@@ -154,7 +151,8 @@ A time will come when you can render a version ignoring all todo-related stuf wi
 
 ## Compilation
 
-This class compiles with `pdflatex`. It needs to be called with the `--shell-escape` flag, as shown below:
+This class compiles with `pdflatex`. Just use:
 
 ```
-pdflatex --shell-escape document.tex
+pdflatex document.tex
+```

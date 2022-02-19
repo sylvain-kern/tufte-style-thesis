@@ -1,81 +1,16 @@
 \documentclass[
     11pt,
+	% colorful,
 ]{tufte-style-thesis}
 
-\usepackage{lipsum}
-\usepackage{imakeidx}
+\usepackage{lipsum}		% the chad package
+\usepackage{textgreek}	% for greek
+\usepackage{imakeidx}	% for index
 \makeindex[columns=3]
 
-%consistent arabic page numbering
-\makeatletter
-\renewcommand{\frontmatter}{\cleardoublepage\@mainmatterfalse}
-\renewcommand{\mainmatter}{\cleardoublepage\@mainmattertrue}
-\makeatother
+\addbibresource{refs.bib} % for biblatex
 
-\definecolor{niceRed}{HTML}{980326}
-\definecolor{niceBlue}{HTML}{035e7f}
-\definecolor{tooRed}{HTML}{cc0000}
-% \definecolor{accent}{}{niceRed}
-
-\newbibmacro{sidecite}{%
-  \textsuperscript{
-    \printtext[labelnumberwidth]{%
-    \printfield{prefixnumber}%
-    \printfield{labelnumber}}%
-  }%
-  \addspace
-  \printnames{author}%
-  \setunit{\printdelim{nametitledelim}}%
-  \printfield[citetitle]{labeltitle}%
-  \setunit{\addcomma\space}%
-  \printfield{year}}
-
-\DeclareCiteCommand{\sidecitehelper}[\bibfootnotewrapper]
-  {\usebibmacro{prenote}}
-  {\usebibmacro{citeindex}%
-   \usebibmacro{sidecite}}
-  {\multicitedelim}
-  {\usebibmacro{postnote}}
-
-\ExplSyntaxOn
-\NewDocumentCommand\sidecite{D<>{}O{}om}{%
-  \iftoggle{blx@footnote}
-    {\cs_set_protected_nopar:Npn \__sct_wrapper:nn ##1 ##2 {\mkbibparens{##2}}}
-    {\cs_set_protected_nopar:Npn \__sct_wrapper:nn ##1 ##2 {\sidenote[][##1]{##2}}}
-    {\IfNoValueTF{#3}
-      {\__sct_wrapper:nn{#1}{\sidecitehelper[#2]{#4}}}
-      {\__sct_wrapper:nn{#1}{\sidecitehelper[#2][#3]{#4}}}}
-}
-\ExplSyntaxOff
-
-\addbibresource{refs.bib}
-
-% todo environments
-\newlistof{todos}{tod}{\bfseries \textls{TO DO} list}
-\let\oldlistoftodos\listoftodos
-\renewcommand{\listoftodos}{\bgroup\color{tooRed}{\oldlistoftodos}\egroup}
-\newcommand{\todolist}{\listoftodos}
-
-\newcounter{todo}
-\setcounter{todo}{1}
-\newcommand{\todo}[1]{
-    \addcontentsline{tod}{todos}{\protect\numberline{\bfseries\#\thetodo}#1}
-    \bgroup\color{tooRed}
-    \noindent\large\textsc{todo \#\arabic{todo}}~~\hrulefill%
-    \refstepcounter{todo}%
-    \smallskip
-
-    \normalsize\noindent #1
-
-    \noindent\hrulefill
-    \egroup
-}
-
-% for greek
-\usepackage{textgreek}
-% \usepackage[french]{babel}
-
-% info
+% INFO : used in the titlepage, copyright and stuff.
 \author{Sylvain Kern}
 \title{\texttt{tufte-style-thesis},\\a Tufte-styled \LaTeX{} class for theses}
 \subtitle{Actually more of a mix\\between Edward Tufte and Robert Bringhurst}
@@ -92,22 +27,16 @@
 
 \begin{document}
 
-\listoftodos
-
-\cleardoublepage
-
 \maketitle
-
 
 \frontmatter
 
 \chapter{Abstract}
-
 Basically a thesis (book?) class for Tufte lovers like myself. I am aware that \texttt{tufte-latex} already exists but I just wanted to create my own thing.
 
-\chapter{Acknowledgements}
 
-shoutouts to my man \textcolor{niceRed}{Tufte}.
+\chapter{Acknowledgements}
+shoutouts to my man \red{Tufte}.
 
 
 \tableofcontents
@@ -116,16 +45,14 @@ shoutouts to my man \textcolor{niceRed}{Tufte}.
 \listoflistings
 
 \todo{%
-List of figures: mettre les numéros de page sur une colonne dédiée à droite}
-
-\todo{%
-List of listings: faire que ça ait la même gueule que list of figures}
-
+List of figures: mettre les numéros de page sur une colonne dédiée à droite (peut être pas en fait)}
 \todo{%
 métadonnées PDF
 }
 
+
 \mainmatter
+
 
 \chapter{Notes on the design}
 
@@ -153,7 +80,7 @@ This is how \LaTeX{} books work, and how I advise to structure a document using 
 
 \section{Page layout}
 
-Maybe the most distinctive aspect of this class is its page layout with its big margin to put sidenotes and captions. However this is not original at all: plenty\sidecite{} of other \LaTeX{} classes for books and theses do it just like me, and almost always better\sidenote{Or in a way cleaner \LaTeX{}.} I just wanted to do my own thing here, mixing what I personally like the most in these layout types, to better learn \LaTeX{} and to really internalize this kind of design. At the end of the day it may be a more Bringhursty than Tuftey kind of look, but hey, I won't change the name of this whole thing now.
+Maybe the most distinctive aspect of this class is its page layout with its big margin to put sidenotes and captions. However this is not original at all: plenty\sidenote{\texttt{tufte-latex}:\\\noindent\url{https://www.ctan.org/pkg/tufte-latex},\\\texttt{classicthesis}:\\\noindent\url{https://www.ctan.org/pkg/classicthesis}, \dots} of other \LaTeX{} classes for books and theses do it just like me, and almost always better\sidenote{Or in a way cleaner \LaTeX{}.} I just wanted to do my own thing here, mixing what I personally like the most in these layout types, to better learn \LaTeX{} and to really internalize this kind of design. At the end of the day it may be a more Bringhursty than Tuftey kind of look, but hey, I won't change the name of this whole thing now.
 
 So, as you might have started to notice, the main feature of this thing is the margin, with the sidenotes\index{sidenotes}, side references, and as you will discover, side captions and everything. It has three main advantages for me:\sidenote{These advantages can be seen as drawbacks for others: less space for the actually important content, irregular and somewhat unconventional design which can be harder to handle.}
 \begin{itemize}
@@ -253,10 +180,11 @@ To cite a paper, use
 \sidecite{<reference label>}
 \end{codebox}
 
+
 \section{Full width text}
 
 \begin{wide}
-Sometimes, it can be handy to have the text span the whole page width, like this paragraph. Use the environment \inlinecode{tex}_\begin{wide}...\end{wide}_ to do this. It should manage page breaks properly, but it is not optimal: no not use it for too long (like for ten pages), the behavior tends to go a little wild. The behavior of \inlinecode{tex}{\sidenote}, \inlinecode{tex}{\marginpar} and \inlinecode{tex}{\sidecite} is not supported in the \inlinecode{tex}{wide} environment.
+It may be handy to have the text span the whole page width, like this paragraph. Use the environment \inlinecode{tex}_\begin{wide}...\end{wide}_ to do this. It should manage page breaks properly, but it is not optimal: no not use it for too long (like for ten pages), the behavior tends to go a little wild. The behavior of \inlinecode{tex}{\sidenote}, \inlinecode{tex}{\marginpar} and \inlinecode{tex}{\sidecite} is not supported in the \inlinecode{tex}{wide} environment.
 
 Also, for floating environments, full width figures and tables will be covered in the chapter \ref{chp:floats}, so do not use the \inlinecode{tex}{wide} environments with figures or tables (actually tables are fine, but there are specific environments for them to be in full width).
 \end{wide}
@@ -323,7 +251,6 @@ To put a graphics in the text like in the figure \ref{fig:figure-text}, use\side
 \end{figure}
 \end{codebox}
 
-\marginfig{figures/marine-knots.jpg}{The most common sea boat knots. This image can be displayed rather small, so it fits in the margin. The caption is displayed below.}{fig:figure-margin}
 
 To put a figure in the margin like the figure \ref{fig:figure-margin}, use
 
@@ -333,6 +260,8 @@ To put a figure in the margin like the figure \ref{fig:figure-margin}, use
 	\caption{<caption>\label{<label>}}
 \end{figure}
 \end{codebox}
+
+\marginfig{figures/marine-knots.jpg}{The most common sea boat knots. This image can be displayed rather small, so it fits in the margin. The caption is displayed below.}{fig:figure-margin}
 
 For wide figures like the figure \ref{fig:figure-fullwidth}, use
 
@@ -702,5 +631,9 @@ mb2_tag_t* mb2_find_tag(mb2_t* boot, uint32_t tag_type) {
 
 \printbibliography
 \printindex
+
+\cleardoublepage
+
+\listoftodos	% less intruding here
 
 \end{document}

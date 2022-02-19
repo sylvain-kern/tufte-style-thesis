@@ -1,4 +1,4 @@
-# just to clean LaTeX junk
+# clean the junk
 
 *.aux
 *.fdb_latexmk
@@ -25,5 +25,3 @@
 *.ilg
 *.idx
 *.ind
-
-_minted-documentation/*

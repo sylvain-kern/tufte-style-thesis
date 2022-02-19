@@ -13,10 +13,6 @@
 	\AtBeginDocument{\usepackage{parskip}}
 	\setlength{\parskip}{\baselineskip}
 }
-\DeclareOption{noheaders}{		% disables section titles on page headers
-	\renewcommand{\leftmark}{}
-	\renewcommand{\rightmark}{}
-}
 \DeclareOption{casual}{		% removes header numbering --still puts them in toc
 	\AtBeginDocument{\setcounter{secnumdepth}{0}}
 }
@@ -25,15 +21,22 @@
 	\@sanstrue
 	\renewcommand{\familydefault}{\sfdefault}
 }
-\newif\if@colorful\@colorfulfalse
+\newif\if@black\@blackfalse
 \DeclareOption{black}{
-	\@colorfulfalse
+	\@blacktrue
 }
+\newif\if@colorful\@colorfulfalse
+\newif\if@black\@blackfalse
 \DeclareOption{colorful}{
 	\@colorfultrue
+	\@blackfalse
+}
+\DeclareOption{black}{
+	\@blacktrue
+	\@colorfulfalse
 }
 
-\ExecuteOptions{black, raggedright}
+\ExecuteOptions{raggedright}
 \ProcessOptions\relax
 \LoadClassWithOptions{book}
 
@@ -84,7 +87,6 @@
 \RequirePackage{enumitem}		% better looking lists
 \RequirePackage[
 	hidelinks,
-	linktocpage=true
 ]{hyperref}						% automatic references in pdf
 \RequirePackage{etoolbox}		% really idk what this does
 \RequirePackage{verbatim}   	% for verbatim environments
@@ -100,35 +102,31 @@
 	citestyle = numeric,
   ]{biblatex}
 \RequirePackage{listings}
-\RequirePackage{float}
 
 
 %	C O L O R  D E F I N I T I O N
 %
-\definecolor{niceRed}{HTML}{dc2828}
+\definecolor{niceRed}{HTML}{980326}
+\definecolor{niceBlue}{HTML}{025472}
+\definecolor{tooRed}{HTML}{cc0000}
 \if@colorful
-	\definecolor{accent}{niceRed}
-	\definecolor{main_accent}{HTML}{cb3004}
-	\definecolor{lighter_accent}{HTML}{e45826}
-	\definecolor{darker_gray}{HTML}{393136}
-	\definecolor{dark_gray}{HTML}{5a565c}
-	\definecolor{light_blue}{HTML}{0695c4}
-	\definecolor{dark_blue}{HTML}{084983}
 	\hypersetup{
 		colorlinks = true,
-		linkcolor = .,
-		anchorcolor = main_accent,
-		citecolor = main_accent,
-		urlcolor = light_blue
+		linkcolor = niceBlue,
+		% anchorcolor = niceBlue,
+		citecolor = .,
+		urlcolor = niceBlue,
 	}
-	\renewcommand\thefootnote{\color{main_accent}\arabic{footnote}}
-	\renewcommand\thesidenote{\color{main_accent}\arabic{sidenote}}
+	\renewcommand\thefootnote{\color{niceBlue}\arabic{footnote}}
+	\renewcommand\thesidenote{\color{niceBlue}\arabic{sidenote}}
 \else
-	\definecolor{main_accent}{HTML}{000000}
-	\definecolor{lighter_accent}{HTML}{000000}
-	\definecolor{darker_gray}{HTML}{000000}
-	\definecolor{dark_gray}{HTML}{000000}
 \fi
+\if@black
+	\definecolor{niceRed}{HTML}{000000}
+	\definecolor{niceBlue}{HTML}{000000}
+\else
+\fi
+\newcommand\red[1]{\textcolor{niceRed}{#1}}
 
 
 %	G E O M E T R Y  D E F I N I T I O N
@@ -186,7 +184,7 @@
 \makeatother
 
 \newcommand{\sidetext}[1]
-{\marginpar{\color{darker_gray}\RaggedRight\footnotesize\noindent #1 \vskip 4pt}}
+{\marginpar{\RaggedRight\footnotesize\noindent #1 \vskip 4pt}}
 
 \newenvironment{wide}{
 \begin{fullwidth}[outermargin=-\marginparwidth-\marginparsep, width=\linewidth+\marginparwidth+\marginparsep]
@@ -197,6 +195,13 @@
 % sidenotes reset on new
 \let\oldchap\chapter
 \renewcommand{\chapter}{\setcounter{sidenote}{1}\oldchap}
+
+%	F U L L  A R A B I C (titlepage = page1)
+%
+\makeatletter
+\renewcommand{\frontmatter}{\cleardoublepage\@mainmatterfalse}
+\renewcommand{\mainmatter}{\cleardoublepage\@mainmattertrue}
+\makeatother
 
 
 %	P A G E  H E A D E R S
@@ -245,19 +250,19 @@
 	{\raggedright\LARGE\itshape}[\end{wide}]
 \titleformat{\section}
 	{\itshape\Large}
-	{\color{main_accent}\normalfont\thesection}
+	{\normalfont\thesection}
 	{1em}
-	{\raggedright\color{main_accent}\itshape}
+	{\raggedright\itshape}
 \titleformat{\subsection}
 	{\itshape\large}
-	{\raggedright\color{lighter_accent}\normalfont\thesubsection}
+	{\raggedright\normalfont\thesubsection}
 	{1em}
-	{\color{lighter_accent}\itshape}
+	{\itshape}
 \titleformat{\subsubsection}
 	{\itshape}
-	{\color{dark_gray}\normalfont\thesubsubsection}
+	{\normalfont\thesubsubsection}
 	{1em}
-	{\raggedright\color{dark_gray}\itshape}
+	{\raggedright\itshape}
 
 
 %	M A K E T I T L E
@@ -327,7 +332,7 @@
 \newcommand\shoutouts[1]{\renewcommand\@shoutouts{#1}}
 \newcommand\@shoutouts{}
 
-% 	ACTUAL MAKETITLE
+% 	ACTUAL MAKETITLE (titlepage + "copyright" and dedication pages)
 \newcommand\@maketitlebis{%
 	\makeatletter
 
@@ -352,7 +357,14 @@
 
 		\vskip 40 pt
 
-		{\huge\@title\par}%
+		{%
+			\huge
+			\if@colorful
+				\color{niceRed}
+			\else
+			\fi
+			\@title\par
+			}%
 
 		\vskip 8pt
 
@@ -411,7 +423,7 @@
 }
 \makeatother
 
-% COLOPHON
+%	COLOPHON
 \AtEndDocument{
 	\newpage
 	\pagestyle{empty}
@@ -419,11 +431,11 @@
 	\footnotesize\raggedleft
 	\hfill
 	\vfill
-	\noindent This thesis was typeset using \LaTeX{} and the \texttt{tufte-style-thesis} class.
+	\noindent This document was typeset using \LaTeX{} and the \texttt{tufte-style-thesis} class.
 
 	The style is heavily inspired by the works of Edward R. Tufte and Robert Bringhurst.
 
-	This is available on the following repository:
+	This is available on here:
 
 	\vskip 8pt
 
@@ -484,9 +496,6 @@
 	font={footnotesize},
 	singlelinecheck=off,
 }
-
-%	figures
-
 %	figure macros
 \AtBeginDocument{\usepackage[export]{adjustbox}}
 % \newcommand{\textfig}[4][]{%
@@ -534,7 +543,6 @@
 		\caption{#3\label{#4}}%
 	\end{figure*}%
 }
-
 %	table macros
 \newcolumntype{Y}{>{\centering\arraybackslash}X} % tabularx column type
 \newenvironment{texttable}[2]{%
@@ -564,12 +572,12 @@
 	{\large\vspace{8pt}}
 	{\makebox[-1em][r]{\bfseries\large\thecontentslabel}\large\hspace{1em}}
 	{\large}
-	{~~~\contentspage}[\vskip 2pt]
+	{~~~\textcolor{niceBlue}{\contentspage}}[\vskip 2pt]
 \titlecontents*{section}[0em]
 	{\vskip 0pt\large}
 	{{\thecontentslabel}~~\itshape}
 	{\itshape}
-	{~~{\contentspage}}
+	{~~\textcolor{niceBlue}{\contentspage}}
 	[\\]
 % \titlecontents{subsection}[0em]
 % 	{\vspace{4pt}}
@@ -579,8 +587,8 @@
 % \titlecontents*{subsection}[0em]
 % 	{\vskip 0pt\small}
 % 	{{\thecontentslabel}~~\itshape}
-% 	{\color{darker_gray}\itshape}
-% 	{~~{\color{main_accent}\contentspage}}
+% 	{\itshape}
+% 	{~~{\contentspage}}
 % 	[\qquad]
 % \titlecontents{subsubsection}[1em]
 % 	{\vspace{0pt}}
@@ -588,7 +596,7 @@
 % 	{\itshape}
 % 	{\quad\quad\contentspage}[\vskip 0pt]
 
-% TOCLOFT
+% TOCLOFT (stolen from classicthesis)
 \renewcommand{\cftfigpresnum}{\scshape\MakeTextLowercase}%
 \renewcommand{\cftfigfont}{\normalfont}%
 \renewcommand{\cftfigleader}{\hspace{2.5em}}%
@@ -609,7 +617,9 @@
 %\cftsetindents{table}{0em}{\tablelabelwidth}
 \cftsetindents{table}{0em}{\figurelabelwidth}
 % listings
+\newcommand\listingsname{Listing}
 \renewcommand\lstlistingname{Listing}
+\renewcommand\lstlistlistingname{List of Listings}
 \newlistof{listings}{lol}{\lstlistlistingname}%
 \renewcommand{\cftlistingspresnum}{\scshape\MakeTextLowercase}%
 \renewcommand{\cftlistingsfont}{\normalfont}%
@@ -623,10 +633,15 @@
 \cftsetindents{listings}{0em}{\figurelabelwidth}%
 % \let\l@lstlisting\l@listings%
 \let\lstlistoflistings\listoflistings%
-
+% blue page numbers
+\renewcommand{\cftchappagefont}{\color{niceBlue}}
+\renewcommand{\cftsecpagefont}{\color{niceBlue}}
+\renewcommand{\cftsubsecpagefont}{\color{niceBlue}}
+\renewcommand{\cftsubsubsecpagefont}{\color{niceBlue}}
+\renewcommand{\cftfigpagefont}{\color{niceBlue}}
+\renewcommand{\cfttabpagefont}{\color{niceBlue}}
+\renewcommand{\cftlistingspagefont}{\color{niceBlue}}
 % TOCLOFT over
-
-
 %	toc offset
 \let\oldtoc\tableofcontents
 \renewcommand{\tableofcontents}{
@@ -634,16 +649,49 @@
 \oldtoc
 \end{quote}
 }
-
 %	toc depth
 \AtBeginDocument{\setcounter{tocdepth}{1}}
+
+%	B I B L I O G R A P H I C
+%	      R E F E R E N C E S
+\newbibmacro{sidecite}{%
+	\textsuperscript{
+		\printtext[labelnumberwidth]{%
+		\printfield{prefixnumber}%
+		\printfield{labelnumber}}%
+	}%
+	\addspace
+	\printnames{author}%
+	\setunit{\printdelim{nametitledelim}}%
+	\printfield[citetitle]{labeltitle}%
+	\setunit{\addcomma\space}%
+	\printfield{year}}
+
+\DeclareCiteCommand{\sidecitehelper}[\bibfootnotewrapper]
+	{\usebibmacro{prenote}}
+	{\usebibmacro{citeindex}%
+	\usebibmacro{sidecite}}
+	{\multicitedelim}
+	{\usebibmacro{postnote}}
+
+\ExplSyntaxOn
+\NewDocumentCommand\sidecite{D<>{}O{}om}{%
+  \iftoggle{blx@footnote}
+    {\cs_set_protected_nopar:Npn \__sct_wrapper:nn ##1 ##2 {\mkbibparens{##2}}}
+    {\cs_set_protected_nopar:Npn \__sct_wrapper:nn ##1 ##2 {\sidenote[][##1]{##2}}}
+    {\IfNoValueTF{#3}
+		{\__sct_wrapper:nn{#1}{\sidecitehelper[#2]{#4}}}
+		{\__sct_wrapper:nn{#1}{\sidecitehelper[#2][#3]{#4}}}
+	}
+}
+\ExplSyntaxOff
+
 
 %	T I G H T  L I S T S
 %
 \AtBeginDocument{
 	\setlist{topsep=0pt, itemsep=0pt, noitemsep, leftmargin = 0pt}
 }
-
 % 	smaller bullets
 \renewcommand{\labelitemi}{$\vcenter{\hbox{\small$\bullet$}}$}
 
@@ -742,9 +790,6 @@
 {
     \endmdframed
 }
-%	float environments
-\newfloat{listing}{htbp}{lop}
-\floatname{listing}{Listing}
 
 
 %	I N - T E X T  F I N E T U N I N G
@@ -788,3 +833,24 @@
 % new vect with overrightarrow style
 \newcommand{\vect}[1]{\:\overrightarrow{#1}}
 %fi
+
+% TODO
+\newlistof{todos}{tod}{\bfseries \textls{TO DO} list}
+\let\oldlistoftodos\listoftodos
+\renewcommand{\listoftodos}{\bgroup\color{tooRed}{\oldlistoftodos}\egroup}
+\newcommand{\todolist}{\listoftodos}
+
+\newcounter{todo}
+\setcounter{todo}{1}
+\newcommand{\todo}[1]{
+    \addcontentsline{tod}{todos}{\protect\numberline{\bfseries\#\thetodo}#1}
+    \bgroup\color{tooRed}
+    \noindent\large\textsc{todo \#\arabic{todo}}~~\hrulefill%
+    \refstepcounter{todo}%
+    \smallskip
+
+    \normalsize\noindent #1
+
+    \noindent\hrulefill
+    \egroup
+}
