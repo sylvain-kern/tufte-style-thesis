@@ -91,7 +91,7 @@ project folder.
 
 Please see the documentation for more in-depth explanations and examples. This section gives a quick overview on how to produce a simple document.
 
-### Packages loaded
+### Packages already loaded
 
 This class is already packed with packages, so check this before adding any package that may be already included.
 
@@ -104,11 +104,13 @@ Call the class with the following:
 \documentclass[options]{tufte-style-thesis}
 ```
 
-The options are listed and explained below:
+It inherits all options form `book`. There are some more options though:
 
 | Option                | What it does      |
 |---                    |---                |
-| stuff is coming soon  |--                 |
+| `boxey`               | justifies paragraphs on both sides   |
+| `colorful`            | brings a little bit of color (on side notes marks and hyperlinks for example) |
+| `black`               | all text is black (default is just page numbers blued in toc lof lot...) |
 
 
 #### Macros for titlepage
