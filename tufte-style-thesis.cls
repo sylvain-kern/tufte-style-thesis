@@ -3,11 +3,15 @@
 
 %	O P T I O N S
 %
+\newif\if@justified\@justifiedfalse
 \DeclareOption{raggedright}{	% makes all paragraphs left-aligned
 	\AtBeginDocument{
 		\setlength{\RaggedRightParindent}{1em}
 		\RaggedRight
 	}
+}
+\DeclareOption{boxey}{
+    \@justifiedtrue
 }
 \DeclareOption{parskip}{		% changes paragraph indents vor vertical skips
 	\AtBeginDocument{\usepackage{parskip}}
@@ -36,16 +40,26 @@
 	\@colorfulfalse
 }
 
-\ExecuteOptions{raggedright}
+\ExecuteOptions{}
 \ProcessOptions\relax
 \LoadClassWithOptions{book}
+
+\if@justified
+    \AtBeginDocument{
+        \justifying
+    }
+\else
+    \AtBeginDocument{
+        \setlength{\RaggedRightParindent}{1em}
+        \RaggedRight
+    }
+\fi
 
 %	P A C K A G E   D E F I N I T I O N
 %
 \RequirePackage{geometry}		% page geometry, margin definition
 \RequirePackage{emptypage}		% if a page is empty, is is really empty
 \RequirePackage{fullwidth}		% for wide environments
-\RequirePackage{marginnote}
 \RequirePackage{sidenotes}		% for margin stuff
 \RequirePackage[
 	hypcap=false				% hypcap=true spits an error
@@ -54,12 +68,6 @@
 \RequirePackage[osf]{libertinus}% main font
 \RequirePackage{libertinust1math}
 \RequirePackage{gillius}		% sans font
-\if@sans
-	\RequirePackage[			% font for full sans document
-		osf,
-		default
-	]{sourcesanspro}
-\fi
 \RequirePackage[
 	defaultmono,
 	scale=.82
@@ -67,7 +75,7 @@
 \RequirePackage{ragged2e}		% for better raggedright
 \RequirePackage{titlesec}		% header customization
 \RequirePackage{titletoc}		% toc customization
-\RequirePackage[titles]{tocloft}		% lof lot lol customizatios
+\RequirePackage[titles]{tocloft}% lof lot lol customizatios
 \RequirePackage{fancyhdr}		% page header customization
 \RequirePackage{graphicx}		% for images
 \RequirePackage[
@@ -89,8 +97,6 @@
 	hidelinks,
 ]{hyperref}						% automatic references in pdf
 \RequirePackage{etoolbox}		% really idk what this does
-\RequirePackage{verbatim}   	% for verbatim environments
-\RequirePackage[export]{adjustbox}
 \RequirePackage[strict]{changepage}	% needed by sidenotes
 \RequirePackage{placeins}		% for floatbarrier
 \RequirePackage{xparse}
@@ -400,7 +406,8 @@
 	\hfill
 	\vfill
 	\makeatletter
-	\noindent\RaggedRight\@author,\quad \textit{\@title,} \@subtitle, \@date.
+	\noindent\begin{flushleft}\@author,\quad \textit{\@title,} \@subtitle, \@date.
+    \end{flushleft}
 	\makeatother
 
 	\loadgeometry{regular}

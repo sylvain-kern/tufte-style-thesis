@@ -1,11 +1,14 @@
 \documentclass[
     11pt,
 	% colorful,
+	% boxey,
 ]{tufte-style-thesis}
 
+%	package inclusions for this specific documentation file. the .cls does not neet them.
 \usepackage{lipsum}		% the chad package
 \usepackage{textgreek}	% for greek
 \usepackage{imakeidx}	% for index
+\usepackage{multicol}
 \makeindex[columns=3]
 
 \addbibresource{refs.bib} % for biblatex
@@ -53,7 +56,6 @@ métadonnées PDF
 
 \mainmatter
 
-
 \chapter{Notes on the design}
 
 This class is my personal mix of different book design influences: mainly the works of Edward R. Tufte,\sidecite{TufteTvdq, TufteBE, TufteEI, TufteVE}\index{Tufte, Edward R.} known for the big margin and the plentiness of sidenotes and sidecaptions. The margins are however not as prominent as in Tufte's works, the main text takes a bit more space, more like in Robert Bringhurt's typographer's bible.\sidecite{BringhurstEoTS}\index{Bringhurst, Robert} So it is a bit of a mix of Tufte and Bringhurst, with some of my own choices for other design features, as we will see through this chapter.
@@ -100,7 +102,7 @@ The principle here is to give structuring elements which are as unobtrusive as p
 The \textsc{toc}, and the other lists as well as the index and references section are thought to be that way: friendly and unobtrusive. For example, in the \textsc{toc}, the traditional dotted lines between a heading and its corresponding folio\sidenote{Just flexin, folio is a fancy term for saying "page number".} is useless and unfriendly: why have the reader to follow a line with their eyes instead of just placing the page number next to the heading? So I adapted the \textsc{toc} to make it both expressive and light/minimalistic.\sidenote{I find Tufte- and Bringhurst-style \textsc{toc}s too empty, at least for a thesis.} It does not support deeper headings than the section, because I think nobody looks for such detail in the table of contents.
 
 
-\section{Fonts and "micro" typography}
+\section{Fonts and paragraph typography}
 
 This class has three fonts.\index{fonts}
 
@@ -110,7 +112,7 @@ Sans serif text, like in the titlepage, part titles and page headers (not chapte
 
 Mono text, for code listings, is \texttt{Droid Sans Mono}\index{Droid Sans Mono}. It is smoother to my taste than the default courier-like font. Here it is in {\ttfamily\itshape italics} (unfortunately it does not support bold --yet).
 
-By "micro" typography I mean typography at the paragraph level, as oppposed to the more general aspects of the design that have been covered above. But do not worry, I will talk about true \textit{microtypography} a little bit later. So, the prose is organized in paragraphs indented at the first line, as it is classically seen. The first paragraph that comes after a heading, however, is not indented.\sidenote{It is again an advice from Bringhurst: \textit{"The simplest way to start any block of prose is to start from the margin, flush left [\dots]."}} The text is by default not justified on the right like in Tufte's books. Apparently it makes the lines easier to recognize and follow with the eyes ; I do not find this irregularity unpleasing. But \textit{do not worry}, it can be fully justfied really easily.\sidenote{I hope people have not been bummed out at by not seeing the right-justfication.}
+The prose is organized in paragraphs indented at the first line, as it is classically seen. The first paragraph that comes after a heading, however, is not indented.\sidenote{It is again an advice from Bringhurst: \textit{"The simplest way to start any block of prose is to start from the margin, flush left [\dots]."}} The text is by default not justified on the right like in Tufte's books. Apparently it makes the lines easier to recognize and follow with the eyes ; I do not find this irregularity unpleasing. But \textit{do not worry}, it can be fully justfied really easily.\sidenote{I hope people have not been bummed out at by not seeing the right-justfication.}
 
 \bgroup\justifying
 For true microtypography\index{microtypography}, when the text is fully justified (like this one), the dashes, commas, points and other stuff slightly protrude in the margin to make it seem more justified than it really is.\sidenote{Paradoxically, it seems more justified than when it is truly justified. See by yourself: put a ruler (or the side of the window on the right side of the text and see how the comma slightly protrudes).} For flush left text, the typesetting algorithm has also been upgraded from standard \LaTeX, reducing the line length and space width variance, and hyphenating as less as possible. Also, the spaces between small caps increase a little bit, as well as they can be increased for full caps text.
@@ -141,6 +143,33 @@ So, yeah, I really don't know what to think. I find --actually I hope that siden
 \section{On Overleaf}
 
 \chapter{Using this class}
+
+\section{Packages already loaded}
+
+Here are some of the already loaded packages, so there is no need to re-include them in your document:
+
+\begin{wide}
+\begin{multicols}{4}
+\begin{itemize}
+\item\texttt{geometry}
+\item\texttt{emptypage}
+\item\texttt{fullwidth}
+\item\texttt{sidenotes}
+\item\texttt{caption}
+\item\texttt{fontenc}
+\item\texttt{libertinus}
+\item\texttt{libertinust1math}
+\item\texttt{gillius}
+\item\texttt{droidsansmono}
+\item\texttt{ragged2e}
+\item\texttt{titlesec}
+\item\texttt{titletoc}
+\item\texttt{tocloft}
+\item\texttt{fancyhdr}
+\item\texttt{graphicx} \item\texttt{microtype} \item\texttt{amsfonts} \item\texttt{amsmath} \item\texttt{mathtools} \item\texttt{physics} \item\texttt{xcolor} \item\texttt{mdframed} \item\texttt{tabularx} \item\texttt{booktabs} \item\texttt{enumitem} \item\texttt{hyperref} \item\texttt{etoolbox} \item\texttt{changepage} \item\texttt{placeins} \item\texttt{xparse} \item\texttt{xpatch} \item\texttt{biblatex} \item\texttt{listings}
+\end{itemize}
+\end{multicols}
+\end{wide}
 
 \section{The big margin}
 
@@ -272,6 +301,7 @@ For wide figures like the figure \ref{fig:figure-fullwidth}, use
 \end{figure*}
 \end{codebox}
 
+\newpage
 
 \widefig{figures/usa-census.png}{The US census map from data collected in 2010 -- \url{www.ecpmlangues.u-strasbg.fr}\\This is a wide figure, stretching from the innermost to the outermost margin.}{fig:figure-fullwidth}
 
@@ -601,18 +631,6 @@ mb2_tag_t* mb2_find_tag(mb2_t* boot, uint32_t tag_type) {
 
 \section{Compilation}
 
-\section{Packages loaded}
-
-\todo{
-    faire la liste des packages par exemple
-}
-
-
-\part{Showcase}
-
-\chapter{Showcase1}
-
-\chapter{Showcase2}
 
 
 \part*{Appendix}
@@ -621,9 +639,6 @@ mb2_tag_t* mb2_find_tag(mb2_t* boot, uint32_t tag_type) {
 \chapter{Some additional stuff}
 
 \lipsum \cite{BringhurstEoTS}
-
-\chapter{Another chunk of maybe completely pointless content}
-
 
 \loadgeometry{evenmargins}
 
