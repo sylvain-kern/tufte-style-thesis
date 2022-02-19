@@ -91,6 +91,12 @@ project folder.
 
 Please see the documentation for more in-depth explanations and examples. This section gives a quick overview on how to produce a simple document.
 
+### Packages loaded
+
+This class is already packed with packages, so check this before adding any package that may be already included.
+
+`geometry` `emptypage` `fullwidth` `sidenotes` `caption` `fontenc` `libertinus` `libertinust1math` `gillius` `droidsansmono` `ragged2e` `titlesec` `titletoc` `tocloft` `fancyhdr` `graphicx` `microtype` `amsfonts` `amsmath` `mathtools` `physics` `xcolor` `mdframed` `tabularx` `booktabs` `enumitem` `hyperref` `etoolbox` `changepage` `placeins` `xparse` `xpatch` `biblatex` `listings`
+
 ### Preamble
 
 Call the class with the following:
