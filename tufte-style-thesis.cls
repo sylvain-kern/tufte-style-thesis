@@ -108,6 +108,7 @@
 	citestyle = numeric,
   ]{biblatex}
 \RequirePackage{listings}
+\RequirePackage{setspace}
 
 
 %	C O L O R  D E F I N I T I O N
@@ -163,11 +164,11 @@
 }
 \savegeometry{headaz}
 \newgeometry{
-	textwidth = .58\paperwidth,
+	textwidth = .56\paperwidth,
 	textheight = .8\paperheight,
 	lmargin = 70pt,
-	marginparwidth = .32\textwidth,
-	marginparsep = 20pt,
+	marginparwidth = .38\textwidth,
+	marginparsep = 28pt,
 	headheight = 16pt,
 	tmargin = 80pt,
 	%showframe,
@@ -181,7 +182,7 @@
 \makeatletter
 \RenewDocumentCommand\sidenotetext{ o o +m }{%
     \IfNoValueOrEmptyTF{#1}{%
-        \@sidenotes@placemarginal{#2}{\noindent\footnotesize\RaggedRight{\thesidenote{}}~~#3}%
+        \@sidenotes@placemarginal{#2}{\setstretch{1.0}\noindent\footnotesize\RaggedRight{\thesidenote{}}~~#3}%
         \refstepcounter{sidenote}%
     }{%
         \@sidenotes@placemarginal{#2}{\noindent\footnotesize\RaggedRight{#1}~~#3}%
@@ -244,7 +245,7 @@
 	{\thispagestyle{empty}\LARGE\raggedleft}
 	{\Large\lsstyle\MakeUppercase{\partname}~~\thepart\normalfont}
 	{0em}
-	{\vskip 12pt \LARGE\lsstyle\sffamily\uppercase}
+	{\vskip 12pt \setstretch{0.9}\LARGE\lsstyle\sffamily\uppercase}
 % \let\oldpart\part
 % \renewcommand{\part}{
 % 	\loadgeometry{evenmargins}\oldpart\loadgeometry{regular}
@@ -253,22 +254,22 @@
 	{\begin{wide}\thispagestyle{empty}\itshape\LARGE}
 	{\normalfont\bfseries\huge\thechapter}
 	{1em}
-	{\raggedright\LARGE\itshape}[\end{wide}]
+	{\setstretch{0.9}\raggedright\LARGE\itshape}[\end{wide}]
 \titleformat{\section}
 	{\itshape\Large}
 	{\normalfont\thesection}
 	{1em}
-	{\raggedright\itshape}
+	{\setstretch{0.9}\raggedright\itshape}
 \titleformat{\subsection}
 	{\itshape\large}
 	{\raggedright\normalfont\thesubsection}
 	{1em}
-	{\itshape}
+	{\setstretch{0.9}\itshape}
 \titleformat{\subsubsection}
 	{\itshape}
 	{\normalfont\thesubsubsection}
 	{1em}
-	{\raggedright\itshape}
+	{\setstretch{0.9}\raggedright\itshape}
 
 
 %	M A K E T I T L E
@@ -309,28 +310,7 @@
 	}
 }
 
-\newcommand\logoone[1]{%
-	\renewcommand\@logoone{%
-		\hspace{20pt}\includegraphics[height=50pt]{#1}
-	}
-}
-\newcommand\@logoone{}
-
-\newcommand\logotwo[1]{%
-	\renewcommand\@logotwo{
-		\hspace{20pt}\includegraphics[height=50pt]{#1}
-	}
-}
-\newcommand\@logotwo{}
-
-\newcommand\logothree[1]{%
-	\renewcommand\@logothree{%
-		\hspace{20pt}\includegraphics[height=50pt]{#1}
-	}
-}
-\newcommand\@logothree{}
-
-% 	Doctoral thesis
+% 	Doctoral thesis (subsubtitle)
 \newcommand\type[1]{\renewcommand\@type{#1}}
 \newcommand\@type{Doctoral thesis}
 
@@ -341,7 +321,7 @@
 % 	ACTUAL MAKETITLE (titlepage + "copyright" and dedication pages)
 \newcommand\@maketitlebis{%
 	\makeatletter
-
+	\setstretch{1.0}
 	\begin{titlepage}
 		% \setcounter{page}{1}
 		\loadgeometry{titlepage}
@@ -422,6 +402,7 @@
 	\end{flushright}
 	\loadgeometry{regular}
 
+	\setstretch{1.12}
 	\makeatother
 }
 \renewcommand\maketitle{
@@ -432,7 +413,7 @@
 
 %	COLOPHON
 \AtEndDocument{
-	\newpage
+	\cleardoublepage
 	\pagestyle{empty}
 	\loadgeometry{evenmargins}
 	\footnotesize\raggedleft
@@ -460,15 +441,15 @@
 	%labelformat = lc,
 	labelsep = mysep,
 	justification=RaggedRight,
-	font={footnotesize},
-	singlelinecheck=off,
+	font={footnotesize, stretch=1},
+	singlelinecheck=on,
 }
 \DeclareCaptionStyle{sidecaption}{
     labelfont = {bf},
 	%labelformat = lc,
 	labelsep = mysep,
 	justification=RaggedRight,
-	font={footnotesize},
+	font={footnotesize, stretch=1},
 	singlelinecheck=off,
 }
 \DeclareCaptionStyle{marginfigure}{
@@ -476,7 +457,7 @@
 	%labelformat = lc,
 	labelsep = mysep,
 	justification=RaggedRight,
-	font={footnotesize},
+	font={footnotesize, stretch=1},
 	singlelinecheck=off,
 }
 \DeclareCaptionStyle{widefigure}{
@@ -484,7 +465,7 @@
 	%labelformat = lc,
 	labelsep = mysep,
 	justification=RaggedRight,
-	font={footnotesize},
+	font={footnotesize, stretch=1},
 	singlelinecheck=off,
 }
 \DeclareCaptionStyle{margintable}{
@@ -492,7 +473,7 @@
 	%labelformat = lc,
 	labelsep = mysep,
 	justification=RaggedRight,
-	font={footnotesize},
+	font={footnotesize, stretch=1},
 	singlelinecheck=off,
 }
 \DeclareCaptionStyle{widetable}{
@@ -500,21 +481,11 @@
 	%labelformat = lc,
 	labelsep = mysep,
 	justification=RaggedRight,
-	font={footnotesize},
+	font={footnotesize, stretch=1},
 	singlelinecheck=off,
 }
 %	figure macros
-\AtBeginDocument{\usepackage[export]{adjustbox}}
-% \newcommand{\textfig}[4][]{%
-% 	\medskip%
-% 	\marginpar{%
-% 		\vskip 8pt%
-% 		\captionof{figure}{#3}%
-% 		\label{#4}%
-% 	}\nopagebreak%
-% 	\noindent\includegraphics[width=#1\textwidth, outer]{#2}%
-% 	\medskip%
-% }
+\AtBeginDocument{\usepackage[export]{adjustbox}} % for 'outer' mode
 \newcommand{\textfig}[4][]{%
 	\FloatBarrier
 	\begin{figure}[!htb]%
@@ -652,7 +623,7 @@
 %	toc offset
 \let\oldtoc\tableofcontents
 \renewcommand{\tableofcontents}{
-\begin{quote}
+\begin{quote}\setstretch{1.0}
 \oldtoc
 \end{quote}
 }
@@ -660,7 +631,7 @@
 \AtBeginDocument{\setcounter{tocdepth}{1}}
 
 %	B I B L I O G R A P H I C
-%	      R E F E R E N C E S
+%	      R E F E R E N C E S  %this is black magic to me but it seems 2b working
 \newbibmacro{sidecite}{%
 	\textsuperscript{
 		\printtext[labelnumberwidth]{%
@@ -759,6 +730,7 @@
 }
 %   code macros
 \lstnewenvironment{codebox}[1]{%
+	\FloatBarrier
 	\mdframed[style = code_box, innerleftmargin=10pt]%
 	\lstset{style=unnumbered, language=#1}
 }
@@ -766,6 +738,7 @@
     \endmdframed
 }
 \lstnewenvironment{altcodebox}[1]{%
+	\FloatBarrier
 	\mdframed[style = code_box, innerleftmargin=10pt]%
 	\lstset{style=unnumbered, language=#1}
 }
@@ -773,6 +746,7 @@
     \endmdframed
 }
 \lstnewenvironment{codeboxnum}[1]{%
+	\FloatBarrier
 	\mdframed[style = code_box, innerleftmargin=25pt]%
 	\lstset{style=numbered, language=#1}
 }
@@ -782,7 +756,7 @@
 \newcommand{\inlinecode}[1]{\lstinline[style=unnumbered, language=#1]}
 %	snippet environments
 \lstnewenvironment{snippet}[3]{%
-	\marginpar{~\vskip 10pt\captionof{listings}{#2}}
+	\marginpar{~\vskip 10pt\captionof{listings}{#2\label{#3}}}
 	\mdframed[style = code_box, innerleftmargin=10pt]%
 	\lstset{style=unnumbered, language=#1}
 }
@@ -860,4 +834,10 @@
 
     \noindent\hrulefill
     \egroup
+}
+
+%		S  T   R   E   T     C      H
+%
+\AtBeginDocument{%
+	\setstretch{1.12}
 }

@@ -39,19 +39,12 @@ Basically a thesis (book?) class for Tufte lovers like myself. I am aware that \
 
 
 \chapter{Acknowledgements}
-shoutouts to my man \red{Tufte}.
-
+Gabriel the king. All the \href{https://tex.stackexchange.com/}{\TeX.SE} team for answering all my stupid questions.
 
 \tableofcontents
 \listoffigures
 \listoftables
 \listoflistings
-
-\todo{%
-List of figures: mettre les numéros de page sur une colonne dédiée à droite (peut être pas en fait)}
-\todo{%
-métadonnées PDF
-}
 
 
 \mainmatter
@@ -132,23 +125,15 @@ Then, good design must be a cultural thing. To aim perfection, one must make a b
 So, yeah, I really don't know what to think. I find --actually I hope that sidenotes and margins benefit to the reading comfort instead of ruinig it. It makes more sense when there are figures, tables and heavier stuff, but hopefully it remains relevant for prose with notes.
 
 
-\part{How to use this class}
-
-\chapter{Getting started}
-
-\section{On Linux}
-
-\section{On Windows}
-
-\section{On Overleaf}
+\part{This is a part}
 
 \chapter{Using this class}
 
-\section{Packages already loaded}
+\section{Dependencies}
 
 Here are the packages already loaded, so there is no need to re-include them in your document:
 
-\begin{wide}
+\begin{wide}\setstretch{1.0}
 \begin{multicols}{4}
 \begin{itemize}
 \item\texttt{geometry}
@@ -634,7 +619,7 @@ mb2_tag_t* mb2_find_tag(mb2_t* boot, uint32_t tag_type) {
 \part*{Appendix}
 \appendix
 
-\chapter{Some additional stuff (see how the title protrudes in the margin)}
+\chapter[Some additional stuff]{Some additional stuff (see how the title protrudes in the margin)}
 
 \lipsum \cite{BringhurstEoTS}
 
@@ -644,9 +629,5 @@ mb2_tag_t* mb2_find_tag(mb2_t* boot, uint32_t tag_type) {
 
 \printbibliography
 \printindex
-
-\cleardoublepage
-
-\listoftodos	% less intruding here
 
 \end{document}
