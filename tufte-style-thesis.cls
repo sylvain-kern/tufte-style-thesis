@@ -612,20 +612,16 @@
 % \let\l@lstlisting\l@listings%
 \let\lstlistoflistings\listoflistings%
 % blue page numbers
-\renewcommand{\cftchappagefont}{\color{niceBlue}}
-\renewcommand{\cftsecpagefont}{\color{niceBlue}}
-\renewcommand{\cftsubsecpagefont}{\color{niceBlue}}
-\renewcommand{\cftsubsubsecpagefont}{\color{niceBlue}}
 \renewcommand{\cftfigpagefont}{\color{niceBlue}}
 \renewcommand{\cfttabpagefont}{\color{niceBlue}}
 \renewcommand{\cftlistingspagefont}{\color{niceBlue}}
 % TOCLOFT over
 %	toc offset
 \let\oldtoc\tableofcontents
-\renewcommand{\tableofcontents}{
-\begin{quote}\setstretch{1.0}
-\oldtoc
-\end{quote}
+\renewcommand{\tableofcontents}{%
+	\begin{quote}\setstretch{1.0}
+	\oldtoc
+	\end{quote}
 }
 %	toc depth
 \AtBeginDocument{\setcounter{tocdepth}{1}}
