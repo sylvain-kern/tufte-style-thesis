@@ -191,7 +191,7 @@
 \makeatother
 
 \newcommand{\sidetext}[1]
-{\marginpar{\RaggedRight\footnotesize\noindent #1 \vskip 4pt}}
+{\marginpar{\setstretch{1}\RaggedRight\footnotesize\noindent #1 \vskip 4pt}}
 
 \newenvironment{wide}{
 \begin{fullwidth}[outermargin=-\marginparwidth-\marginparsep, width=\linewidth+\marginparwidth+\marginparsep]
