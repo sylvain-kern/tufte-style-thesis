@@ -330,7 +330,6 @@ If for any reason a figure caption has to be put in the main text block, just us
 \end{figure}
 
 \newpage
-
 \subsection{Tables}
 
 Table environments work the same as figures, as is is shown in tables \ref{tab:table-text} and \ref{tab:table-wide}.
@@ -356,24 +355,27 @@ Table environments work the same as figures, as is is shown in tables \ref{tab:t
 \end{table}
 
 
-% \begin{table*}[!htb]\small
-% \begin{tabularx}{\linewidth}{rXXXXXXrXXXXXX}
-% 	\multicolumn{14}{l}{\textbf{Table des marées au port de Douarnenez (Finistère).}} \\
-% 	\toprule
-% 	 & \multicolumn{3}{c}{\textbf{Ven. 23 juillet 2021}} & \multicolumn{3}{c}{\textbf{Sam. 24 juillet 2021}} & & \multicolumn{3}{c}{\textbf{Dim. 25 juillet 2021}} & \multicolumn{3}{c}{\textbf{Lun. 26 juillet 2021}} \\
-% 	 & heure & hauteur & coef. & heure & hauteur & coef. & & heure & hauteur & coef. & heure & hauteur & coef. \\
-% 	\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){9-11}\cmidrule(lr){12-14}
-% 	\textsc{bm} & 04:54 & 6.06 & 81 & 05:46 & 6.24 & 88 & \textsc{pm} & 00:21 & 0.92 & -- & 01:08 & 0.88 & -- \\
-% 	\textsc{pm} & 11:05 & 1.38 & -- & 11:55 & 1.19 & -- & \textsc{bm} & 06:34 & 6.34 & 92 & 07:19 & 6.33 & 92 \\
-% 	\textsc{bm} & 17:17 & 6.39 & 85 & 18:06 & 6.59 & 91 & \textsc{pm} & 12:41 & 1.10 & -- & 13:26 & 1.12 & -- \\
-% 	\textsc{pm} & 23:33 & 1.10 & -- & ---:--- & -- & -- & \textsc{bm} & 18:52 & 6.67 & 93 & 19:36 & 6.63 & 91 \\
-% 	\bottomrule
-% \end{tabularx}
-% \sidecaption{Table des marées à Douarnenez du 23 au 26 juillet 2021, Service Hydrographique et Océanographique de la Marine, \url{maree.shom.fr}.\\This is a wide table, called with the \inlinecode{tex}{table*} environment. The caption is also a \inlinecode{tex}{\sidecaption{}}.\label{tab:table-wide}}
-% \end{table*}Improper alphabetic constant.
+\begin{table*}[!htb]\small
+	\begin{tabularx}{\linewidth}{rXXXXXXrXXXXXX}
+		\multicolumn{14}{l}{\textbf{Table des marées au port de Douarnenez (Finistère).}} \\
+		\toprule
+		 & \multicolumn{3}{c}{\textbf{Ven. 23 juillet 2021}} & \multicolumn{3}{c}{\textbf{Sam. 24 juillet 2021}} & & \multicolumn{3}{c}{\textbf{Dim. 25 juillet 2021}} & \multicolumn{3}{c}{\textbf{Lun. 26 juillet 2021}} \\
+		 & heure & hauteur & coef. & heure & hauteur & coef. & & heure & hauteur & coef. & heure & hauteur & coef. \\
+		\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){9-11}\cmidrule(lr){12-14}
+		\textsc{bm} & 04:54 & 6.06 & 81 & 05:46 & 6.24 & 88 & \textsc{pm} & 00:21 & 0.92 & -- & 01:08 & 0.88 & -- \\
+		\textsc{pm} & 11:05 & 1.38 & -- & 11:55 & 1.19 & -- & \textsc{bm} & 06:34 & 6.34 & 92 & 07:19 & 6.33 & 92 \\
+		\textsc{bm} & 17:17 & 6.39 & 85 & 18:06 & 6.59 & 91 & \textsc{pm} & 12:41 & 1.10 & -- & 13:26 & 1.12 & -- \\
+		\textsc{pm} & 23:33 & 1.10 & -- & ---:--- & -- & -- & \textsc{bm} & 18:52 & 6.67 & 93 & 19:36 & 6.63 & 91 \\
+		\bottomrule
+	\end{tabularx}
+	\sidecaption{%
+		Table des marées à Douarnenez du 23 au 26 juillet 2021, Service Hydrographique et Océanographique de la Marine, \url{maree.shom.fr}.\\This is a wide table, called with the \texttt{table*} environment. The caption is also a \texttt{\textbackslash sidecaption}.\label{tab:table-wide}
+	}
+\end{table*}
 
+To typeset the table \ref{tab:table-text}, use the following code, which is just a \inlinecode{tex}_table_ environment with a \inlinecode{tex}_\sidecaption_. For table \ref{tab:table-wide}, use the \inlinecode{tex}_table*_ environment with either \inlinecode{tex}_\sidecaption_ or \inlinecode{tex}_\caption_.\inlinecode{tex}_\FloatBarrier_ is there to make sure the floats appear in order.
+\sidenote[][100pt]{\texttt{\textbackslash FloatBarrier} works for all floating environments, including figures.}
 
-% To typeset the table \ref{tab:table-text}, use the following code, which is just a \inlinecode{tex}{table} environment with a \inlinecode{tex}{\sidecaption}. For table \ref{tab:table-wide}, use the \inlinecode{tex}{table*} environment with either \inlinecode{tex}{\sidecaption} or \inlinecode{tex}{\caption}.\inlinecode{tex}{\FloatBarrier} is there to make sure the floats appear in order.\sidenote[][100pt]{\inlinecode{tex}{\FloatBarrier} works for all floating environments, including figures.}
 
 \begin{codebox}{tex}
 \begin{table}[!htb]\small
@@ -396,23 +398,25 @@ Table environments work the same as figures, as is is shown in tables \ref{tab:t
 \end{table}
 \end{codebox}
 
-% \begin{codebox}{tex}
-% \begin{table*}[!htb]\small
-% 	\begin{tabularx}{\linewidth}{rXXXXXXrXXXXXX}
-% 		\multicolumn{14}{l}{\textbf{Table des marées au port de Douarnenez (Finistère).}} \\
-% 		\toprule
-% 			& \multicolumn{3}{c}{\textbf{Ven. 23 juillet 2021}} & \multicolumn{3}{c}{\textbf{Sam. 24 juillet 2021}} & & \multicolumn{3}{c}{\textbf{Dim. 25 juillet 2021}} & \multicolumn{3}{c}{\textbf{Lun. 26 juillet 2021}} \\
-% 			& heure & hauteur & coef. & heure & hauteur & coef. & & heure & hauteur & coef. & heure & hauteur & coef. \\
-% 		\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){9-11}\cmidrule(lr){12-14}
-% 		\textsc{bm} & 04:54 & 6.06 & 81 & 05:46 & 6.24 & 88 & \textsc{pm} & 00:21 & 0.92 & -- & 01:08 & 0.88 & -- \\
-% 		\textsc{pm} & 11:05 & 1.38 & -- & 11:55 & 1.19 & -- & \textsc{bm} & 06:34 & 6.34 & 92 & 07:19 & 6.33 & 92 \\
-% 		\textsc{bm} & 17:17 & 6.39 & 85 & 18:06 & 6.59 & 91 & \textsc{pm} & 12:41 & 1.10 & -- & 13:26 & 1.12 & -- \\
-% 		\textsc{pm} & 23:33 & 1.10 & -- & ---:--- & -- & -- & \textsc{bm} & 18:52 & 6.67 & 93 & 19:36 & 6.63 & 91 \\
-% 		\bottomrule
-% 	\end{tabularx}
-% 	\sidecaption{Table des marées à Douarnenez du 23 au 26 juillet 2021, Service Hydrographique et Océanographique de la Marine, \url{maree.shom.fr}.\\This is a wide table, called with the \inlinecode{tex}{table*} environment. The caption is also a \inlinecode{tex}{\sidecaption{}}.\label{tab:table-wide}}
-% \end{table*}\FloatBarrier
-% \end{codebox}
+\begin{codebox}{tex}
+\begin{table*}[!htb]\small
+	\begin{tabularx}{\linewidth}{rXXXXXXrXXXXXX}
+		\multicolumn{14}{l}{\textbf{Table des marees au port de Douarnenez (Finistere).}} \\
+		\toprule
+			& \multicolumn{3}{c}{\textbf{Ven. 23 juillet 2021}} & \multicolumn{3}{c}{\textbf{Sam. 24 juillet 2021}} & & \multicolumn{3}{c}{\textbf{Dim. 25 juillet 2021}} & \multicolumn{3}{c}{\textbf{Lun. 26 juillet 2021}} \\
+			& heure & hauteur & coef. & heure & hauteur & coef. & & heure & hauteur & coef. & heure & hauteur & coef. \\
+		\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){9-11}\cmidrule(lr){12-14}
+		\textsc{bm} & 04:54 & 6.06 & 81 & 05:46 & 6.24 & 88 & \textsc{pm} & 00:21 & 0.92 & -- & 01:08 & 0.88 & -- \\
+		\textsc{pm} & 11:05 & 1.38 & -- & 11:55 & 1.19 & -- & \textsc{bm} & 06:34 & 6.34 & 92 & 07:19 & 6.33 & 92 \\
+		\textsc{bm} & 17:17 & 6.39 & 85 & 18:06 & 6.59 & 91 & \textsc{pm} & 12:41 & 1.10 & -- & 13:26 & 1.12 & -- \\
+		\textsc{pm} & 23:33 & 1.10 & -- & ---:--- & -- & -- & \textsc{bm} & 18:52 & 6.67 & 93 & 19:36 & 6.63 & 91 \\
+		\bottomrule
+	\end{tabularx}
+	\sidecaption{%
+		%
+	}
+\end{table*}\FloatBarrier
+\end{codebox}
 
 To produce tables in the margin like table \ref{tab:table-margin}, use the \inlinecode{tex}{margintable} environment like in the following.
 
@@ -464,7 +468,6 @@ To produce tables in the margin like table \ref{tab:table-margin}, use the \inli
 \end{margintable}
 \end{codebox}
 
-\newpage
 
 \subsection{Code}
 \label{sub:code}
