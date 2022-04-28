@@ -78,6 +78,9 @@
 \RequirePackage[titles]{tocloft}% lof lot lol customizatios
 \RequirePackage{fancyhdr}		% page header customization
 \RequirePackage{graphicx}		% for images
+\RequirePackage[%				% listings
+	% numberbychapter=true,
+]{listings}
 \RequirePackage[
 	protrusion=true,
 	expansion=true,
@@ -102,12 +105,14 @@
 \RequirePackage{xparse}
 \RequirePackage{xpatch}
 \RequirePackage[
-	autocite = superscript,
-	backend = biber,
-	bibstyle = ieee,
-	citestyle = numeric,
-  ]{biblatex}
-\RequirePackage{listings}
+	autocite 	= superscript,
+	backend 	= biber,
+	bibstyle 	= ieee,
+	citestyle 	= numeric,
+	% citecolor = niceBlue,
+	style 		= numeric-comp,
+	sorting		= none,
+]{biblatex}
 \RequirePackage{setspace}
 
 
@@ -117,13 +122,6 @@
 \definecolor{niceBlue}{HTML}{025472}
 \definecolor{tooRed}{HTML}{cc0000}
 \if@colorful
-	\hypersetup{
-		colorlinks = true,
-		linkcolor = niceBlue,
-		% anchorcolor = niceBlue,
-		citecolor = .,
-		urlcolor = niceBlue,
-	}
 	\renewcommand\thefootnote{\color{niceBlue}\arabic{footnote}}
 	\renewcommand\thesidenote{\color{niceBlue}\arabic{sidenote}}
 \else
@@ -380,6 +378,16 @@
 
 	\end{titlepage}
 
+	\if@colorful
+		\hypersetup{
+			colorlinks = true,
+			linkcolor = niceBlue,
+			anchorcolor = niceBlue,
+			citecolor = .,
+			urlcolor = niceBlue,
+		}
+	\fi
+
 	% copyright
 	\loadgeometry{evenmargins}
 	\thispagestyle{empty}
@@ -628,37 +636,69 @@
 
 %	B I B L I O G R A P H I C
 %	      R E F E R E N C E S  %this is black magic to me but it seems 2b working
-\newbibmacro{sidecite}{%
-	\textsuperscript{
-		\printtext[labelnumberwidth]{%
-		\printfield{prefixnumber}%
-		\printfield{labelnumber}}%
-	}%
-	\addspace
-	\printnames{author}%
-	\setunit{\printdelim{nametitledelim}}%
-	\printfield[citetitle]{labeltitle}%
-	\setunit{\addcomma\space}%
-	\printfield{year}}
+% \newbibmacro{sidecite}{%
+% 	\textsuperscript{
+% 		\printtext[labelnumberwidth]{%
+% 		\printfield{prefixnumber}%
+% 		\printfield{labelnumber}}%
+% 	}%
+% 	\addspace
+% 	\printnames{author}%
+% 	\setunit{\printdelim{nametitledelim}}%
+% 	\printfield[citetitle]{labeltitle}%
+% 	\setunit{\addcomma\space}%
+% 	\printfield{year}}
 
-\DeclareCiteCommand{\sidecitehelper}[\bibfootnotewrapper]
-	{\usebibmacro{prenote}}
-	{\usebibmacro{citeindex}%
-	\usebibmacro{sidecite}}
-	{\multicitedelim}
-	{\usebibmacro{postnote}}
+% \DeclareCiteCommand{\sidecitehelper}[\bibfootnotewrapper]
+% 	{\usebibmacro{prenote}}
+% 	{\usebibmacro{citeindex}%
+% 	\usebibmacro{sidecite}}
+% 	{\multicitedelim}
+% 	{\usebibmacro{postnote}}
+% \DeclareCiteCommand{\supercite}[\mkbibsuperscript]
+% 	{\iffieldundef{prenote}
+% 	   {}
+% 	   {\BibliographyWarning{Ignoring prenote argument}}%
+% 	 \iffieldundef{postnote}
+% 	   {}
+% 	   {\BibliographyWarning{Ignoring postnote argument}}%
+% 	 \bibopenbracket}%
+% 	{\usebibmacro{citeindex}%
+% 	 \usebibmacro{cite}}
+% 	{\supercitedelim}
+% 	{\bibclosebracket}
 
-\ExplSyntaxOn
-\NewDocumentCommand\sidecite{D<>{}O{}om}{%
-  \iftoggle{blx@footnote}
-    {\cs_set_protected_nopar:Npn \__sct_wrapper:nn ##1 ##2 {\mkbibparens{##2}}}
-    {\cs_set_protected_nopar:Npn \__sct_wrapper:nn ##1 ##2 {\sidenote[][##1]{##2}}}
-    {\IfNoValueTF{#3}
-		{\__sct_wrapper:nn{#1}{\sidecitehelper[#2]{#4}}}
-		{\__sct_wrapper:nn{#1}{\sidecitehelper[#2][#3]{#4}}}
-	}
-}
-\ExplSyntaxOff
+% \ExplSyntaxOn
+% \NewDocumentCommand\sidecite{D<>{}O{}om}{%
+%   \iftoggle{blx@footnote}
+%     {\cs_set_protected_nopar:Npn \__sct_wrapper:nn ##1 ##2 {\mkbibparens{##2}}}
+%     {\cs_set_protected_nopar:Npn \__sct_wrapper:nn ##1 ##2 {\sidenote[][##1]{##2}}}
+%     {\IfNoValueTF{#3}
+% 		{\__sct_wrapper:nn{#1}{\sidecitehelper[#2]{#4}}}
+% 		{\__sct_wrapper:nn{#1}{\sidecitehelper[#2][#3]{#4}}}
+% 	}
+% }
+% \ExplSyntaxOff
+
+\DeclareCiteCommand{\supercite}[\mkbibsuperscript]
+  {\usebibmacro{cite:init}%
+   \let\multicitedelim=\supercitedelim
+   \iffieldundef{prenote}
+     {}
+     {\BibliographyWarning{Ignoring prenote argument}}%
+   \iffieldundef{postnote}
+     {}
+     {\BibliographyWarning{Ignoring postnote argument}}%
+  \bibopenbracket}%
+  {\usebibmacro{citeindex}%
+   \usebibmacro{cite:comp}}
+  {}
+  {\usebibmacro{cite:dump}\bibclosebracket}
+
+\AtNextBibliography{\small}
+
+\newcommand{\sidecite}[1]{\autocite{#1}\sidetext{\cite{#1} \citeauthor{#1}, \citetitle{#1}, \citeyear{#1}.}}
+
 
 
 %	T I G H T  L I S T S

@@ -1,6 +1,6 @@
 \documentclass[
     11pt,
-	% colorful,
+	colorful,
 	% boxey,
 ]{tufte-style-thesis}
 
@@ -51,7 +51,7 @@ Gabriel the king. All the \href{https://tex.stackexchange.com/}{\TeX.SE} team fo
 
 \chapter{Notes on the design}
 
-This class is my personal mix of different book design influences: mainly the works of Edward R. Tufte,\sidecite{TufteTvdq, TufteBE, TufteEI, TufteVE}\index{Tufte, Edward R.} known for the big margin and the plentiness of sidenotes and sidecaptions. The margins are however not as prominent as in Tufte's works, the main text takes a bit more space, more like in Robert Bringhurt's typographer's bible.\sidecite{BringhurstEoTS}\index{Bringhurst, Robert} So it is a bit of a mix of Tufte and Bringhurst, with some of my own choices for other design features, as we will see through this chapter.
+This class is my personal mix of different book design influences: mainly the works of Edward R. Tufte,\sidecite{TufteTvdq}\sidecite{TufteBE}\sidecite{TufteEI}\sidecite{TufteVE}\index{Tufte, Edward R.} known for the big margin and the plentiness of sidenotes and sidecaptions. The margins are however not as prominent as in Tufte's works, the main text takes a bit more space, more like in Robert Bringhurt's typographer's bible.\sidecite{BringhurstEoTS}\index{Bringhurst, Robert} So it is a bit of a mix of Tufte and Bringhurst, with some of my own choices for other design features, as we will see through this chapter.
 
 \section{Document layout}
 
@@ -65,7 +65,7 @@ The \textit{back matter}\index{back matter} is the end of the book, usually for 
 
 To sum this up, the structure of a document typeset with \texttt{tufte-style-thesis} is something like this:
 \begin{itemize}
-  \item titlepage ;
+  \item title page ;
   \item front matter (dedication, abstract, acknowledgements, table of contents, list of figures, \textit{etc}) ;
   \item main matter (main content organized in numbered chapters, an appendix with letter chapters) ;
   \item back matter (references, index, glossary, colophon).
@@ -355,7 +355,7 @@ Table environments work the same as figures, as is is shown in tables \ref{tab:t
 \end{table}
 
 
-\begin{table*}[!htb]\small
+\begin{table*}[!htb]\small\sffamily
 	\begin{tabularx}{\linewidth}{rXXXXXXrXXXXXX}
 		\multicolumn{14}{l}{\textbf{Table des marées au port de Douarnenez (Finistère).}} \\
 		\toprule
@@ -399,7 +399,7 @@ To typeset the table \ref{tab:table-text}, use the following code, which is just
 \end{codebox}
 
 \begin{codebox}{tex}
-\begin{table*}[!htb]\small
+\begin{table*}[!htb]\small\sffamily
 	\begin{tabularx}{\linewidth}{rXXXXXXrXXXXXX}
 		\multicolumn{14}{l}{\textbf{Table des marees au port de Douarnenez (Finistere).}} \\
 		\toprule
