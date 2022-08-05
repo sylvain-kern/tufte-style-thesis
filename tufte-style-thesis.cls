@@ -57,7 +57,6 @@
 
 %	P A C K A G E   D E F I N I T I O N
 %
-\RequirePackage{geometry}		% page geometry, margin definition
 \RequirePackage{emptypage}		% if a page is empty, is is really empty
 \RequirePackage{fullwidth}		% for wide environments
 \RequirePackage{sidenotes}		% for margin stuff
@@ -96,24 +95,54 @@
 \RequirePackage{tabularx}		% adaptive columns on tables
 \RequirePackage{booktabs}		% better looking tables
 \RequirePackage{enumitem}		% better looking lists
+\RequirePackage{setspace}
 \RequirePackage[
 	hidelinks,
-]{hyperref}						% automatic references in pdf
+    final,
+    breaklinks,
+    bookmarks,
+	pdfusetitle,
+]{hyperref}	% automatic references in pdf				% automatic references in pdf
 \RequirePackage{etoolbox}		% really idk what this does
 \RequirePackage[strict]{changepage}	% needed by sidenotes
 \RequirePackage{placeins}		% for floatbarrier
 \RequirePackage{xparse}
 \RequirePackage{xpatch}
 \RequirePackage[
+	% doi=false,
+	% isbn=false,
+	% url=false,
 	autocite 	= superscript,
 	backend 	= biber,
-	bibstyle 	= ieee,
-	citestyle 	= numeric,
-	% citecolor = niceBlue,
-	style 		= numeric-comp,
+	citestyle 	= numeric-comp,
+	style 		= nature,
+	% citecolor   = niceBlue,
 	sorting		= none,
+	bibencoding = utf8,
 ]{biblatex}
-\RequirePackage{setspace}
+\RequirePackage{csquotes}
+%%% TEST footmisc
+\RequirePackage[
+    perpage,
+    symbol*,
+    flushmargin,
+    side,
+    ragged,
+]{footmisc}
+% \RequirePackage{marginfix}
+\makeatletter
+  \renewcommand\@makefnmark{%
+    \hbox{%
+      \ifx\@fnsymbol\FN@fnsymbol@sym
+        \expandafter\@firstofone
+      \else
+        \expandafter\@textsuperscript
+      \fi
+      {\normalfont\@thefnmark}%
+    }%
+  }
+\makeatother
+\RequirePackage{xifthen}
 
 
 %	C O L O R  D E F I N I T I O N
@@ -132,47 +161,6 @@
 \else
 \fi
 \newcommand\red[1]{\textcolor{niceRed}{#1}}
-
-
-%	G E O M E T R Y  D E F I N I T I O N
-%
-\newgeometry{
-	tmargin = 80pt,
-	bmargin = 80pt,
-	lmargin = 100pt,
-	rmargin = 100pt,
-}
-\savegeometry{titlepage}
-\newgeometry{
-	tmargin = 80pt,
-	bmargin = 80pt,
-	lmargin = 70pt,
-	rmargin = 70pt,
-}
-\savegeometry{evenmargins}
-\newgeometry{
-	textwidth = .82\paperwidth,
-	textheight = .8\paperheight,
-	lmargin = 70pt,
-	marginparwidth = .28\textwidth,
-	marginparsep = 10pt,
-	headheight = 16pt,
-	tmargin = 80pt,
-	%showframe,
-}
-\savegeometry{headaz}
-\newgeometry{
-	textwidth = .56\paperwidth,
-	textheight = .8\paperheight,
-	lmargin = 70pt,
-	marginparwidth = .38\textwidth,
-	marginparsep = 28pt,
-	headheight = 16pt,
-	tmargin = 80pt,
-	%showframe,
-}
-\savegeometry{regular}
-
 
 %	M A R G I N S
 %
@@ -213,7 +201,6 @@
 %
 \renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
 \renewcommand{\sectionmark}[1]{ \markright{#1}{} }
-\loadgeometry{headaz}
 \pagestyle{fancy}
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
@@ -228,7 +215,6 @@
 \fancyhead[RO]{\thepage}
 \fancyhead[LE]{\hfill}
 }
-\loadgeometry{regular}
 
 %	T I T L E  H E A D E R S
 %
@@ -238,36 +224,35 @@
 
 %	header formatting
 \titlespacing*{\part}{.2\linewidth}{.3\textheight}{0pt}
-\titlespacing*{\chapter}{0pt}{-40pt}{65pt}
+\titlespacing*{\chapter}{0pt}{-70pt}{65pt}
 \titleformat{\part}%[hang]
-	{\thispagestyle{empty}\LARGE\raggedleft}
+	{\thispagestyle{empty}\huge\raggedleft}
 	{\Large\lsstyle\MakeUppercase{\partname}~~\thepart\normalfont}
 	{0em}
-	{\vskip 12pt \setstretch{0.9}\LARGE\lsstyle\sffamily\uppercase}
+	{\vskip 12pt \setstretch{0.9}\huge\lsstyle\sffamily\uppercase}
 % \let\oldpart\part
 % \renewcommand{\part}{
-% 	\loadgeometry{evenmargins}\oldpart\loadgeometry{regular}
 % }
 \titleformat{\chapter}[block]
-	{\begin{wide}\thispagestyle{empty}\itshape\LARGE}
+	{\begin{wide}\thispagestyle{empty}\itshape\huge}
 	{\normalfont\bfseries\huge\thechapter}
 	{1em}
-	{\setstretch{0.9}\raggedright\LARGE\itshape}[\end{wide}]
+	{\setstretch{0.9}\raggedright\huge\itshape}[\end{wide}]
 \titleformat{\section}
 	{\itshape\Large}
 	{\normalfont\thesection}
 	{1em}
 	{\setstretch{0.9}\raggedright\itshape}
 \titleformat{\subsection}
-	{\itshape\large}
+	{\itshape\normalfont}
 	{\raggedright\normalfont\thesubsection}
 	{1em}
 	{\setstretch{0.9}\itshape}
-\titleformat{\subsubsection}
-	{\itshape}
-	{\normalfont\thesubsubsection}
-	{1em}
-	{\setstretch{0.9}\raggedright\itshape}
+\titleformat{\subsubsection}[runin]
+	{}
+	{\itshape\thesubsubsection}
+	{1ex}
+	{\itshape}[~~$\cdot$]
 
 
 %	M A K E T I T L E
@@ -322,7 +307,6 @@
 	\setstretch{1.0}
 	\begin{titlepage}
 		% \setcounter{page}{1}
-		\loadgeometry{titlepage}
 		\hfill
 		\begin{minipage}{.8\linewidth}
 		\raggedleft
@@ -389,7 +373,6 @@
 	\fi
 
 	% copyright
-	\loadgeometry{evenmargins}
 	\thispagestyle{empty}
 	\hfill
 	\vfill
@@ -398,17 +381,14 @@
     \end{flushleft}
 	\makeatother
 
-	\loadgeometry{regular}
 
 	% dedication
 	\cleardoublepage
 	\thispagestyle{empty}
-	\loadgeometry{evenmargins}
 	~\vskip .3\textheight
 	\begin{flushright}
 	\large\itshape\@shoutouts
 	\end{flushright}
-	\loadgeometry{regular}
 
 	\setstretch{1.12}
 	\makeatother
@@ -423,7 +403,6 @@
 \AtEndDocument{
 	\cleardoublepage
 	\pagestyle{empty}
-	\loadgeometry{evenmargins}
 	\footnotesize\raggedleft
 	\hfill
 	\vfill
@@ -444,6 +423,7 @@
 % 	caption formatting
 \DeclareCaptionLabelFormat{lc}{\MakeLowercase{#1}~#2}
 \DeclareCaptionLabelSeparator{mysep}{.\quad}
+\DeclareCaptionLabelSeparator{mysepside}{.\\}
 \captionsetup{
 	labelfont = {bf},
 	%labelformat = lc,
@@ -455,7 +435,7 @@
 \DeclareCaptionStyle{sidecaption}{
     labelfont = {bf},
 	%labelformat = lc,
-	labelsep = mysep,
+	labelsep = mysepside,
 	justification=RaggedRight,
 	font={footnotesize, stretch=1},
 	singlelinecheck=off,
@@ -463,7 +443,7 @@
 \DeclareCaptionStyle{marginfigure}{
     labelfont = {bf},
 	%labelformat = lc,
-	labelsep = mysep,
+	labelsep = mysepside,
 	justification=RaggedRight,
 	font={footnotesize, stretch=1},
 	singlelinecheck=off,
@@ -636,78 +616,34 @@
 
 %	B I B L I O G R A P H I C
 %	      R E F E R E N C E S  %this is black magic to me but it seems 2b working
-% \newbibmacro{sidecite}{%
-% 	\textsuperscript{
-% 		\printtext[labelnumberwidth]{%
-% 		\printfield{prefixnumber}%
-% 		\printfield{labelnumber}}%
-% 	}%
-% 	\addspace
-% 	\printnames{author}%
-% 	\setunit{\printdelim{nametitledelim}}%
-% 	\printfield[citetitle]{labeltitle}%
-% 	\setunit{\addcomma\space}%
-% 	\printfield{year}}
+\makeatletter
+\newcommand\sidecite[2][]{\autocite{#2}\sidetext{\ifthenelse{\equal{#1}{}}{}{\vskip #1}%
+\@for\cle:={#2}\do{\makebox[0pt][r]{\autocite{\cle}}\fullcite{\cle}.\\\vskip 4pt}%
+}}
+\newcommand\sidetextcite[2][]{\sidetext{\ifthenelse{\equal{#1}{}}{}{\vskip #1}%
+\@for\cle:={#2}\do{\makebox[0pt][r]{\autocite{\cle}}\fullcite{\cle}.\\\vskip 4pt}%
+}}
+\makeatother
 
-% \DeclareCiteCommand{\sidecitehelper}[\bibfootnotewrapper]
-% 	{\usebibmacro{prenote}}
-% 	{\usebibmacro{citeindex}%
-% 	\usebibmacro{sidecite}}
-% 	{\multicitedelim}
-% 	{\usebibmacro{postnote}}
-% \DeclareCiteCommand{\supercite}[\mkbibsuperscript]
-% 	{\iffieldundef{prenote}
-% 	   {}
-% 	   {\BibliographyWarning{Ignoring prenote argument}}%
-% 	 \iffieldundef{postnote}
-% 	   {}
-% 	   {\BibliographyWarning{Ignoring postnote argument}}%
-% 	 \bibopenbracket}%
-% 	{\usebibmacro{citeindex}%
-% 	 \usebibmacro{cite}}
-% 	{\supercitedelim}
-% 	{\bibclosebracket}
-
-% \ExplSyntaxOn
-% \NewDocumentCommand\sidecite{D<>{}O{}om}{%
-%   \iftoggle{blx@footnote}
-%     {\cs_set_protected_nopar:Npn \__sct_wrapper:nn ##1 ##2 {\mkbibparens{##2}}}
-%     {\cs_set_protected_nopar:Npn \__sct_wrapper:nn ##1 ##2 {\sidenote[][##1]{##2}}}
-%     {\IfNoValueTF{#3}
-% 		{\__sct_wrapper:nn{#1}{\sidecitehelper[#2]{#4}}}
-% 		{\__sct_wrapper:nn{#1}{\sidecitehelper[#2][#3]{#4}}}
-% 	}
-% }
-% \ExplSyntaxOff
-
-\DeclareCiteCommand{\supercite}[\mkbibsuperscript]
-  {\usebibmacro{cite:init}%
-   \let\multicitedelim=\supercitedelim
-   \iffieldundef{prenote}
-     {}
-     {\BibliographyWarning{Ignoring prenote argument}}%
-   \iffieldundef{postnote}
-     {}
-     {\BibliographyWarning{Ignoring postnote argument}}%
-  \bibopenbracket}%
-  {\usebibmacro{citeindex}%
-   \usebibmacro{cite:comp}}
-  {}
-  {\usebibmacro{cite:dump}\bibclosebracket}
-
-\AtNextBibliography{\small}
-
-\newcommand{\sidecite}[1]{\autocite{#1}\sidetext{\cite{#1} \citeauthor{#1}, \citetitle{#1}, \citeyear{#1}.}}
+\DeclareCiteCommand{\fullcite}
+  {\usebibmacro{prenote}}
+  {\clearfield{url}%
+   \clearfield{pagetotal}%
+   \clearfield{edition}%
+   \usedriver
+     {\DeclareNameAlias{sortname}{default}}
+     {\thefield{entrytype}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
 
 
-
-%	T I G H T  L I S T S
+%	flush T I G H T  L I S T S
 %
 \AtBeginDocument{
-	\setlist{topsep=0pt, itemsep=0pt, noitemsep, leftmargin = 0pt}
+	\setlist{topsep=0pt, itemsep=0pt, noitemsep}
 }
-% 	smaller bullets
-\renewcommand{\labelitemi}{$\vcenter{\hbox{\small$\bullet$}}$}
+% 	diamond bullets
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\small$\diamond$}}$}
 
 %	C O D E
 %
