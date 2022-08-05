@@ -215,6 +215,7 @@
 \fancyhead[RO]{\thepage}
 \fancyhead[LE]{\hfill}
 }
+\setlength{\headheight}{13.6pt}
 
 %	T I T L E  H E A D E R S
 %
@@ -224,7 +225,7 @@
 
 %	header formatting
 \titlespacing*{\part}{.2\linewidth}{.3\textheight}{0pt}
-\titlespacing*{\chapter}{0pt}{-70pt}{65pt}
+\titlespacing*{\chapter}{0pt}{-60pt}{65pt}
 \titleformat{\part}%[hang]
 	{\thispagestyle{empty}\huge\raggedleft}
 	{\Large\lsstyle\MakeUppercase{\partname}~~\thepart\normalfont}
@@ -535,14 +536,14 @@
 	{\vskip 4pt\large\scshape\lowercase}
 	{}[\vskip 0pt]
 \titlecontents{chapter}[0em]
-	{\large\vspace{8pt}}
-	{\makebox[-1em][r]{\bfseries\large\thecontentslabel}\large\hspace{1em}}
+	{\large\vspace{12pt}}
+	{\makebox[-1em][r]{\thecontentslabel}\large\hspace{1em}}
 	{\large}
-	{~~~\textcolor{niceBlue}{\contentspage}}[\vskip 2pt]
+	{~~~~\textcolor{niceBlue}{\contentspage}}[\vskip 2pt]
 \titlecontents*{section}[0em]
-	{\vskip 0pt\large}
-	{{\thecontentslabel}~~\itshape}
-	{\itshape}
+	{\small}
+	{\thecontentslabel~~}
+	{\small}
 	{~~\textcolor{niceBlue}{\contentspage}}
 	[\\]
 % \titlecontents{subsection}[0em]

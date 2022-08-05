@@ -90,7 +90,7 @@ Another small detail on the sidenotes, the flag of a note is in superscript in t
 
 \section{Headers, lists, and other content-organizing features}
 
-The principle here is to give structuring elements which are as unobtrusive as possible, while remaining clear and easy to follow. For example, the bold headers of vanilla \LaTeX{} have been changed for more subtle italic ones. Chapters titles have been simplified to their essential parts --a number and a title-- and put as high as possible: it is completely useless to me to start a new chapter at the middle of a page.\footnote{Bringhurst roasts this kind of chapters in his \textit{Elements}: \textit{"In modern books, where the titles are shorter and the margins have been eaten by inflationary pressure, a third of the page somewhat lies vacant just to celebrate the fact that the chapter begins"}.} Though, some of space is left after the title to let it breathe a little bit ; this is a feature of Tufte's books.
+The principle here is to give structuring elements which are as unobtrusive as possible, while remaining clear and easy to follow. For example, the bold headers of vanilla \LaTeX{} have been changed for more subtle italic ones. Chapters titles have been simplified to their essential parts --a number and a title-- and put as high as possible: it is completely useless to me to start a new chapter at the middle of a page.\footnote{Bringhurst roasts this kind of chapters in his \textit{Elements}: \textit{“In modern books, where the titles are shorter and the margins have been eaten by inflationary pressure, a third of the page somewhat lies vacant just to celebrate the fact that the chapter begins”}.} Though, some of space is left after the title to let it breathe a little bit ; this is a feature of Tufte's books.
 
 The \textsc{toc}, and the other lists as well as the index and references section are thought to be that way: friendly and unobtrusive. For example, in the \textsc{toc}, the traditional dotted lines between a heading and its corresponding folio\footnote{Just flexin, folio is a fancy term for saying "page number".} is useless and unfriendly: why have the reader to follow a line with their eyes instead of just placing the page number next to the heading? So I adapted the \textsc{toc} to make it both expressive and light/minimalistic.\footnote{I find Tufte- and Bringhurst-style \textsc{toc}s too empty, at least for a thesis.} It does not support deeper headings than the section, because I think nobody looks for such detail in the table of contents.
 
@@ -162,8 +162,8 @@ There is a big margin, so feel free to use it as much as possible!\footnote{Actu
 
 The general layout is done using the \texttt{geometry}\sidecite{pkgGeometry} package, and all the margin stuff relies on the \texttt{sidenotes}\sidecite{pkgSidenotes} package, so check its documentation:
 
-\centering\url{http://www.ctan.org/pkg/sidenotes}\\
-\RaggedRight\noindent for more in-depth information.
+\bgroup
+\centering\url{http://www.ctan.org/pkg/sidenotes}\RaggedRight\noindent for more in-depth information. \egroup
 
 \subsection{Sidenotes}
 
@@ -629,7 +629,12 @@ mb2_tag_t* mb2_find_tag(mb2_t* boot, uint32_t tag_type) {
 
 \backmatter
 
+\setstretch{1}
 \printbibliography
+\cleardoublepage
+\begin{wide}
+\thispagestyle{empty}
 \printindex
+\end{wide}
 
 \end{document}
