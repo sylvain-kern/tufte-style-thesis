@@ -1,0 +1,38 @@
+\documentclass{article}
+
+\usepackage[osf]{libertinus}
+
+\usepackage[hidelinks]{hyperref}
+
+\usepackage[style=nature, citestyle=numeric-comp]{biblatex}
+
+\newlength{\spc} % declare a variable to save spacing value
+\newcommand{\sjcitep}[2][]{% new command with two arguments: optional (#1) and mandatory (#2)
+    \settowidth{\spc}{#1}% set value of \spc variable to the width of #1 argument
+    \addtolength{\spc}{-2\spc}% subtract from \spc about two (1.8) of its values making its magnitude negative
+    #1% print the optional argument
+    \hspace*{\spc}% print an additional negative spacing stored in \spc after #1
+    \supercite{#2}%
+}% print (cite) the mandatory argument
+
+\newcommand{\sjsuperscript}[2][]{% new command with two arguments: optional (#1) and mandatory (#2)
+    \settowidth{\spc}{#1}% set value of \spc variable to the width of #1 argument
+    \addtolength{\spc}{-2\spc}% subtract from \spc about two (1.8) of its values making its magnitude negative
+    #1% print the optional argument
+    \hspace*{\spc}% print an additional negative spacing stored in \spc after #1
+    \textsuperscript{#2}%
+}% print (cite) the mandatory argume
+
+\addbibresource{refs.bib}
+
+\begin{document}
+
+Test\sjsuperscript[.]{Eyop}
+
+Test\sjcitep[.]{BringhurstEoTS, einstein1915allgemeinen,CarterABC,chandrasekharanMicroscaleDifferentialCapacitive2011}
+
+% Test\hpace*{}
+
+\printbibliography
+
+\end{document}

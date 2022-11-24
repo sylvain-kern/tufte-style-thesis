@@ -1,0 +1,109 @@
+\documentclass[
+    % twocolumn,
+    % twoside,
+    % 12pt,
+    % fleqn,
+    notes    = foot,
+    % fonts    = regular,
+    % flow     = ragged,
+    % colophon = false,
+    science  = true,
+    % code     = false,
+    bibliography = numbered,
+]{tufte-style-thesis}
+
+\iffalse
+\usepackage[french]{babel}
+\frenchsetup{StandardLayout=true, SmallCapsFigTabCaptions=
+false}
+\DefineBibliographyExtras{french}{\restorecommand\mkbibnamefamily}
+\fi
+
+\usepackage{lipsum}
+
+\addbibresource{refs.bib}
+
+% \AtEveryCitekey{\ifcitese en{}{\defcounter{maxnames}{99}}}
+
+\title{A title that is really really long and spans several lines}
+% \subtitle{bambooza}
+\shoutouts{Les frérots}
+\colophon{This is a colophon.}
+\type{Thèse de doctorat}
+\logo{example-image-a}
+\author{Sylvain}
+\person{Directeur de thèse}{Karim le S.}{Maître de conférences à Centrale Lille}
+\person{Co-directeur de thèse}{Mon bon Philippe}{Directeur de la recherche à Centrale Lille}
+\persongap
+\person{Examinateur}{Un gars random}{Son boulot}
+\persongap
+\person{Invité}{Un gars}{Son boulot}
+
+\begin{document}
+
+\maketitle
+
+\chapter{Acknowledgements}\addcontentsline{toc}{chapter}{Acknowledgements}
+
+Note\footnote{Yopya}
+
+
+\section{Yippidy}
+% This is a citation again~\footnotecite{CarterABC, TufteTvdq}
+
+% This is citeauthor + parencite* + footnotecite : \citeauthor{chandrasekharanMicroscaleDifferentialCapacitive2011} \parencite*{chandrasekharanMicroscaleDifferentialCapacitive2011} \footnotecite{chandrasekharanMicroscaleDifferentialCapacitive2011}
+
+This is cites behavior~: \cites[prenote][postnote]{chandrasekharanMicroscaleDifferentialCapacitive2011}[prenote2][postnote2]{CarterABC,einstein1915allgemeinen, TufteTvdq}.
+
+This is custom cite~: \cite{chandrasekharanMicroscaleDifferentialCapacitive2011,einstein1915allgemeinen}. Bke bale
+
+This is custom cite with prenote and postnote~: \cite[prenote][\ppno~5--15]{StExupery}. Blac
+
+This is custom textcite~: \textcite[prenote][]{StExupery}. Eeet 2 retour\dots
+
+This is custom textcites~: \textcites[prenote][postnote]{chandrasekharanMicroscaleDifferentialCapacitive2011}[prenote n\textsuperscript{o}2][]{CarterABC,einstein1915allgemeinen, TufteTvdq,TufteTvdqB}. On enchaîne directement avec une nouvelle phrase.
+
+(Parenthèse). (parenthèse),
+
+\textcites[First work done by][\ppno~5--15]{chandrasekharanMicroscaleDifferentialCapacitive2011}[has been continued by][]{CarterABC,einstein1915allgemeinen, TufteTvdq}.
+
+
+Supercite\supercite{chandrasekharanMicroscaleDifferentialCapacitive2011,TufteTvdq,
+CarterABC,einstein1915allgemeinen}.
+
+Autocite relax\autocite{chandrasekharanMicroscaleDifferentialCapacitive2011,TufteTvdq,
+CarterABC,einstein1915allgemeinen}\relax .
+
+Autocite\autocite{chandrasekharanMicroscaleDifferentialCapacitive2011,TufteTvdq,
+CarterABC,einstein1915allgemeinen}. Eeet 2 retour sur le plateau
+
+
+\parencite{einstein1915allgemeinen}
+% Footnotecite\footnotecite{chandrasekharanMicroscaleDifferentialCapacitive2011,TufteTvdq,CarterABC,einstein1915allgemeinen}.
+
+% This is cite~: \cite{chandrasekharanMicroscaleDifferentialCapacitive2011}
+
+
+% This is citeauthor + parencite*~: \citeauthor{chandrasekharanMicroscaleDifferentialCapacitive2011}~\parencite*{chandrasekharanMicroscaleDifferentialCapacitive2011}
+
+
+% This is parencite~: \parencite{chandrasekharanMicroscaleDifferentialCapacitive2011,CarterABC,einstein1915allgemeinen}
+
+% This is parencite~: \parencite{chandrasekharanMicroscaleDifferentialCapacitive2011}
+
+% This is autocite~: \autocite[\ppno~5--15]{chandrasekharanMicroscaleDifferentialCapacitive2011}
+
+% This is autocite~: \autocite*{chandrasekharanMicroscaleDifferentialCapacitive2011}
+
+% This is parencite~: \parencite{chandrasekharanMicroscaleDifferentialCapacitive2011}
+
+% This is citeauthor + parencite*~: \citeauthor{chandrasekharanMicroscaleDifferentialCapacitive2011}~\parencite*{chandrasekharanMicroscaleDifferentialCapacitive2011}
+
+% This is cite~: \cite[\ppno~45--82]{chandrasekharanMicroscaleDifferentialCapacitive2011}
+
+\lipsum
+
+
+\printbibliography
+
+\end{document}

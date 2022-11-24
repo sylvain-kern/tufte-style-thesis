@@ -1,13 +1,14 @@
 \documentclass[
     11pt,
-	colorful,
-	boxey,
+	fleqn,
+	notes=foot,
+	fonts=pedantic,
 ]{tufte-style-thesis}
 
-%	package inclusions for this specific documentation file. the .cls does not neet them.
-\usepackage{lipsum}		% the chad package
-\usepackage{textgreek}	% for greek
-\usepackage{imakeidx}	% for index
+% package inclusions for this specific documentation file. the .cls does not neet them.
+\usepackage{lipsum}			% the chad package
+\usepackage{textgreek}		% for greek
+\usepackage{imakeidx}		% for index
 \usepackage{multicol}
 \makeindex[columns=3]
 
@@ -15,13 +16,13 @@
 
 % INFO : used in the titlepage, copyright and stuff.
 \author{Sylvain Kern}
-\title{\texttt{tufte-style-thesis},\\a Tufte-styled \LaTeX{} class for theses}
-\subtitle{Actually more of a mix\\between Edward Tufte and Robert Bringhurst}
+\title{\texttt{tufte-style-thesis}, a~Tufte-styled \textls{\LaTeX{}} class for~theses}
+\subtitle{Actually more of a mix between Edward~Tufte and Robert~Bringhurst}
 \university{A fancy University}
 \lab{An even fancier Lab}
-\person{Supervisor}{their name}{their job}
-\person{Cosupervisor}{also their name}{also their job}
-\person{Jury members}{jury 1}{jobs}
+\person{Supervisor}{name}{position}
+\person{Cosupervisor}{name}{position}
+\person{Jury members}{jury 1}{positions}
 \person{}{jury 2}{\dots}
 \logo{example-image-a}
 \logo{example-image-b}
@@ -39,7 +40,7 @@ Basically a thesis (book?) class for Tufte lovers like myself. I am aware that \
 
 
 \chapter{Acknowledgements}
-Gabriel the king. All the \href{https://tex.stackexchange.com/}{\TeX.SE} team for answering my stupid questions.
+Gabriel for crash testing my works. Johan and Arthur too.
 
 \tableofcontents
 \listoffigures
@@ -51,17 +52,17 @@ Gabriel the king. All the \href{https://tex.stackexchange.com/}{\TeX.SE} team fo
 
 \chapter{Notes on the design}
 
-This class is my personal mix of different book design influences: mainly the works of Edward R. Tufte,\sidecite{TufteTvdq, TufteBE, TufteEI, TufteVE} known for the big margin and the plentiness of sidenotes and sidecaptions. The margins are however not as prominent as in Tufte's works, the main text takes a bit more space, more like in Robert Bringhurt's typographer's bible.\sidecite{BringhurstEoTS}\index{Bringhurst, Robert} So it is a bit of a mix of Tufte and Bringhurst, with some of my own choices for other design features, as we will see through this chapter.
+This class is my personal mix of different book design influences: mainly the works of Edward R. Tufte,\cite{TufteTvdq, TufteBE, TufteEI, TufteVE} known for the big margin and the plentiness of sidenotes and sidecaptions. The margins are however not as prominent as in Tufte's works, the main text takes a bit more space, more like in Robert Bringhurt's typographer's bible.\cite{BringhurstEoTS}\index{Bringhurst, Robert} So it is a bit of a mix of Tufte and Bringhurst, with some of my own choices for other design features, as we will see through this chapter.
 
 \section{Document layout}
 
 While \texttt{tufte-style-thesis} is a class for typesetting theses, the general layout is pretty much the same as in a regular book. A book is traditionally divided into three major sections: the front matter, the main matter and the back matter.
 
-The \textit{front matter}\index{front matter} is for all the stuff that comes before the main content: the preface, the acknowledgements, table of contents (\textsc{toc}) and list of various types. The pages are most widely printed in roman numerals for this part. However, I personally find it confusing and a bit useless so the page numbering system is simplified for the whole book: arabic numerals starting from the very first page of the document.\footnote{Tufte and Bringhurst do full arabic in their work too, so I consider it legit.} The frontmatter still remains relevant because chapters are unnumbered, and \LaTeX{} conveniently places them in the \textsc{toc}.
+The \eemph{front matter}\index{front matter} is for all the stuff that comes before the main content: the preface, the acknowledgements, table of contents (\textsc{toc}) and list of various types. The pages are most widely printed in roman numerals for this part. However, I personally find it confusing and a bit useless so the page numbering system is simplified for the whole book: arabic numerals starting from the very first page of the document.\footnote{Tufte and Bringhurst do full arabic in their work too, so I consider it legit.} The frontmatter still remains relevant because chapters are unnumbered, and \LaTeX{} conveniently places them in the \textsc{toc}.
 
-The \textit{main matter}\index{main matter} is, as its name suggests, for the main content. Here everything is normal, arabic page numbering, normally numbered chapters. At the end of the mainmatter there are usually appendices, especially for scientific and technical textbooks ; for me, an appendix seems necessary in a thesis to put big figures, tables, and content that can be referred to in the main text but are too intrusive to put in the heart of the document. Chapters in the appendix are numbered with a letter to distinguish them from the main content. The main matter can also be cut in a couple of parts.\footnote{I like, for instance, to put the appendix in a dedicated part.}
+The \eemph{main matter}\index{main matter} is, as its name suggests, for the main content. Here everything is normal, arabic page numbering, normally numbered chapters. At the end of the mainmatter there are usually appendices, especially for scientific and technical textbooks ; for me, an appendix seems necessary in a thesis to put big figures, tables, and content that can be referred to in the main text but are too intrusive to put in the heart of the document. Chapters in the appendix are numbered with a letter to distinguish them from the main content. The main matter can also be cut in a couple of parts.\footnote{I like, for instance, to put the appendix in a dedicated part.}
 
-The \textit{back matter}\index{back matter} is the end of the book, usually for the references part and index or glossary. Chapter numbering is turned off. At the very end, a colophon\sidecite{CarterABC} can be put to state information about the printer, publisher and stuff like that.
+The \eemph{back matter}\index{back matter} is the end of the book, usually for the references part and index or glossary. Chapter numbering is turned off. At the very end, a colophon\cite{CarterABC} can be put to state information about the printer, publisher and stuff like that.
 
 To sum this up, the structure of a document typeset with \texttt{tufte-style-thesis} is something like this:
 \begin{itemize}
@@ -99,9 +100,31 @@ The \textsc{toc}, and the other lists as well as the index and references sectio
 
 This class has three fonts.\index{fonts}
 
-The main text is typeset with a version of Linux Libertine,\sidecite{Libertine}\index{Linux Libertine} with enhanced math support. Here it is in \textbf{bold} and \textit{italic}.
+\bigskip
+
+\bgroup
+\fontsize{28pt}{30pt}\selectfont
+\noindent Libertinus (Linux Libertine)
+\egroup
+\smallskip
+
+The main text is typeset with a version of Linux Libertine,\cite{Libertine}\index{Linux Libertine} with enhanced math support. Here it is in \textbf{bold} and \textit{italic}.
+
+\bigskip
+
+\bgroup
+\fontsize{28pt}{30pt}\selectfont
+\noindent\sffamily Source Sans Pro
+\egroup
 
 Sans serif text, like in the titlepage, part titles and page headers (not chapter/section titles, but small reminders at the very top of the pages) are in sans serif {\sffamily Gill Sans}\index{Gill Sans}, actually Gillius, a version of Gill Sans for \LaTeX{}. Here it is in {\sffamily\bfseries bold} and {\sffamily\itshape italics}. Gill Sans is a humanist sans-serif typeface, which I find both elegant and minimalistic. It is less harsh than grotesk fonts like Helvetica or Arial.
+
+\bigskip
+
+\bgroup
+\fontsize{28pt}{30pt}\selectfont
+\noindent\ttfamily Source Code Pro
+\egroup
 
 Mono text, for code listings, is \texttt{Droid Sans Mono}\index{Droid Sans Mono}. It is smoother to my taste than the default courier-like font. Here it is in {\ttfamily\itshape italics} (unfortunately it does not support bold --yet).
 
@@ -116,7 +139,7 @@ For true microtypography\index{microtypography}, when the text is fully justifie
 
 \index{design}These are just some thoughts I gathered that I find interesting to consider when making designs, closely or remotely.
 
-As Antoine de Saint-Exupéry\index{de Saint-Exupéry, Antoine} once wrote:\sidecite{StExupery} \textit{"Perfection has been reached not when there is nothing left to add, but when there is nothing left to take away"}. To me, this means that minimalism is a key aspect of document design. The features and the layout must let the true content express itself: a good typography is completely transparent. That is why the design is dependent of the content: a novel and a math textbook will have completely different designs.
+As Antoine de Saint-Exupéry\index{de Saint-Exupéry, Antoine} once wrote:\cite{StExupery} \textit{"Perfection has been reached not when there is nothing left to add, but when there is nothing left to take away"}. To me, this means that minimalism is a key aspect of document design. The features and the layout must let the true content express itself: a good typography is completely transparent. That is why the design is dependent of the content: a novel and a math textbook will have completely different designs.
 
 However, this whole Tufte-style design is far from transparent. It is easily recognizable, and people will notice the somewhat unusual design statements. Paul Rand\index{Rand, Paul} said,\footnote{Yeah, I lazily picked the two citations on the first page of the tufte-style book class showcase. Though, I find Paul Rand's a bit condescending, like, \textit{"people know nothing about good design"}.} \textit{"The public is more familiar with bad design than good design. It is in effect, conditioned to prefer bad design, because that is what it lives with. The new becomes threatening, the old reassuring"}. Edgar Tufte completely re-thought the way to display scatterplots, curves and axes, boxplots and histograms, but most people are not used to see this optimized representation, so is it a better design if most people have to give some extra effort to adapt to it ?
 
@@ -160,7 +183,7 @@ Here are the packages already loaded, so there is no need to re-include them in 
 
 There is a big margin, so feel free to use it as much as possible!\footnote{Actually to your needs, if you do not have a natural usage of notes, maybe do not use this class.\\By the way, see how sidenote numbers reset on new chapters: we're back on number 1!} This chapter will cover the usage of sidenotes, side references, and other ways to use the margin.\footnote{For float captions, see chapter \ref{chp:floats}.}
 
-The general layout is done using the \texttt{geometry}\sidecite{pkgGeometry} package, and all the margin stuff relies on the \texttt{sidenotes}\sidecite{pkgSidenotes} package, so check its documentation:
+The general layout is done using the \texttt{geometry}\cite{pkgGeometry} package, and all the margin stuff relies on the \texttt{sidenotes}\cite{pkgSidenotes} package, so check its documentation:
 
 \bgroup
 \centering\url{http://www.ctan.org/pkg/sidenotes}\RaggedRight\noindent for more in-depth information. \egroup
@@ -187,18 +210,18 @@ This will format the margin text to match the sidenotes style.
 
 \subsection{Side references}
 
-The margin is also handy to put bibliographic references:\sidecite{einstein1915allgemeinen} the reader can read them directly instead of going all through the document to find the right entry in the references section. But don't worry, each reference displayed in the margin is labelled with a number and appears in a dedicated bibliography section. All in all, a side reference is displayed in the margin in a shortened form, and then again in the bibliography in the full form.
+The margin is also handy to put bibliographic references:\cite{einstein1915allgemeinen} the reader can read them directly instead of going all through the document to find the right entry in the references section. But don't worry, each reference displayed in the margin is labelled with a number and appears in a dedicated bibliography section. All in all, a side reference is displayed in the margin in a shortened form, and then again in the bibliography in the full form.
 
 To cite a paper, use
 \begin{codebox}{tex}
-\sidecite{<reference label>}
+\cite{<reference label>}
 \end{codebox}
 
 
 \section{Full width text}
 
 \begin{wide}
-It may be handy to have the text span the whole page width, like this paragraph. Use the environment \inlinecode{tex}_\begin{wide}...\end{wide}_ to do this. It should manage page breaks properly, but it is not optimal: no not use it for too long (like for ten pages), the behavior tends to go a little wild. The behavior of \inlinecode{tex}{\sidenote}, \inlinecode{tex}{\marginpar} and \inlinecode{tex}{\sidecite} is not supported in the \inlinecode{tex}{wide} environment.
+It may be handy to have the text span the whole page width, like this paragraph. Use the environment \inlinecode{tex}_\begin{wide}...\end{wide}_ to do this. It should manage page breaks properly, but it is not optimal: no not use it for too long (like for ten pages), the behavior tends to go a little wild. The behavior of \inlinecode{tex}{\sidenote}, \inlinecode{tex}{\marginpar} and \inlinecode{tex}{\cite} is not supported in the \inlinecode{tex}{wide} environment.
 
 Also, for floating environments, full width figures and tables will be covered in the chapter \ref{chp:floats}, so do not use the \inlinecode{tex}{wide} environments with figures or tables (actually tables are fine, but there are specific environments for them to be in full width).
 \end{wide}
@@ -374,7 +397,7 @@ Table environments work the same as figures, as is is shown in tables \ref{tab:t
 \end{table*}
 
 To typeset the table \ref{tab:table-text}, use the following code, which is just a \inlinecode{tex}_table_ environment with a \inlinecode{tex}_\sidecaption_. For table \ref{tab:table-wide}, use the \inlinecode{tex}_table*_ environment with either \inlinecode{tex}_\sidecaption_ or \inlinecode{tex}_\caption_.\inlinecode{tex}_\FloatBarrier_ is there to make sure the floats appear in order.
-\sidenote[][100pt]{\texttt{\textbackslash FloatBarrier} works for all floating environments, including figures.}
+\footnote{\texttt{\textbackslash FloatBarrier} works for all floating environments, including figures.}
 
 
 \begin{codebox}{tex}
@@ -612,6 +635,13 @@ mb2_tag_t* mb2_find_tag(mb2_t* boot, uint32_t tag_type) {
 }
 \end{snippetnum}
 
+\section{Math}
+
+\lipsum
+\begin{equation}
+e^x = \sum_{n=0}^{+\infty} \frac{x^n}{n!}.
+\end{equation}
+\lipsum
 
 \section{The titlepage}
 
