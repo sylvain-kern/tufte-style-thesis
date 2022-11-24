@@ -172,7 +172,7 @@
 %
 \newif\if@bibexists\@bibexistsfalse
 \newif\if@bibnumbered\@bibnumberedfalse
-\ifdefstring{\opt@bibliography}{none}{\@bibexistsfalse}
+\ifdefstring{\opt@bibliography}{none}{\@bibexistsfalse}{}
 \ifdefstring{\opt@bibliography}{numbered}{\@bibexiststrue\@bibnumberedtrue}{}
 \ifdefstring{\opt@bibliography}{unnumbered}{\@bibexiststrue\@bibnumberedfalse}{}
 
